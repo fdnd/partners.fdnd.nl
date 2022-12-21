@@ -6,6 +6,5 @@ export const load: PageLoad = async ({ fetch }) => {
 	const req = await fetch(import.meta.env.VITE_HYGRAPH_URL, { ...gql(allProjects) });
 	const data = await req.json();
 
-
 	return { ...data.data };
 };

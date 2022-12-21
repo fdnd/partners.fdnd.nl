@@ -30,12 +30,14 @@
 				{/each}
 			</li>
 
+			{#if data.project.teamLeads > 0 }
 			<li>
 				<span>Team lead{isPlural(data.project.teamLeads)}:</span>
 				{#each data.project.teamLeads as teamlead}
 					<a href="/">{getFullName(teamlead)}</a>
 				{/each}
-			</li>		
+			</li>
+			{/if}		
 		</ul>
 
 
