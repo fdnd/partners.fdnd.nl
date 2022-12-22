@@ -16,6 +16,15 @@
 body {
     overflow-x:hidden;
 }
+body:before {
+    left:auto;
+    top:auto;
+    right:2rem;
+    bottom:1rem;
+}
+body:after{
+    left:1rem
+}
 
 footer {
     margin-top: 2rem;

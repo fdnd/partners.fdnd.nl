@@ -41,6 +41,8 @@
 	}
 	ul {
 		margin:0;
+		display:grid;
+		grid-template-columns: repeat(2, 1fr);
 	}
 	li {
 		list-style: none;

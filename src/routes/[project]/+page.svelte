@@ -53,17 +53,18 @@
 <section id="work">
 
 	<h2>Studentwork</h2>
-	
-	{#each data.project.studentwork as studentwork}
-		<StudentWork
-			title={studentwork.title}
-			sprint={studentwork.sprint}
-			repo={studentwork.repository}
-			website={studentwork.website}
-			students={studentwork.students}
-		/>
-	{/each}
 
+	<div class="scroll">
+		{#each data.project.studentwork as studentwork}
+			<StudentWork
+				title={studentwork.title}
+				sprint={studentwork.sprint}
+				repo={studentwork.repository}
+				website={studentwork.website}
+				students={studentwork.students}
+			/>
+		{/each}
+	</div>
 
 </section>
 
@@ -75,7 +76,8 @@
 	}
 	ul {
 		margin:0 0 2rem;
-		
+		display:flex;
+		flex-wrap:wrap;
 		
 	}
 	li {
@@ -92,6 +94,11 @@
 
 	section {
 		grid-column: 1 / auto;
+		min-width:0;
+	}
+
+	section#work {
+		grid-column: 1 / -1;
 	}
 
 	section h2 {
@@ -101,5 +108,12 @@
 	section section {
 		padding: 2rem;
 		margin: 0 -1rem 2rem;
+	}
+
+	div.scroll {
+		display:flex;
+		overflow-x:scroll;
+		gap:2rem;
+		margin: 0 -1rem;
 	}
 </style>

@@ -19,14 +19,22 @@
 
 <style>
 	main {
-
+		display: grid;
+		grid-template-columns: 1fr;
 	}
+	@media (min-width:30rem) {
+		main {
+			grid-template-columns: 1fr 1fr;
+		}
+	}
+
 	a {
 		text-decoration:none;
 	}
 	h1 {
 		display:flex;
 		margin-bottom: 2rem;
+		margin-left: 1rem;
 	}
 	h1 > span {
 		color: var(--lavender);
