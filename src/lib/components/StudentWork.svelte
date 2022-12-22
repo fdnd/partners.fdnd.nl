@@ -56,7 +56,8 @@
 	ul {
 		margin: 0 0 2rem;
 		display:flex;
-		flex-wrap:wrap
+		flex-wrap:wrap;
+		min-width:20rem;
 	}
 
 	ul:last-of-type {

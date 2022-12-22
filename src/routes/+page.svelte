@@ -30,6 +30,9 @@
 
 
 <style>
+	section {
+		min-height:auto
+	}
 	header {
 		margin-bottom: 2rem;
 	}
@@ -41,14 +44,21 @@
 	}
 	ul {
 		margin:0;
-		display:grid;
-		grid-template-columns: repeat(2, 1fr);
+	}
+	@media (min-width: 40rem) {
+		ul {
+			display:grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap:1rem
+		}
 	}
 	li {
 		list-style: none;
+		white-space:nowrap
 	}
 	a {
 		font-weight: 600;
+		white-space:nowrap
 	}
 	svg {
 		transform:translateY(3px)

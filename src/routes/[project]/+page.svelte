@@ -78,7 +78,10 @@
 		margin:0 0 2rem;
 		display:flex;
 		flex-wrap:wrap;
-		
+	}
+	ul:last-of-type {
+		display:flex;
+		flex-wrap:wrap;
 	}
 	li {
 		list-style:none;
@@ -95,6 +98,10 @@
 	section {
 		grid-column: 1 / auto;
 		min-width:0;
+		
+	}
+	section:first-of-type {
+		max-width:30rem
 	}
 
 	section#work {
@@ -115,5 +122,6 @@
 		overflow-x:scroll;
 		gap:2rem;
 		margin: 0 -1rem;
+		align-items:flex-start;
 	}
 </style>
