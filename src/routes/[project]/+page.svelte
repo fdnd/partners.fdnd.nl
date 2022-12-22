@@ -52,7 +52,7 @@
 
 <section id="work">
 
-	<h2>Studentwork</h2>
+	<h2>Studentenwerk</h2>
 
 	<div class="scroll">
 		{#each data.project.studentwork as studentwork}
