@@ -14,25 +14,29 @@ query projectBySlug($slug: String!) {
 	projects(where: { slug: $slug }) {
 		title
 		clients {
-      title
-    }
+			title
+		}
 		visual {
 			url
 		}
 		teamLeads {
 			firstName
+			prefix
 			surname
 		}
 		students(first: 10) {
 			firstName
+			prefix
 			surname
 		}
 		productOwners {
 			firstName
+			prefix
 			surname
 		}
 		coaches {
 			firstName
+			prefix
 			surname
 		}
 		studentwork(first: 20) {
@@ -41,6 +45,7 @@ query projectBySlug($slug: String!) {
       website
 			students {
 				firstName
+				prefix
 				surname
 			}
       repository

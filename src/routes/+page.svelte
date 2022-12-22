@@ -6,7 +6,7 @@
 <section class="rounded green-on-blue">
 	<header>
 		<h2>Projecten FDND Agency</h2>
-		<a href="https://github.com/fdnd-agency">Bekijk de projecten op GitHub</a>
+		
 	</header>
 	
 
@@ -26,18 +26,24 @@
 		</li>
 		{/each}
 	</ul>
+
+	<a href="https://github.com/fdnd-agency">Bekijk de projecten op GitHub</a>
 </section>
 
 
 <style>
 	section {
-		min-height:auto
+		min-height:auto;
+		padding-bottom: 0;
+		max-width:40rem
 	}
 	header {
 		margin-bottom: 2rem;
 	}
-	header a {
+	section > a {
 		font-size: .9rem;
+		display:block;
+		margin-top:2rem
 	}
 	h2 {
 		margin-bottom: 0;
@@ -54,7 +60,8 @@
 	}
 	li {
 		list-style: none;
-		white-space:nowrap
+		white-space:nowrap;
+		border-radius:.5rem;
 	}
 	a {
 		font-weight: 600;

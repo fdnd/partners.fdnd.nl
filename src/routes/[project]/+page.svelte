@@ -19,14 +19,14 @@
 			<li>
 				<span>Product owner{isPlural(data.project.productOwners)}:</span>  
 				{#each data.project.productOwners as productOwner, i}
-					<a href="/">{getFullName(productOwner)}</a>
+					<a href="/" target="_blank" rel="noopener noreferrer">{getFullName(productOwner)}</a>
 				{/each}
 			</li>
 
 			<li>
 				<span>Coach:</span>
 				{#each data.project.coaches as coach, i}
-					<a href="/">{getFullName(coach)}</a>
+					<a href="/" target="_blank" rel="noopener noreferrer">{getFullName(coach)}</a>
 				{/each}
 			</li>
 
@@ -34,7 +34,7 @@
 			<li>
 				<span>Team lead{isPlural(data.project.teamLeads)}:</span>
 				{#each data.project.teamLeads as teamlead}
-					<a href="/">{getFullName(teamlead)}</a>
+					<a href="/" target="_blank" rel="noopener noreferrer">{getFullName(teamlead)}</a>
 				{/each}
 			</li>
 			{/if}		
@@ -44,7 +44,7 @@
 		<h3>Studenten</h3>
 		<ul>
 			{#each data.project.students as student}
-				<li><a href="/">{getFullName(student)}</a></li>
+				<li><a href="/" target="_blank" rel="noopener noreferrer">{getFullName(student)}</a></li>
 			{/each}
 		</ul>
 	</section>
@@ -83,13 +83,16 @@
 		display:flex;
 		flex-wrap:wrap;
 	}
+	ul:last-of-type li:not(:last-child):after {
+		content:","
+	}
 	li {
 		list-style:none;
 		display:flex;
+		margin-right: .5rem;
 	}
 	li > * {
 		white-space: nowrap;
-		margin-right: .5rem;
 	}
 	li span {
 		width:10rem;

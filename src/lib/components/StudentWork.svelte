@@ -15,8 +15,7 @@
 	<ul>
 		{#each students as student}
 		<li>
-			
-			{getFullName(student)}
+			<a href="{repo}" target="_blank" rel="noopener noreferrer">{getFullName(student)}</a>
 		</li>
 		{/each}
 	</ul>
@@ -63,6 +62,9 @@
 	ul:last-of-type {
 		margin-bottom: 0;
 		font-size: .8em;
+	}
+	ul:first-of-type li:not(:last-child):after {
+		content:","
 	}
 	li {
 		list-style: none;
