@@ -30,7 +30,7 @@
 				{/each}
 			</li>
 
-			{#if data.project.teamLeads > 0 }
+			{#if data.project.teamLeads.length > 0 }
 			<li>
 				<span>Team lead{isPlural(data.project.teamLeads, 's')}:</span>
 				{#each data.project.teamLeads as teamlead}
