@@ -5,8 +5,8 @@
 
 	export let data: PageData;
 
-	function isPlural(groupOfPeople: any[]) {
-		return groupOfPeople.length > 1 ? 's' : '';
+	function isPlural(groupOfPeople: any[], suffix: string) {
+		return groupOfPeople.length > 1 ? suffix : '';
 	}
 </script>
 
@@ -17,14 +17,14 @@
 		<ul>
 			<li><span>Opdrachtgever:</span> <a href="/">{data.project.clients[0].title}</a></li>
 			<li>
-				<span>Product owner{isPlural(data.project.productOwners)}:</span>  
+				<span>Product owner{isPlural(data.project.productOwners, 's')}:</span>  
 				{#each data.project.productOwners as productOwner, i}
 					<a href="/" target="_blank" rel="noopener noreferrer">{getFullName(productOwner)}</a>
 				{/each}
 			</li>
 
 			<li>
-				<span>Coach:</span>
+				<span>Coach{isPlural(data.project.coaches, 'es')}:</span>
 				{#each data.project.coaches as coach, i}
 					<a href="/" target="_blank" rel="noopener noreferrer">{getFullName(coach)}</a>
 				{/each}
@@ -32,7 +32,7 @@
 
 			{#if data.project.teamLeads > 0 }
 			<li>
-				<span>Team lead{isPlural(data.project.teamLeads)}:</span>
+				<span>Team lead{isPlural(data.project.teamLeads, 's')}:</span>
 				{#each data.project.teamLeads as teamlead}
 					<a href="/" target="_blank" rel="noopener noreferrer">{getFullName(teamlead)}</a>
 				{/each}
@@ -86,6 +86,10 @@
 		display:flex;
 		flex-wrap:wrap;
 	}
+	ul:first-of-type li a {
+		margin-right: .5rem;
+	}
+	ul:first-of-type li a:not(:last-of-type):after,
 	ul:last-of-type li:not(:last-child):after {
 		content:","
 	}
