@@ -1,6 +1,6 @@
-@layer defaults, generics
 
-@layer {
+
+
     :root {
         --white: #fff;
         --blueberry: #050542;
@@ -16,9 +16,7 @@
     
         --breakpoint-medium: 30em;
     }
-}
 
-@layer generics {
     body {
         overflow-x:hidden;
     }
@@ -41,5 +39,4 @@
     footer nav h2 {
         margin:calc(-1rem - 1px) calc(-1rem - 1px) 1rem 2rem
     }
-}
 
