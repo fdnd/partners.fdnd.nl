@@ -104,7 +104,8 @@
 		
 	}
 	section:first-of-type {
-		max-width:30rem
+		min-width:22rem;
+		max-width:40rem
 	}
 
 	section#work {
