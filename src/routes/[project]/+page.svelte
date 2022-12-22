@@ -79,6 +79,9 @@
 		display:flex;
 		flex-wrap:wrap;
 	}
+	ul:first-of-type li {
+		min-width:100%
+	}
 	ul:last-of-type {
 		display:flex;
 		flex-wrap:wrap;
@@ -86,6 +89,7 @@
 	ul:last-of-type li:not(:last-child):after {
 		content:","
 	}
+	
 	li {
 		list-style:none;
 		display:flex;
