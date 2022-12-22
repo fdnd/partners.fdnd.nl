@@ -117,7 +117,7 @@
 
 	section section {
 		padding: 2rem;
-		margin: 0 -1rem 2rem;
+		margin: 0 -1rem;
 	}
 
 	div.scroll {
