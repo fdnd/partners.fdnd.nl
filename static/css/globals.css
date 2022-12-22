@@ -1,37 +1,45 @@
-:root {
-    --white: #fff;
-    --blueberry: #050542;
-    --turquoise: #66e5bf;
-    --lavender: #a675f5;
-    --attention: #050542;
-    --attention-background: #05054233;
-    --call-to-action: #fffc86;
+@layer defaults, generics
+
+@layer {
+    :root {
+        --white: #fff;
+        --blueberry: #050542;
+        --turquoise: #66e5bf;
+        --lavender: #a675f5;
+        --attention: #050542;
+        --attention-background: #05054233;
+        --call-to-action: #fffc86;
+        
+        --rounded: .5rem;
+        --pilled: 2rem;
+        --shadow: .3rem;
     
-    --rounded: .5rem;
-    --pilled: 2rem;
-    --shadow: .3rem;
-
-    --breakpoint-medium: 30em;
-}
-body {
-    overflow-x:hidden;
-}
-body:before {
-    left:auto;
-    top:auto;
-    right:2rem;
-    bottom:1rem;
-}
-body:after{
-    left:1rem
+        --breakpoint-medium: 30em;
+    }
 }
 
-footer {
-    margin-top: 2rem;
+@layer generics {
+    body {
+        overflow-x:hidden;
+    }
+    body:before {
+        left:auto;
+        top:auto;
+        right:2rem;
+        bottom:1rem;
+    }
+    body:after{
+        left:1rem
+    }
+    
+    footer {
+        margin-top: 2rem;
+    }
+    footer nav {
+        padding:1rem;
+    }
+    footer nav h2 {
+        margin:calc(-1rem - 1px) calc(-1rem - 1px) 1rem 2rem
+    }
 }
-footer nav {
-    padding:1rem;
-}
-footer nav h2 {
-    margin:calc(-1rem - 1px) calc(-1rem - 1px) 1rem 2rem
-}
+

@@ -19,7 +19,7 @@
 		</li>
 		{/each}
 	</ul>
-	<ul>
+	<ul class="test">
 		<li>
 			<a href={repo} target="_blank" rel="noopener noreferrer">Github Reposity</a>
 		</li>
@@ -63,9 +63,7 @@
 		margin-bottom: 0;
 		font-size: .8em;
 	}
-	ul:first-of-type li:not(:last-child):after {
-		content:","
-	}
+
 	li {
 		list-style: none;
 		margin-right: .5rem;
