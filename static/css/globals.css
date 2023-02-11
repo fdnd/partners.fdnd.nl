@@ -40,3 +40,12 @@
         margin:calc(-1rem - 1px) calc(-1rem - 1px) 1rem 2rem
     }
 
+    .visually-hidden {
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+      }

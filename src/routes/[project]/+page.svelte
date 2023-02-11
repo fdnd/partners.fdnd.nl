@@ -14,9 +14,6 @@
 	<h2>{data.project.title}</h2>
 
 	<section class="rounded green-on-blue">
-		{#if data.project.visual.url}
-			<img src="{data.project.visual.url}" alt="{data.project.clients[0].title}" width="250">
-		{/if}
 		<h3>Teamleden</h3>
 		<ul>
 			<li><span>Opdrachtgever</span> <a href="/">{data.project.clients[0].title}</a></li>
@@ -54,7 +51,10 @@
 	</section>
 
 	<section class="rounded green-on-blue">
-		<h3>Omschrijving</h3>
+		<h3 class="visually-hidden">Omschrijving</h3>
+		{#if data.project.visual.url}
+			<img src="{data.project.visual.url}" alt="{data.project.clients[0].title}" width="250">
+		{/if}
 		<div class="body">
 			{@html data.project.description.html}
 		</div>
@@ -92,14 +92,11 @@
 	}
 	img {
 		border-radius:1rem;
-		position: absolute;
-		right:-1rem;
-		top:-2rem;
 		background-color: var(--turquoise);
-		padding:.5rem;
+		padding:1rem;
+		margin-bottom: 1rem;
 		border:1px solid var(--turquoise);
 		width:150px;
-
 	}
 	h2 {
 		margin-bottom: 2rem;
@@ -163,7 +160,6 @@
 			right:-2rem;
 			top:-2rem;
 			width:250px;
-			padding:2rem;
 		}
 		section#information {
 			display:grid;
