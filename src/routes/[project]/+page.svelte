@@ -83,7 +83,7 @@
 
 <style>
 	.wrapper {
-		/margin:0 -1rem;
+
 	}
 	section {
 		position: relative;
@@ -157,6 +157,9 @@
 		gap:2rem;
 		margin: 0 -1rem;
 		align-items:flex-start;
+	}
+	section#work h2 {
+		margin-left: 1rem;
 	}
 
 	@media (min-width: 50em) {
