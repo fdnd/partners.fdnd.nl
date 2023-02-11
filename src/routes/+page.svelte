@@ -5,14 +5,9 @@
 
 <header>
 	<h2>Projecten FDND Agency</h2>
-		
 </header>
 
-
 <section class="rounded green-on-blue">
-	
-	
-
 	<ul>
 		{#each data.projects as project}
 		<li>
@@ -51,6 +46,8 @@
 	}
 	h2 {
 		margin-bottom: 0;
+		margin-left: 0;
+		font-weight: normal;
 	}
 	ul {
 		margin:0;

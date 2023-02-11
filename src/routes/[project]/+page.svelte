@@ -14,17 +14,21 @@
 	<h2>{data.project.title}</h2>
 
 	<section class="rounded green-on-blue">
+		{#if data.project.visual.url}
+			<img src="{data.project.visual.url}" alt="{data.project.clients[0].title}" width="250">
+		{/if}
+		<h3>Teamleden</h3>
 		<ul>
 			<li><span>Opdrachtgever</span> <a href="/">{data.project.clients[0].title}</a></li>
 			<li>
-				<span>Product owner{isPlural(data.project.productOwners, 's')}:</span>  
+				<span>Product owner{isPlural(data.project.productOwners, 's')}</span>  
 				{#each data.project.productOwners as productOwner, i}
 					<a href="/" target="_blank" rel="noopener noreferrer">{getFullName(productOwner)}</a>
 				{/each}
 			</li>
 
 			<li>
-				<span>Coach{isPlural(data.project.coaches, 'es')}:</span>
+				<span>Coach{isPlural(data.project.coaches, 'es')}</span>
 				{#each data.project.coaches as coach, i}
 					<a href="/" target="_blank" rel="noopener noreferrer">{getFullName(coach)}</a>
 				{/each}
@@ -32,7 +36,7 @@
 
 			{#if data.project.teamLeads.length > 0 }
 			<li>
-				<span>Team lead{isPlural(data.project.teamLeads, 's')}:</span>
+				<span>Team lead{isPlural(data.project.teamLeads, 's')}</span>
 				{#each data.project.teamLeads as teamlead}
 					<a href="/" target="_blank" rel="noopener noreferrer">{getFullName(teamlead)}</a>
 				{/each}
@@ -41,7 +45,7 @@
 		</ul>
 
 
-		<h3>Studenten</h3>
+		<h4>Studenten</h4>
 		<ul>
 			{#each data.project.students as student}
 				<li><a href="/" target="_blank" rel="noopener noreferrer">{getFullName(student)}</a></li>
@@ -50,7 +54,7 @@
 	</section>
 
 	<section class="rounded green-on-blue">
-		<h2>Omschrijving</h2>
+		<h3>Omschrijving</h3>
 		<div class="body">
 			{@html data.project.description.html}
 		</div>
@@ -77,11 +81,33 @@
 
 
 <style>
-
+	section {
+		position: relative;
+		align-items: end;
+	}
+	section section {
+		padding: 2rem;
+		margin-bottom: 2rem;
+		position: relative;
+	}
+	img {
+		border-radius:1rem;
+		position: absolute;
+		right:-1rem;
+		top:-1rem;
+		background-color: var(--turquoise);
+		padding:2rem;
+		border:1px solid var(--turquoise)
+	}
 	h2 {
 		margin-bottom: 2rem;
+		margin-left: 2rem;
 		font-weight: normal;
-		grid-column:1 / -1
+		grid-column:1 / -1;
+	}
+	h3, h4 {
+		font-weight: normal;
+		margin-top: 0;
 	}
 	ul {
 		margin:0 0 2rem;
@@ -97,6 +123,7 @@
 	}
 	ul:first-of-type li {
 		flex-direction: column;
+		margin-bottom: 1rem;
 	}
 	ul:first-of-type li a {
 		margin-right: .5rem;
@@ -120,11 +147,6 @@
 		width:10rem;
 	}
 
-	section section {
-		padding: 2rem;
-		margin-bottom: 2rem;
-	}
-
 	div.scroll {
 		display:flex;
 		overflow-x:scroll;
@@ -134,6 +156,10 @@
 	}
 
 	@media (min-width: 50em) {
+		img {
+			right:-2rem;
+			top:-2rem;
+		}
 		section#information {
 			display:grid;
 			grid-template-columns: 1fr 1fr;
@@ -145,6 +171,13 @@
 		}
 	}
 	
+	@media (min-width: 80em) {
+		img {
+			right:2rem;
+			top:2rem;
+		}
+
+	}
 
 	
 </style>

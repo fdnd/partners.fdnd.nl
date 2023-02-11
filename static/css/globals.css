@@ -1,6 +1,3 @@
-
-
-
     :root {
         --white: #fff;
         --blueberry: #050542;
@@ -16,7 +13,6 @@
     
         --breakpoint-medium: 30em;
     }
-
     body {
         overflow-x:hidden;
         display:block
