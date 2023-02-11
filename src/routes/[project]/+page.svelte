@@ -103,8 +103,8 @@
 		width:150px;
 	}
 	h2 {
-		margin-bottom: 2rem;
-		margin-left: 2rem;
+		margin: 1rem 2rem;
+
 		font-weight: normal;
 		grid-column:1 / -1;
 	}
@@ -155,7 +155,7 @@
 		display:flex;
 		overflow-x:scroll;
 		gap:2rem;
-		margin: 0 -1rem;
+		margin: 3rem -1rem;
 		align-items:flex-start;
 	}
 	section#work h2 {
