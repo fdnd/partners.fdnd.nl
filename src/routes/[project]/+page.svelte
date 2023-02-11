@@ -155,7 +155,7 @@
 		display:flex;
 		overflow-x:scroll;
 		gap:2rem;
-		margin: 3rem -1rem;
+		margin: 3rem -1rem ;
 		align-items:flex-start;
 	}
 	section#work h2 {
@@ -173,7 +173,7 @@
 		}
 		section#information {
 			display:grid;
-			grid-template-columns: 1fr 1fr;
+			grid-template-columns: 1fr 2fr;
 			gap:2rem;
 		}
 
