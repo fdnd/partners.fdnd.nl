@@ -19,6 +19,7 @@
 
     body {
         overflow-x:hidden;
+        display:block
     }
     body:before {
         left:auto;

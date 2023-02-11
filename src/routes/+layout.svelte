@@ -19,15 +19,8 @@
 
 <style>
 	main {
-		display: grid;
-		grid-template-columns: 1fr;
+		display: block
 	}
-	@media (min-width:30rem) {
-		main {
-			grid-template-columns: 1fr 1fr;
-		}
-	}
-
 	a {
 		text-decoration:none;
 	}

@@ -10,12 +10,12 @@
 	}
 </script>
 
-<section>
+<section id="information">
 	<h2>{data.project.title}</h2>
 
 	<section class="rounded green-on-blue">
 		<ul>
-			<li><span>Opdrachtgever:</span> <a href="/">{data.project.clients[0].title}</a></li>
+			<li><span>Opdrachtgever</span> <a href="/">{data.project.clients[0].title}</a></li>
 			<li>
 				<span>Product owner{isPlural(data.project.productOwners, 's')}:</span>  
 				{#each data.project.productOwners as productOwner, i}
@@ -48,6 +48,13 @@
 			{/each}
 		</ul>
 	</section>
+
+	<section class="rounded green-on-blue">
+		<h2>Omschrijving</h2>
+		<div class="body">
+			{@html data.project.description.html}
+		</div>
+	</section>
 </section>
 
 <section id="work">
@@ -70,9 +77,11 @@
 
 
 <style>
+
 	h2 {
 		margin-bottom: 2rem;
 		font-weight: normal;
+		grid-column:1 / -1
 	}
 	ul {
 		margin:0 0 2rem;
@@ -86,6 +95,9 @@
 		display:flex;
 		flex-wrap:wrap;
 	}
+	ul:first-of-type li {
+		flex-direction: column;
+	}
 	ul:first-of-type li a {
 		margin-right: .5rem;
 	}
@@ -97,7 +109,9 @@
 	li {
 		list-style:none;
 		display:flex;
+		
 		margin-right: .5rem;
+		flex-wrap:wrap;
 	}
 	li > * {
 		white-space: nowrap;
@@ -106,27 +120,9 @@
 		width:10rem;
 	}
 
-	section {
-		grid-column: 1 / auto;
-		min-width:0;
-		
-	}
-	section:first-of-type {
-		min-width:22rem;
-		max-width:40rem
-	}
-
-	section#work {
-		grid-column: 1 / -1;
-	}
-
-	section h2 {
-		margin-left:1rem
-	}
-
 	section section {
 		padding: 2rem;
-		margin: 0 -1rem;
+		margin-bottom: 2rem;
 	}
 
 	div.scroll {
@@ -136,4 +132,19 @@
 		margin: 0 -1rem;
 		align-items:flex-start;
 	}
+
+	@media (min-width: 50em) {
+		section#information {
+			display:grid;
+			grid-template-columns: 1fr 1fr;
+			gap:2rem;
+		}
+
+		section#work {
+			grid-column: 1 / -1;
+		}
+	}
+	
+
+	
 </style>

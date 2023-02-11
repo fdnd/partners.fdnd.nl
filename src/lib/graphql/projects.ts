@@ -13,6 +13,9 @@ export const projectBySlug = `
 query projectBySlug($slug: String!) {
 	projects(where: { slug: $slug }) {
 		title
+		description {
+			html
+		}
 		clients {
 			title
 		}

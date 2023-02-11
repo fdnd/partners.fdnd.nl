@@ -3,11 +3,14 @@
 	export let data: PageData;
 </script>
 
-<section class="rounded green-on-blue">
-	<header>
-		<h2>Projecten FDND Agency</h2>
+<header>
+	<h2>Projecten FDND Agency</h2>
 		
-	</header>
+</header>
+
+
+<section class="rounded green-on-blue">
+	
 	
 
 	<ul>
@@ -39,6 +42,7 @@
 	}
 	header {
 		margin-bottom: 2rem;
+		padding:1rem 2rem;
 	}
 	section > a {
 		font-size: .9rem;
