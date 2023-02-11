@@ -94,10 +94,12 @@
 		border-radius:1rem;
 		position: absolute;
 		right:-1rem;
-		top:-1rem;
+		top:-2rem;
 		background-color: var(--turquoise);
-		padding:2rem;
-		border:1px solid var(--turquoise)
+		padding:.5rem;
+		border:1px solid var(--turquoise);
+		width:150px;
+
 	}
 	h2 {
 		margin-bottom: 2rem;
@@ -160,6 +162,8 @@
 		img {
 			right:-2rem;
 			top:-2rem;
+			width:250px;
+			padding:2rem;
 		}
 		section#information {
 			display:grid;
