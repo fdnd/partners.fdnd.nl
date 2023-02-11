@@ -108,6 +108,7 @@
 	h3, h4 {
 		font-weight: normal;
 		margin-top: 0;
+		margin-bottom: 1.5rem;
 	}
 	ul {
 		margin:0 0 2rem;

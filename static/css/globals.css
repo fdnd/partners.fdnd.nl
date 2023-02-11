@@ -26,6 +26,9 @@
     body:after{
         left:1rem
     }
+    p {
+        margin-bottom: 1.5rem;
+    }
     
     footer {
         margin-top: 2rem;
