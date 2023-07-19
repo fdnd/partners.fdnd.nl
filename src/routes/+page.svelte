@@ -4,10 +4,11 @@
 </script>
 
 <header>
-	<h2>Projecten FDND Agency</h2>
+	<h2>FDND Agency</h2>
 </header>
 
 <section class="rounded green-on-blue">
+	<h3>Projecten 2022 - 2023</h3>
 	<ul>
 		{#each data.projects as project}
 		<li>
@@ -28,17 +29,25 @@
 	<a href="https://github.com/fdnd-agency">Bekijk de projecten op GitHub</a>
 </section>
 
+<section class="rounded blue-on-green">
+	<h3>Echte projecten voor echte opdrachtgevers</h3>
+	<p>Studenten werken bij FDND aan echte opdrachten voor echte opdrachtgevers. Dit doen ze in een studiomodel aan de hand van agile ontwikkelmethodes, onder begeleiding van docenten/coaches én experts uit het vakgebied. Een rijke, praktijke gerichte leeromgeving, waarin de studenten worden voorbereid op het werken als Frontender.</p>
+	<a href="/samenwerken">Lees meer over de FDND werkwijze</a>
+</section>
+
 
 <style>
-	section {
-		min-height:auto;
-		padding-bottom: 0;
-		max-width:40rem
-	}
 	header {
 		margin-bottom: 2rem;
 		padding:1rem 2rem;
 	}
+	section {
+		min-height:auto;
+		padding: 1rem 2rem;
+		max-width:40rem;
+		margin-bottom: 2rem;
+	}
+	
 	section > a {
 		font-size: .9rem;
 		display:block;

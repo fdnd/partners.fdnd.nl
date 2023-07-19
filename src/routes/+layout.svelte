@@ -18,9 +18,6 @@
 </main>
 
 <style>
-	main {
-		display: block
-	}
 	a {
 		text-decoration:none;
 	}
