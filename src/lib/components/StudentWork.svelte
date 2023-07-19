@@ -23,7 +23,6 @@
 		<li>
 			<a href={repo} target="_blank" rel="noopener noreferrer">Github Reposity</a>
 		</li>
-		<li><a href={website} target="_blank" rel="noopener noreferrer">View Live</a></li>
 	</ul>
 	
 	

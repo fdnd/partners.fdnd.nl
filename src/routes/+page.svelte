@@ -40,6 +40,9 @@
 	header {
 		margin-bottom: 2rem;
 		padding:1rem 2rem;
+		
+		grid-area:auto;
+		grid-column: 1 / -1;
 	}
 	section {
 		min-height:auto;
