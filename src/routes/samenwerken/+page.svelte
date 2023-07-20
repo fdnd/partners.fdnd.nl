@@ -1,27 +1,22 @@
-<script lang="ts">
-    let data = ''
-</script>
+<header class="rounded green-on-blue">
+    <div>
+        <h2>FDND Agency</h2>
 
-
-<header class="rounded blue-on-green">
-	<h2>FDND Agency</h2>
-
-    <p>De projecten waar we bij FDND aan werken noemen we FDND Agency. <a href="https://fdnd.nl/">FDND</a> is een 2-jarige, praktijgerichte HBO opleidingen, waarin aan projecten werken voor echte opdrachtgevers is ingebed in het onderwijs.</p>
+        <p>De projecten waar we bij FDND aan werken noemen we FDND Agency. <a href="https://fdnd.nl/">FDND</a> is een 2-jarige, praktijgerichte HBO opleidingen, waarin aan projecten werken voor echte opdrachtgevers is ingebed in het onderwijs.</p>
+        
     
-
-    <h4>Op deze pagina:</h4>
-    <ul>
-        <li><a href="#duurzame-samenwerking">Duurzame samenwerking</a></li>
-        <li><a href="#semesters-en-sprints">Semesters en sprints</a></li>
-        <li><a href="#backlog">Backlog</a></li>
-        <li><a href="#sprint-reviews">Sprint reviews</a></li>
-    </ul>
+        <h4>Op deze pagina:</h4>
+        <ul>
+            <li><a href="#duurzame-samenwerking">Duurzame samenwerking</a></li>
+            <li><a href="#semesters-en-sprints">Semesters en sprints</a></li>
+            <li><a href="#backlog">Backlog</a></li>
+            <li><a href="#sprint-reviews">Sprint reviews</a></li>
+        </ul>
+    </div>
+	
+    
+    <img src="/img/review-sprint-9.jpeg" alt="Review sprint 12" class="rounded">
 </header>
-
-<section class="rounded green-on-blue">
-    <h3 class="visually-hidden">Impressie</h3>
-    <img src="/img/review-sprint-12.jpeg" alt="Review sprint 12" class="rounded">
-</section>
 
 <section class="rounded green-on-blue" id="duurzame-samenwerking">
     <h3>Duurzame samenwerking</h3>
@@ -35,7 +30,7 @@
 	<h3>Semesters & Sprints</h3>
     <p>Elk semester bestaat uit 6 sprints van ieder 3 weken. Tijdens de middelste 4 sprints itereren studententeams aan de hand van een backlog op de projecten.</p>
     <p>In totaal werken de studententeams, 12 sprints van ieder 3 weken aan de projecten. Er zit een opbouw in de semesters in complexiteit van de te bouwen web applicatie; In het <a href="https://programma.fdnd.nl/static-web">eerste semester</a> starten de studenten met het ontwerpen en bouwen van statische websites. In het <a href="https://programma.fdnd.nl/data-driven-web">tweede semester</a> is het uitgangspunt van de website dynamische data uit een API. Tenslotte in het <a href="https://programma.fdnd.nl/workflow-tooling-frameworks">derde semester</a> wordt het project afgerond naar een robuste gebruiksvriendelijke toepassing.</p>
-    <a href="https://programma.fdnd.nl/">Bekijk hier het programma: programma.fdnd.nl</a>
+    Bekijk hier het programma: <a href="https://programma.fdnd.nl/">programma.fdnd.nl</a>
 </section>
 
 <section class="rounded green-on-blue" id="backlog">
@@ -48,7 +43,7 @@
 	<h3>Sprint reviews</h3>
     <p>Elke sprint presenteren de studenten hun werk in een sprint review. Tijdens de review wordt de backlog bekeken en waar nodig aangepast, zodat het duidelijk is waar de volgende sprint aan gewerkt kan worden.</p>
 
-    <img src="/img/review-sprint-9.jpeg" alt="Review sprint 9">
+    <img src="/img/review-sprint-12.jpeg" alt="Review sprint 9" class="rounded">
 </section>
 
 
@@ -60,9 +55,6 @@
 	header {
 		padding:2rem;
         grid-area: auto;
-        
-        
-        max-width:40rem;
 	}
     section {
 		min-height:auto;
@@ -70,5 +62,20 @@
 		max-width:40rem;
 	}
 
+    @media (min-width: 50rem) {
+        header  {
+            grid-column: 1 / -1;
+            display:grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap:1rem
+
+            
+        }
+        header img {
+            transform: translateX(2rem)
+        }
+        
+
+    }
 
 </style>
