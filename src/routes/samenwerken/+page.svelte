@@ -74,7 +74,11 @@
 	header {
 		padding:2rem;
         grid-area: auto;
+        color:#fff;
 	}
+    header *:after {
+        display:none
+    }
     section:not(section.studentwork) {
 		min-height:auto;
 		padding: 1rem 2rem;
@@ -91,21 +95,38 @@
 
     section.studentwork ul {
         margin:0;
-        display:grid;
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-        gap:1rem;
         list-style:none;
-    }
-    
-
-    section.studentwork img {
-        border-radius: var(--rounded);
-        object-fit: cover;
-        object-position: left top;
+        gap:1rem;
+        position: relative;
+        overflow-x: scroll;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        scroll-snap-type: x mandatory;
+        padding-bottom:1.5rem;
     }
     section.studentwork li {
         list-style:none !important;
+        scroll-snap-align: start;
+        min-width:20rem;
+        height:10rem;
+        object-fit: cover;
+        object-position: left top;
+        overflow:hidden;
+        background-color: #fff;
+        border-radius: var(--rounded);
     }
+    section.studentwork a {
+        display:block;
+    }
+
+    section.studentwork img {
+        
+        
+        
+        
+    }
+    
 
     @media (min-width: 50rem) {
         header  {
