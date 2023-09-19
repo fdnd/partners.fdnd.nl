@@ -93,6 +93,7 @@
 		padding: 2rem;
 		margin-bottom: 2rem;
 		position: relative;
+		max-width:70ch
 	}
 	img {
 		border-radius:1rem;

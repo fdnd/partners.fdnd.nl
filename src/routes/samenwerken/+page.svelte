@@ -75,6 +75,7 @@
 		padding:2rem;
         grid-area: auto;
         color:#fff;
+        max-width:auto;
 	}
     header *:after {
         display:none
