@@ -37,7 +37,7 @@
 
 <section class="rounded green-on-blue" id="backlog">
 	<h2>Backlog</h2>
-    <p>De voortgang van het project wordt bijgehouden in een backlog. Voor elke sprints worden user stories klaargezet in de backlog. Aan de hand van de user stories werken de studenten aan d eprojecten. Omdat we de voortgang van projecten op deze manieren bijhouden kunnen we heel gericht projecten laten aansluiten bij andere programma's van andere opleidingen bij de HvA. </p>
+    <p>De voortgang van het project wordt bijgehouden in een backlog. Voor elke sprints worden user stories klaargezet in de backlog. Aan de hand van de user stories werken de studenten aan de projecten. Omdat we de voortgang van projecten op deze manieren bijhouden kunnen we heel gericht projecten laten aansluiten bij andere programma's van andere opleidingen bij de HvA. </p>
     <img src="/img/backlog.png" alt="Voorbeeld van een backlog bij FDND">
 </section>
 
