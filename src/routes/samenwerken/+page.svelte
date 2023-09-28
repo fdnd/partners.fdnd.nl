@@ -1,3 +1,4 @@
+
 <header class="rounded green-on-blue">
     <div>
         <h2>FDND Agency</h2>
@@ -83,7 +84,6 @@
     section:not(section.studentwork) {
 		min-height:auto;
 		padding: 1rem 2rem;
-		max-width:40rem;
 	}
     section.studentwork {
         grid-column: 1 / -1;
@@ -120,13 +120,6 @@
     section.studentwork a {
         display:block;
     }
-
-    section.studentwork img {
-        
-        
-        
-        
-    }
     
 
     @media (min-width: 50rem) {
@@ -140,9 +133,6 @@
         header img {
             transform: translateX(2rem)
         }
-
-        
-
     }
 
 </style>

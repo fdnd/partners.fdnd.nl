@@ -47,7 +47,6 @@
 	section {
 		min-height:auto;
 		padding: 1rem 2rem;
-		max-width:40rem;
 		margin-bottom: 2rem;
 	}
 	
