@@ -3,7 +3,6 @@
 
 	export let title: string;
 	export let repo: string;
-	export let website: string;
 	export let sprint: string | number;
 	export let students: any[];
 </script>
@@ -34,7 +33,7 @@
 		border-radius: 0.5em;
 		position: relative;
 		margin: 0 0 2rem;
-		max-width:30rem
+		max-width: 30rem
 	}
 	h3 {
 		font-size: 1.25rem;
@@ -71,6 +70,4 @@
 	a {
 		color: inherit;
 	}
-
-
 </style>

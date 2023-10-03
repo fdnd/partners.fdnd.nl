@@ -55,6 +55,7 @@ query projectBySlug($slug: String!) {
       visual {
         url
       }
+	  
     }
   }
 }

@@ -29,6 +29,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fdnd/components": "^0.0.12",
 		"@sveltejs/adapter-static": "^1.0.0",
 		"graphql": "^16.6.0"
 	}

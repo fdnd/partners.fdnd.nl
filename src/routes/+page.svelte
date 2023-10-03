@@ -3,12 +3,16 @@
 	export let data: PageData;
 </script>
 
-<header>
-	<h2>FDND Agency</h2>
-</header>
+<section class="rounded green-on-blue" id="duurzame-samenwerking">
+    <h2>Samenwerken met FDND</h2>
+    <p>FDND studenten werken aan kleine opdrachten, ook wel <a href="/mini-meesterproef">mini-meesterproef</a> en aan grote <a href="/projecten">langlopende projecten</a>. De inzet is altijd een duurzame samenwerking.</p>
+    <p>Projecten krijgen steeds meer betekenis door samen te kijken waar de mogelijkheden voor voor verdere iteraties liggen, bijvoorbeeld bij andere programma's of opleidingen binnen de HvA.</p>
+    <p>De opdrachtgever kan op meerdere manieren aanhaken bij het onderwijs. Er zijn allerhande mogelijkheden voor <a href="/stage">stages</a>, <a href="/talks">talks</a> en <a href="/co-teaching">co-teaching.</a></p>
+    <p>In een langere samenwerking op meerdere vlakken ontstaat een betekenisvolle, duurzame samenwerking.</p>
+</section>
 
 <section class="rounded green-on-blue">
-	<h3>Projecten 2022 - 2023</h3>
+	<h2>Projecten 2023 - 2024</h2>
 	<ul>
 		{#each data.projects as project}
 		<li>
@@ -19,7 +23,7 @@
 				<path d="M14 3v4a1 1 0 0 0 1 1h4" />
 				<path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
 			</svg>
-			<a href="/{project.slug}" data-sveltekit-preload-data>
+			<a href="projecten/{project.slug}" data-sveltekit-preload-data>
 				{project.title}
 			</a>
 		</li>
@@ -29,21 +33,7 @@
 	<a href="https://github.com/fdnd-agency">Bekijk de projecten op GitHub</a>
 </section>
 
-<section class="rounded blue-on-green">
-	<h3>Echte projecten voor echte opdrachtgevers</h3>
-	<p>Studenten werken bij FDND aan echte opdrachten voor echte opdrachtgevers. Dit doen ze in een studiomodel aan de hand van agile ontwikkelmethodes, onder begeleiding van docenten/coaches én experts uit het vakgebied. Een rijke, praktijke gerichte leeromgeving, waarin de studenten worden voorbereid op het werken als Frontender.</p>
-	<a href="/samenwerken">Lees meer over de FDND werkwijze</a>
-</section>
-
-
 <style>
-	header {
-		margin-bottom: 2rem;
-		padding:1rem 2rem;
-		
-		grid-area:auto;
-		grid-column: 1 / -1;
-	}
 	section {
 		min-height:auto;
 		padding: 1rem 2rem;
@@ -54,11 +44,6 @@
 		font-size: .9rem;
 		display:block;
 		margin-top:2rem
-	}
-	h2 {
-		margin-bottom: 0;
-		margin-left: 0;
-		font-weight: normal;
 	}
 	ul {
 		margin:0;
@@ -82,4 +67,5 @@
 	svg {
 		transform:translateY(3px)
 	}
+
 </style>

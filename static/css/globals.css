@@ -17,23 +17,28 @@
         overflow-x:hidden;
         display:block
     }
-    body:before {
-        left:auto;
-        top:auto;
-        right:2rem;
-        bottom:1rem;
-    }
-    body:after{
-        left:1rem
-    }
+
     main {
         padding-top: 1rem;
         display:block;
     }
-    p {
+    body p {
         margin-bottom: 1.5rem;
+        max-width: 100%
     }
-    
+    section {
+        margin-bottom: 2rem;
+    }
+    a:has(img)::after {
+        display:none;
+    }
+    figure {
+        margin: 1rem 0;
+    }
+    figcaption {
+        font-style: italic;
+        font-size: .9rem;
+    }
     footer {
         margin-top: 2rem;
     }
@@ -57,5 +62,12 @@
     @media (min-width: 50rem) {
 		main {
 			display:grid;
+            grid-template-columns: 1fr 1fr;
 		}
+        section {
+            margin-bottom: 0;
+        }
+        section:first-of-type {
+            align-self: self-start;
+        }
 	}
