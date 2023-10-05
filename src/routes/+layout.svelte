@@ -80,6 +80,7 @@
 	:global(h1) {
 		color: var(--color-green);
 		font-weight: normal;
+		margin-top: 2rem;
 	}
 	:global(h1 abbr) {
 		display: none;
