@@ -3,29 +3,30 @@
     export let data
 </script>
 
-<Block class="rounded blue-on-green " tag="header">
-    <h2>Samenwerken aan projecten bij FDND</h2>
 
-    <p>
-        <a href="https://fdnd.nl/">FDND</a> is een 2-jarige, praktijgerichte HBO
-        opleidingen, waarin aan projecten werken voor echte opdrachtgevers is ingebed
-        in het onderwijs.
-    </p>
-
-    <figure>
-        <img
-            src="/img/review-sprint-9.jpeg"
-            alt="Review sprint 12"
-            class="rounded"
-        />
-        <figcaption>
-            Studenten werken in teams samen aan échte projecten voor échte
-            opdrachtgevers
-        </figcaption>
-    </figure>
-</Block>
 
 <CollapsingColumns>
+    <Block class="rounded green-on-blue " tag="header">
+        <h2>Samenwerken aan projecten bij FDND</h2>
+    
+        <p>
+            <a href="https://fdnd.nl/">FDND</a> is een 2-jarige, praktijgerichte HBO
+            opleidingen, waarin aan projecten werken voor echte opdrachtgevers is ingebed
+            in het onderwijs.
+        </p>
+    
+        <figure>
+            <img
+                src="/img/review-sprint-9.jpeg"
+                alt="Review sprint 12"
+                class="rounded"
+            />
+            <figcaption>
+                Studenten werken in teams samen aan échte projecten voor échte
+                opdrachtgevers
+            </figcaption>
+        </figure>
+    </Block>
     <Block class="rounded green-on-blue" tag="section">
         <h2>Projecten</h2>
         <h3>2023 - 2024</h3>
@@ -159,7 +160,7 @@
 <Block class="rounded pink-on-blue" tag="section">
     <h2 id="studentenwerk">Studentenwerk</h2>
 
-    <ul>
+    <ul class="gallery">
         <li>
             <a href="/"
                 ><img
@@ -247,13 +248,13 @@
 </Block>
 
 <style>
-    ul {
+    ul.gallery {
         display:flex;
         overflow-x: scroll;
         margin-bottom: 0;
         gap:2rem
     }
-    ul img {
+    ul.gallery img {
         min-width:30rem;
         aspect-ratio: 2/1;
     }

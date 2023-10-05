@@ -82,7 +82,7 @@
 		display: none;
 	}
 	:global(.collapsing-columns) {
-		align-items: start;
+		/align-items: start;
 		margin-bottom: 2rem;
 	}
 	:global(figure) {
