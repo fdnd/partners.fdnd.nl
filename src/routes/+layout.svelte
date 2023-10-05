@@ -37,11 +37,11 @@
 		padding:2rem;
 	}
 	:global(body > div > div:first-of-type) {
-		translate:-1rem -1rem
+		translate:-1rem -1rem;
 	}
 
 	:global(.payoff) {
-		translate:-1rem 1rem
+		translate:-1rem 1rem;
 	}
 	:global(a) {
 		color: currentColor;

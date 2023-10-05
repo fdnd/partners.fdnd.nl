@@ -1,5 +1,5 @@
 <script>
-	import { Block, CollapsingColumns } from "@fdnd/components"
+	import { Block, CollapsingColumns } from "@fdnd/components";
 	export let data;
 </script>
 
@@ -7,27 +7,16 @@
 	<Block class="rounded green-on-blue" tag="section">
 		<h2>Samenwerken met FDND</h2>
 		<p>
-			FDND studenten werken aan kleine opdrachten, ook wel <a
-				href="/mini-meesterproef">mini-meesterproef</a
-			>
-			en aan grote <a href="/projecten">langlopende projecten</a>. De
-			inzet is altijd een duurzame samenwerking.
+			FDND studenten werken aan kleine opdrachten, ook wel <a href="/mini-meesterproef">mini-meesterproef</a> en aan grote <a href="/projecten">langlopende projecten</a>. De inzet is altijd een duurzame samenwerking.
 		</p>
 		<p>
-			Projecten krijgen steeds meer betekenis door samen te kijken waar de
-			mogelijkheden voor voor verdere iteraties liggen, bijvoorbeeld bij
-			andere programma's of opleidingen binnen de HvA.
+			Projecten krijgen steeds meer betekenis door samen te kijken waar de mogelijkheden voor voor verdere iteraties liggen, bijvoorbeeld bij andere programma's of opleidingen binnen de HvA.
 		</p>
 		<p>
-			De opdrachtgever kan op meerdere manieren aanhaken bij het
-			onderwijs. Er zijn allerhande mogelijkheden voor <a href="/stage"
-				>stages</a
-			>, <a href="/talks">talks</a> en
-			<a href="/co-teaching">co-teaching.</a>
+			De opdrachtgever kan op meerdere manieren aanhaken bij het onderwijs. Er zijn allerhande mogelijkheden voor <a href="/stage">stages</a>, <a href="/talks">talks</a> en <a href="/co-teaching">co-teaching.</a>
 		</p>
 		<p>
-			In een langere samenwerking op meerdere vlakken ontstaat een
-			betekenisvolle, duurzame samenwerking.
+			In een langere samenwerking op meerdere vlakken ontstaat een betekenisvolle, duurzame samenwerking.
 		</p>
 	</Block>
 
@@ -66,8 +55,8 @@
 			{/each}
 		</ul>
 
-		<a href="https://github.com/fdnd-agency">Bekijk de projecten op GitHub</a>
+		<a href="https://github.com/fdnd-agency"
+			>Bekijk de projecten op GitHub</a
+		>
 	</Block>
 </CollapsingColumns>
-
-
