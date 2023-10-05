@@ -21,7 +21,7 @@
 	<Wrapper>
 		<Header
 			title="Hoe werken wij samen met de praktijk?"
-			punchline="In ons Partners in Education programma werken wij samen met opdrachtgevers aan echte opdrachten. Professionals uit het werkveld dragen in de studio hun kennis over aan de studenten."
+			punchline="In ons Partners in Education programma werken wij samen met échte opdrachtgevers aan échte opdrachten. Professionals uit het werkveld dragen in de studio hun kennis over aan de studenten."
 		/>
 
 		<Nav data={nav} />
@@ -85,7 +85,7 @@
 		display: none;
 	}
 	:global(.collapsing-columns) {
-		/align-items: start;
+		align-items: start;
 		margin-bottom: 2rem;
 	}
 	:global(figure) {
