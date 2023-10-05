@@ -56,7 +56,7 @@
 		padding:0;
 	}
 	:global(h2, h3, h4, p) {
-		margin-bottom: 1rem;
+		margin-bottom: 1rem !important;
 	}
 	:global(.wrapper) {
 		margin: 2rem 0;
