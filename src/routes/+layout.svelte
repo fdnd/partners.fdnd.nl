@@ -33,6 +33,9 @@
 </Branding>
 
 <style>
+	:global(body) {
+		padding:2rem;
+	}
 	:global(body > div > div:first-of-type) {
 		translate:-1rem -1rem
 	}
