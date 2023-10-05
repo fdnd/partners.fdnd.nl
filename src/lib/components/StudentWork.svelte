@@ -1,10 +1,10 @@
-<script lang="ts">
+<script>
 	import { getFullName } from '$lib/utils/getFullName';
 
-	export let title: string;
-	export let repo: string;
-	export let sprint: string | number;
-	export let students: any[];
+	export let title
+	export let repo
+	export let sprint
+	export let students
 </script>
 
 <article class="rounded purple-on-blue">

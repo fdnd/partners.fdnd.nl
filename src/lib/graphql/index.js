@@ -1,4 +1,4 @@
-export function gql(query: string, variables?: any) {
+export function gql(query, variables) {
 	return {
 		method: 'POST',
 		headers: {
