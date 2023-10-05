@@ -247,6 +247,14 @@
 </Block>
 
 <style>
-    img {
+    ul {
+        display:flex;
+        overflow-x: scroll;
+        margin-bottom: 0;
+        gap:2rem
+    }
+    ul img {
+        min-width:30rem;
+        aspect-ratio: 2/1;
     }
 </style>
