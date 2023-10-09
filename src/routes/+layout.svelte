@@ -68,8 +68,8 @@
 		fill: var(--color-green) !important;
 		height: auto !important;
 		position:absolute;
-		right:1rem;
-		top:-3rem;
+		right:-1rem;
+		top:-4rem;
 	}
 	:global(.logo-background) {
 		fill: var(--color-green) !important;
