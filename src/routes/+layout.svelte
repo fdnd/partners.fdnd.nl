@@ -33,16 +33,6 @@
 </Branding>
 
 <style>
-	:global(body) {
-		padding:2rem;
-	}
-	:global(body > div > div:first-of-type) {
-		translate:-1rem -1rem;
-	}
-
-	:global(.payoff) {
-		translate:-1rem 1rem;
-	}
 	:global(a) {
 		color: currentColor;
 	}
@@ -69,13 +59,17 @@
 	}
 	:global(header) {
 		max-width: 45rem;
-		padding:0 2rem;
+		padding: 0 1rem;
+		position: relative;
 	}
 	:global(header svg) {
 		width: 8rem;
 		translate:-23px -1rem;
 		fill: var(--color-green) !important;
 		height: auto !important;
+		position:absolute;
+		right:1rem;
+		top:-3rem;
 	}
 	:global(.logo-background) {
 		fill: var(--color-green) !important;
@@ -125,5 +119,16 @@
 	}
 	:global(img.rounded) {
 		border:none;
+	}
+	@media (min-width:40rem) {
+		:global(body) {
+			padding:2rem;
+		}
+		:global(header) {
+			padding:0 2rem
+		}
+		:global(.payoff) {
+			translate:-1rem -1rem;
+		}
 	}
 </style>
