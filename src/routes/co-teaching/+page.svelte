@@ -3,8 +3,8 @@
 </script>
 
 <CollapsingColumns>
-    <Block tag="section" class="rounded green-on-blue">
-        <h2>Co-teaching bij FDND</h2>
+    <Block tag="section" class="rounded blue-on-green">
+        <h2>Co-teaching</h2>
 
         <p>
             Professionals uit het vakgebied kunnen bij FDND hun kennis komen
@@ -27,16 +27,28 @@
         </p>
     </Block>
 
-    <Block tag="section" class="rounded blue-on-green">
-        <figure>
-            <img
-                src="/img/martijn.jpeg"
-                alt=" Martijn Nieuwenhuizen, senior Frontend Developer bij Grrrr, geeft les aan tweedejaars studenten"
-            />
-            <figcaption>
-                Martijn Nieuwenhuizen, senior Frontend Developer bij Grrrr,
-                geeft les aan tweedejaars studenten.
-            </figcaption>
-        </figure>
-    </Block>
+    <figure >
+        <img
+            src="/img/martijn.jpeg"
+            alt=" Martijn Nieuwenhuizen, senior Frontend Developer bij Grrrr, geeft les aan tweedejaars studenten"
+            class="rounded"
+        />
+        <figcaption>
+            Martijn Nieuwenhuizen, senior Frontend Developer bij Grrrr,
+            geeft les aan tweedejaars studenten.
+        </figcaption>
+    </figure>
+    
 </CollapsingColumns>
+
+<style>
+    figure {
+        margin-top: 0;
+    }
+    figcaption {
+        display: none;
+    }
+    img {
+        border:none
+    }
+</style>

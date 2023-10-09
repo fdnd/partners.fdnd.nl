@@ -55,6 +55,12 @@
 	:global(main ul) {
 		padding:0;
 	}
+	:global(main ul li) {
+		display:flex;
+		align-items:center;
+		margin-bottom: .5rem;
+		gap:.25rem
+	}
 	:global(h2, h3, h4, p) {
 		margin-bottom: 1rem !important;
 	}
@@ -89,9 +95,10 @@
 		align-items: start;
 		margin-bottom: 2rem;
 	}
-	:global(figure) {
-		margin:2rem 0 0
-	}
+	:global(section figure) {
+        margin: 0 0 2rem
+    }
+
 	:global(figcaption) {
 		font-size: .9rem;
 		font-style: italic;
@@ -99,4 +106,24 @@
 	:global(main > header) {
         margin-bottom: var(--component-padding);
     }
+
+	:global(ul.gallery) {
+        display:flex;
+        overflow-x: scroll;
+        margin-bottom: 0;
+        gap:2rem
+    }
+    :global(ul.gallery img) {
+        min-width:20rem;
+        aspect-ratio: 2/1;
+    }
+	:global(.no-spacing) {
+		padding:0 !important
+	}
+	:global(.no-spacing h2) {
+		margin-left:2rem
+	}
+	:global(img.rounded) {
+		border:none;
+	}
 </style>

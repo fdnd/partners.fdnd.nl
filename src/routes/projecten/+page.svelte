@@ -1,130 +1,76 @@
 <script>
     import { Block, CollapsingColumns } from "@fdnd/components"
+    import BulletIcon from "$lib/components/icons/bullet.svelte"
     export let data
 </script>
 
+<Block class="no-spacing" tag="section">
+    <h2>Projecten</h2>
 
+    <CollapsingColumns>
+        <Block tag="div" class="rounded blue-on-green">
+            <h3>2023 - 2024</h3>
+
+            <ul>
+                <li><BulletIcon /><a href="/">Dashboard The Ocean Cleanup</a></li>
+                <li><BulletIcon /><a href="/">Buurtplatform De Hallen</a></li>
+                <li><BulletIcon /><a href="/">Hallo Strandeiland</a></li>
+                <li><BulletIcon /><a href="/">SPATwater.nl</a></li>
+                <li><BulletIcon /><a href="/">Mijn Funda</a></li>
+                <li><BulletIcon /><a href="/">Toolgankelijkheid</a></li>
+                <li><BulletIcon /><a href="/">Platform Visual Thinking</a></li>
+                <li><BulletIcon /><a href="/">Cmmentary Tool UltiTV</a></li>
+            </ul>
+        </Block>
+    
+        <Block tag="div" class="rounded blue-on-green">
+            <h3>2022 - 2023</h3>
+            <ul>
+                {#each data.projects as project}
+                    <li>
+                        <BulletIcon />
+                        <a
+                            href="projecten/{project.slug}"
+                            data-sveltekit-preload-data
+                        >
+                            {project.title}
+                        </a>
+                    </li>
+                {/each}
+            </ul>
+        </Block>
+    
+    </CollapsingColumns>    
+</Block>
 
 <CollapsingColumns>
-    <Block class="rounded green-on-blue " tag="header">
-        <h2>Samenwerken aan projecten bij FDND</h2>
-    
-        <p>
-            <a href="https://fdnd.nl/">FDND</a> is een 2-jarige, praktijgerichte HBO
-            opleidingen, waarin aan projecten werken voor echte opdrachtgevers is ingebed
-            in het onderwijs.
-        </p>
-    
-        <figure>
-            <img
-                src="/img/review-sprint-9.jpeg"
-                alt="Review sprint 12"
-                class="rounded"
-            />
-            <figcaption>
-                Studenten werken in teams samen aan échte projecten voor échte
-                opdrachtgevers
-            </figcaption>
-        </figure>
-    </Block>
     <Block class="rounded green-on-blue" tag="section">
-        <h2>Projecten</h2>
-        <h3>2023 - 2024</h3>
-
-        <ul>
-            <li>...</li>
-        </ul>
-
-        <h3>2022 - 2023</h3>
-        <ul>
-            {#each data.projects as project}
-                <li>
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="icon icon-tabler icon-tabler-file-code-2"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        stroke-width="1.5"
-                        stroke="currentColor"
-                        fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                    >
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <path d="M10 12h-1v5h1" />
-                        <path d="M14 12h1v5h-1" />
-                        <path d="M14 3v4a1 1 0 0 0 1 1h4" />
-                        <path
-                            d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"
-                        />
-                    </svg>
-                    <a
-                        href="projecten/{project.slug}"
-                        data-sveltekit-preload-data
-                    >
-                        {project.title}
-                    </a>
-                </li>
-            {/each}
-        </ul>
-    </Block>
-
-    <Block class="rounded blue-on-green" tag="section">
         <h2>Semesters & Sprints</h2>
-        <p>
-            Elk semester bestaat uit 6 sprints van ieder 3 weken. Tijdens de
-            middelste 4 sprints van de eerste 3 semesters itereren
-            studententeams aan de hand van een backlog op de projecten.
-        </p>
-        <p>
-            In totaal werken de studententeams dus 12 sprints van ieder 3 weken
-            aan de projecten. Er zit een opbouw in de semesters in complexiteit
-            van de te bouwen web applicatie; In het <a
-                href="https://programma.fdnd.nl/static-web">eerste semester</a
-            >
-            starten de studenten met het ontwerpen en bouwen van statische
-            websites. In het
-            <a href="https://programma.fdnd.nl/data-driven-web"
-                >tweede semester</a
-            >
-            is het uitgangspunt van de website dynamische data uit een API.
-            Tenslotte in het
-            <a href="https://programma.fdnd.nl/workflow-tooling-frameworks"
-                >derde semester</a
-            > wordt het project afgerond naar een robuste gebruiksvriendelijke toepassing.
-        </p>
+        <p>Elk semester bestaat uit 6 sprints van ieder 3 weken. Tijdens de middelste 4 sprints van de eerste 3 semesters itereren studententeams aan de hand van een backlog op de projecten.</p>
 
-        <p>
-            <a href="https://programma.fdnd.nl/"
-                >Bekijk hier het FDND programma</a
-            >
-        </p>
+        <p>In totaal werken de studententeams dus 12 sprints van ieder 3 weken aan de projecten. Er zit een opbouw in de semesters in complexiteit van de te bouwen web applicatie.
+        <h3>
+            <a href="https://programma.fdnd.nl/static-web">Semester 1: Static Web</a>
+        </h3>
+        <p>In het  eerste semester ontwerpen en bouwen de studenten statische websites. Hier worden de fundamenten voor het project gelegd met focus op het implementeren van de huisstijl, Toegankelijkheid en de flow van de website.</p>
+        
+        <h3>
+            <a href="https://programma.fdnd.nl/data-driven-web">Semester 2: Data-Driven Web</a>
+        </h3>
+        <p>In het tweede semester werken de studenten verder aan het project, alleen nu op basis van dynamische data. De studenten leren hoe ze op de server data kunnen ophalen uit een API en dit vervolgens te renderen naar HTML.</p>
+        
+        <h3>
+            <a href="https://programma.fdnd.nl/workflow-tooling-frameworks">Semester 3: semester</a>
+        </h3>
+        <p> In het derde semester leren de studenten werken met frameworks en wordt het project afgerond. De werken de studenten toe naar een robuste, schaalbare en overdraagbare website die opgebouwd is uit componenten.</p>
 
-        <figure>
-            <img
-                src="/img/projecten-sprints.png"
-                alt="Projecten sprints"
-                class="rounded"
-            />
-
-            <figcaption>
-                Semesters en sprints (in de paars gearceerde sprints werken de
-                studenten aan doorlopende projecten)
-            </figcaption>
-        </figure>
+        <p><a href="https://programma.fdnd.nl/">Bekijk hier het FDND programma</a></p>
     </Block>
 
-    <Block class="rounded blue-on-green" tag="section">
+    <Block class="rounded green-on-blue" tag="section">
         <h2>Backlog</h2>
-        <p>
-            De voortgang van het project wordt bijgehouden in een backlog. Voor
-            elke sprints worden user stories klaargezet in de backlog. Aan de
-            hand van de user stories werken de studenten aan de projecten. Omdat
-            we de voortgang van projecten op deze manieren bijhouden kunnen we
-            heel gericht projecten laten aansluiten bij andere programma's van
-            andere opleidingen bij de HvA.
-        </p>
+        <p>De voortgang van het project wordt bijgehouden in een backlog. Voor elke sprints worden user stories en de hand van de user stories werken de studenten aan de projecten.</p>
+        
         <figure>
             <img
                 src="/img/backlog.png"
@@ -132,29 +78,20 @@
             />
             <figcaption>Backlog met user stories en taken</figcaption>
         </figure>
-    </Block>
 
-    <Block class="rounded blue-on-green" tag="section">
+        <p>Omdat we de voortgang van projecten op deze manieren bijhouden kunnen we heel gericht projecten laten aansluiten bij andere programma's van andere opleidingen bij de HvA, bijvoorbeeld bij de <a href="https://everythingweb.org/">Minor Web Design & Development</a> bij CMD Amsterdam.</p>
+    </Block>
+</CollapsingColumns>
+
+<CollapsingColumns>
+    <Block class="rounded blue-on-pink" tag="section">
         <h2>Sprint reviews</h2>
-        <p>
-            Elke sprint presenteren de studenten hun werk in een sprint review.
-            Tijdens de review wordt de backlog bekeken en waar nodig aangepast,
-            zodat het duidelijk is waar de volgende sprint aan gewerkt kan
-            worden.
-        </p>
-
-        <figure>
-            <img
-                src="/img/review-sprint-12.jpeg"
-                alt="Review sprint 9"
-                class="rounded"
-            />
-            <figcaption>
-                Studenten presenteren het werk bij de opdrachtgever en krijgen
-                feedback.
-            </figcaption>
-        </figure>
+        <p> Elke sprint presenteren de studenten hun werk in een sprint review. Tijdens de review wordt de backlog bekeken en waar nodig aangepast, zodat het duidelijk is waar de volgende sprint aan gewerkt kan worden.</p>
     </Block>
+
+    <figure>
+        <img src="/img/review-sprint-12.jpeg" alt="Studenten presenteren het werk bij de opdrachtgever en krijgen feedback." class="rounded"/>
+    </figure>
 </CollapsingColumns>
 
 <Block class="rounded pink-on-blue" tag="section">
@@ -246,16 +183,3 @@
         </li>
     </ul>
 </Block>
-
-<style>
-    ul.gallery {
-        display:flex;
-        overflow-x: scroll;
-        margin-bottom: 0;
-        gap:2rem
-    }
-    ul.gallery img {
-        min-width:30rem;
-        aspect-ratio: 2/1;
-    }
-</style>

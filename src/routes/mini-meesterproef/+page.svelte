@@ -7,7 +7,7 @@
         <h2>Mini meesterproef</h2>
 
         <p>
-            Tijdens de laatste sprint van een semester werken de aan design challenge voor een agency. In drie weken ontwerpen en bouwen de studenten een proof of concept en presenteren dit bij de odprachtgever.
+            In de laatste sprint van een semester werken de studenten aan design challenge voor een agency. In drie weken ontwerpen en bouwen de studenten een proof of concept en presenteren dit bij de opdrachtgever.
         </p>
         
         <figure>
