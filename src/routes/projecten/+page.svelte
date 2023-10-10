@@ -39,7 +39,6 @@
                 {/each}
             </ul>
         </Block>
-    
     </CollapsingColumns>    
 </Block>
 

@@ -1,5 +1,5 @@
 <script>
-	import { Branding, Header, Nav, Wrapper } from "@fdnd/components"
+	import { Branding, Footer, Header, Nav, Wrapper } from "@fdnd/components"
 
 	const nav = {
 		Menu: {
@@ -29,7 +29,11 @@
 		<main>
 			<slot />
 		</main>
+
+		<Footer />
 	</Wrapper>
+
+	
 </Branding>
 
 <style>
@@ -43,15 +47,7 @@
 		margin-left: 0.5rem;
 		margin-top: 0;
 	}
-	:global(main ul) {
-		padding:0;
-	}
-	:global(main ul li) {
-		display:flex;
-		align-items:center;
-		margin-bottom: .5rem;
-		gap:.25rem
-	}
+	
 	:global(h2, h3, h4, p) {
 		margin-bottom: 1rem !important;
 	}
@@ -81,11 +77,20 @@
 	:global(h1) {
 		color: var(--color-green);
 		font-weight: normal;
-		margin-top: 2rem;
-		margin-bottom: .5rem;
+		margin-top: 2rem !important;
+		margin-bottom: .5rem !important;
 	}
 	:global(h1 abbr) {
 		display: none;
+	}
+	:global(main ul) {
+		padding:0;
+	}
+	:global(main ul li) {
+		display:flex;
+		align-items:center;
+		margin-bottom: .5rem;
+		gap:.25rem
 	}
 	:global(.collapsing-columns) {
 		align-items: start;
