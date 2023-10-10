@@ -27,7 +27,7 @@
         </p>
     </Block>
 
-    <figure >
+    <figure>
         <img
             src="/img/martijn.jpeg"
             alt=" Martijn Nieuwenhuizen, senior Frontend Developer bij Grrrr, geeft les aan tweedejaars studenten"

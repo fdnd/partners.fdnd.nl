@@ -15,16 +15,7 @@
         <a href="https://programma.fdnd.nl/">Bekijk hier het FDND programma</a>
     </Block>
 
-    <Block tag="section" class="rounded blue-on-green">
-        <figure>
-            <img
-                src="/img/martijn.jpeg"
-                alt=" Martijn Nieuwenhuizen, senior Frontend Developer bij Grrrr, geeft les aan tweedejaars studenten"
-            />
-            <figcaption>
-                Martijn Nieuwenhuizen, senior Frontend Developer bij Grrrr,
-                geeft les aan tweedejaars studenten.
-            </figcaption>
-        </figure>
-    </Block>
+    <figure>
+        <img class="rounded" src="/img/martijn.jpeg" alt=" Martijn Nieuwenhuizen, senior Frontend Developer bij Grrrr, geeft les aan tweedejaars studenten"/>
+    </figure>
 </CollapsingColumns>

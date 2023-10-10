@@ -13,14 +13,14 @@
         <figure>
             <img src="/img/mini-meesterproef.png" alt="">
             <figcaption>
-                Studenten kunnen in Semester 4 ervoor kiezen om 10 of 20 weken stage te lopen.
+                Design challenges in de laatste sprint van elk semester.
             </figcaption>
         </figure>
 
         <a href="https://programma.fdnd.nl/">Bekijk hier het FDND programma</a>
     </Block>
 
-    <Block class="rounded blue-on-green" tag="section">
-        <img src="/img/review-sprint-12.jpeg" alt="">
-    </Block>
+    <figure>
+        <img src="/img/review-sprint-12.jpeg" alt="" class="rounded">
+    </figure>
 </CollapsingColumns>

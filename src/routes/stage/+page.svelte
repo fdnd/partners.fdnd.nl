@@ -38,7 +38,7 @@
         <a href="https://programma.fdnd.nl/">Bekijk hier het FDND programma</a>
     </Block>
 
-    <Block class="rounded blue-on-green" type="figure">
-        <img src="/img/review-sprint-12.jpeg" alt="" />
-    </Block>
+    <figure>
+        <img class="rounded" src="/img/review-sprint-12.jpeg" alt="" />
+    </figure>
 </CollapsingColumns>
