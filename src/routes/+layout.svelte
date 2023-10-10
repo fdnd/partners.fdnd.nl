@@ -41,6 +41,7 @@
 	}
 	:global(nav ul) {
 		margin-left: 0.5rem;
+		margin-top: 0;
 	}
 	:global(main ul) {
 		padding:0;
@@ -69,7 +70,7 @@
 		height: auto !important;
 		position:absolute;
 		right:-1rem;
-		top:-4rem;
+		top:-3rem;
 	}
 	:global(.logo-background) {
 		fill: var(--color-green) !important;
@@ -81,6 +82,7 @@
 		color: var(--color-green);
 		font-weight: normal;
 		margin-top: 2rem;
+		margin-bottom: .5rem;
 	}
 	:global(h1 abbr) {
 		display: none;
@@ -122,13 +124,13 @@
 	}
 	@media (min-width:40rem) {
 		:global(body) {
-			padding:2rem;
+			/padding:2rem;
 		}
 		:global(header) {
-			padding:0 2rem
+			/padding:0 2rem
 		}
 		:global(.payoff) {
-			translate:-1rem -1rem;
+			/translate:-1rem -1rem;
 		}
 	}
 </style>
