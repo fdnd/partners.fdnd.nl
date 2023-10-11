@@ -8,7 +8,7 @@
     <h2>Projecten</h2>
 
     <CollapsingColumns>
-        <Block tag="div" class="rounded blue-on-green">
+        <Block tag="div" class="blue-on-green gradient-reverse rounded title-outset-left">
             <h3>2023 - 2024</h3>
 
             <ul>
@@ -23,7 +23,7 @@
             </ul>
         </Block>
     
-        <Block tag="div" class="rounded blue-on-green">
+        <Block tag="div" class="blue-on-green gradient-reverse rounded title-outset-left">
             <h3>2022 - 2023</h3>
             <ul>
                 {#each data.projects as project}
@@ -83,7 +83,7 @@
 </CollapsingColumns>
 
 <CollapsingColumns>
-    <Block class="rounded blue-on-pink" tag="section">
+    <Block class="rounded blue-on-green" tag="section">
         <h2>Sprint reviews</h2>
         <p> Elke sprint presenteren de studenten hun werk in een sprint review. Tijdens de review wordt de backlog bekeken en waar nodig aangepast, zodat het duidelijk is waar de volgende sprint aan gewerkt kan worden.</p>
     </Block>
@@ -93,7 +93,7 @@
     </figure>
 </CollapsingColumns>
 
-<Block class="rounded pink-on-blue" tag="section">
+<Block class="rounded purple-on-blue" tag="section">
     <h2 id="studentenwerk">Studentenwerk</h2>
 
     <ul class="gallery">

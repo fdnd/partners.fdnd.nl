@@ -4,8 +4,8 @@
 </script>
 
 <CollapsingColumns>
-	<Block class="rounded green-on-blue" tag="section">
-		<h2>Samenwerken met FDND</h2>
+	<Block class="blue-on-green gradient rounded title-outset-left" tag="section">
+		<h2>Samenwerken</h2>
 		<p>
 			FDND studenten werken aan kleine opdrachten, ook wel <a href="/mini-meesterproef">mini-meesterproef</a> en aan grote <a href="/projecten">langlopende projecten</a>. De inzet is altijd een duurzame samenwerking.
 		</p>
@@ -20,8 +20,10 @@
 		</p>
 	</Block>
 
-	<Block class="rounded blue-on-green" tag="section">
-		<h2>Projecten 2023 - 2024</h2>
+	<Block class="rounded green-on-blue title-outset-right" tag="section">
+		<h2>Projecten</h2>
+
+		<h3>2022 - 2023</h3>
 		<ul>
 			{#each data.projects as project}
 				<li>

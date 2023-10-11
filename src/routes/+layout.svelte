@@ -40,6 +40,9 @@
 	:global(a) {
 		color: currentColor;
 	}
+	:global(a.active) {
+		--highlight: var(--color-green) !important;
+	}
 	:global(ul) {
 		list-style:none;
 	}
@@ -47,7 +50,9 @@
 		margin-left: 0.5rem;
 		margin-top: 0;
 	}
-	
+	:global(h2) {
+		font-weight: 200
+	}
 	:global(h2, h3, h4, p) {
 		margin-bottom: 1rem !important;
 	}
@@ -85,6 +90,7 @@
 	}
 	:global(main ul) {
 		padding:0;
+		margin:0 0 1rem;
 	}
 	:global(main ul li) {
 		display:flex;

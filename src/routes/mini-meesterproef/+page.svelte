@@ -3,19 +3,12 @@
 </script>
 
 <CollapsingColumns>
-    <Block class="rounded green-on-blue" tag="section">
+    <Block class="blue-on-green gradient rounded title-outset-left" tag="section">
         <h2>Mini meesterproef</h2>
 
         <p>
             In de laatste sprint van een semester werken de studenten aan design challenge voor een agency. In drie weken ontwerpen en bouwen de studenten een proof of concept en presenteren dit bij de opdrachtgever.
         </p>
-        
-        <figure>
-            <img src="/img/mini-meesterproef.png" alt="">
-            <figcaption>
-                Design challenges in de laatste sprint van elk semester.
-            </figcaption>
-        </figure>
 
         <a href="https://programma.fdnd.nl/">Bekijk hier het FDND programma</a>
     </Block>
