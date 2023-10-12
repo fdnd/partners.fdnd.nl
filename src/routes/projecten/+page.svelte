@@ -96,92 +96,23 @@
     </figure>
 </CollapsingColumns>
 
-<Block class="rounded purple-on-blue" tag="section">
+<Block class="rounded purple-on-blue title-outset-left" tag="section">
     <h2 id="studentenwerk">Studentenwerk</h2>
 
-    <ul class="gallery">
-        <li>
-            <a href="/"
-                ><img
-                    src="/img/projecten/arexan.png"
-                    alt="Arexan @Simplicate"
-                /></a
-            >
-        </li>
-        <li>
-            <a href="/"
-                ><img
-                    src="/img/projecten/demi.png"
-                    alt="Demi @The Ocean Cleanup"
-                /></a
-            >
-        </li>
-        <li>
-            <a href="/"
-                ><img
-                    src="/img/projecten/ivar.png"
-                    alt="Ivar @Correspondent"
-                /></a
-            >
-        </li>
+    <p><br><br></p><!-- Hack: fix in component library-->
 
-        <li>
-            <a href="/"
-                ><img
-                    src="/img/projecten/jalal.png"
-                    alt="Jalal @TheOcean Cleanup"
-                /></a
-            >
-        </li>
-        <li>
-            <a href="/"
-                ><img
-                    src="/img/projecten/luuk.png"
-                    alt="Luuk @Vervoerregio"
-                /></a
-            >
-        </li>
-        <li>
-            <a href="/"
-                ><img src="/img/projecten/milan.png" alt="Milan @INK" /></a
-            >
-        </li>
-        <li>
-            <a href="/"
-                ><img src="/img/projecten/ralph.png" alt="Ralp @PlantSwap" /></a
-            >
-        </li>
-
-        <li>
-            <a href="/"
-                ><img src="/img/projecten/roelie.png" alt="Roelie @IO" /></a
-            >
-        </li>
-        <li>
-            <a href="/"
-                ><img
-                    src="/img/projecten/sanne.png"
-                    alt="Sanne @The Ocean Cleanup"
-                /></a
-            >
-        </li>
-        <li>
-            <a href="/"
-                ><img
-                    src="/img/projecten/stefan.png"
-                    alt="Stefan @Correspondent"
-                /></a
-            >
-        </li>
-        <li>
-            <a href="/"
-                ><img src="/img/projecten/thomas.png" alt="Thomas @UltiTV" /></a
-            >
-        </li>
-        <li>
-            <a href="/"
-                ><img src="/img/projecten/tom.png" alt="Tom @Schiphol" /></a
-            >
-        </li>
+    <ul class="scroll">
+        <li><a href="/"><img src="/img/projecten/arexan.png" alt="Arexan @Simplicate" /></a></li>
+        <li><a href="/"><img src="/img/projecten/demi.png" alt="Demi @The Ocean Cleanup" /></a></li>
+        <li><a href="/"><img src="/img/projecten/ivar.png" alt="Ivar @Correspondent" /></a></li>
+        <li><a href="/"><img src="/img/projecten/jalal.png" alt="Jalal @TheOcean Cleanup"/></a></li>
+        <li><a href="/"><img src="/img/projecten/luuk.png" alt="Luuk @Vervoerregio" /></a></li>
+        <li><a href="/"><img src="/img/projecten/milan.png" alt="Milan @INK" /></a></li>
+        <li><a href="/"><img src="/img/projecten/ralph.png" alt="Ralp @PlantSwap" /></a></li>
+        <li><a href="/"><img src="/img/projecten/roelie.png" alt="Roelie @IO" /></a></li>
+        <li><a href="/"><img src="/img/projecten/sanne.png" alt="Sanne @The Ocean Cleanup" /></a></li>
+        <li><a href="/"><img src="/img/projecten/stefan.png" alt="Stefan @Correspondent" /></a></li>
+        <li><a href="/"><img src="/img/projecten/thomas.png" alt="Thomas @UltiTV" /></a></li>
+        <li><a href="/"><img src="/img/projecten/tom.png" alt="Tom @Schiphol" /></a></li>
     </ul>
 </Block>

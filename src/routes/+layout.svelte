@@ -123,13 +123,14 @@
         margin-bottom: var(--component-padding);
     }
 
-	:global(ul.gallery) {
+	:global(.scroll) {
         display:flex;
         overflow-x: scroll;
         margin-bottom: 0;
-        gap:2rem
+        gap:2rem;
+		align-items:start
     }
-    :global(ul.gallery img) {
+    :global(ul.scroll img) {
         min-width:20rem;
         aspect-ratio: 2/1;
     }
