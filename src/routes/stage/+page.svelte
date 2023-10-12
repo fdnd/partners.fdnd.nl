@@ -6,7 +6,7 @@
     <Block class="blue-on-green gradient rounded title-outset-left" type="section">
         <h2>Stage</h2>
 
-        <p>Studenten kunnen in het 4e semester één of twee sprints (van ieder 10 weken) stage lopen. Tijdens de stage verzamelen studenten bewijslast voor de assessments tijdens het werken aan projecten bij het stagebedrijf.
+        <p>Studenten kunnen in het 4e een stage van 10 of 20 weken lopen. In de stageperiode verzamelen studenten bewijslast voor het assessment door het werken aan projecten bij het stagebedrijf.
         </p>
 
         <h3>Semester 4</h3>
