@@ -7,7 +7,7 @@
 	<Block class="blue-on-green gradient rounded title-outset-left" tag="section">
 		<h2>Samenwerken</h2>
 		<p>
-			FDND studenten werken aan grote <a href="/projecten">langlopende projecten</a> van twaalf sprints en aan kleine opdrachten van één sprint; de <a href="/mini-meesterproef">mini-meesterproef</a>. 
+			FDND studenten werken, voor echte opdrachtgevers, aan grote <a href="/projecten">langlopende projecten</a> van meerdere sprints en aan kleine opdrachten van één sprint; de <a href="/mini-meesterproef">mini-meesterproef</a>. 
 		</p>
 		<p>
 			De inzet is altijd een duurzame samenwerking. Projecten krijgen steeds meer betekenis door samen te kijken waar de mogelijkheden voor verdere iteraties liggen, bijvoorbeeld bij andere programma's binnen de HvA.
