@@ -64,7 +64,7 @@
         <h3>
             <a href="https://programma.fdnd.nl/workflow-tooling-frameworks">Semester 3: semester</a>
         </h3>
-        <p> In het derde semester leren de studenten werken met frameworks en wordt het project afgerond. De werken de studenten toe naar een robuste, schaalbare en overdraagbare website die opgebouwd is uit componenten.</p>
+        <p> In het derde semester leren de studenten werken met frameworks en wordt het project afgerond. De studenten werken toe naar een robuste, schaalbare en overdraagbare website die opgebouwd is uit componenten.</p>
 
         <p><a href="https://programma.fdnd.nl/">Bekijk hier het FDND programma</a></p>
     </Block>
@@ -83,9 +83,7 @@
 
         <p>Omdat we de voortgang van projecten op deze manieren bijhouden kunnen we heel gericht projecten laten aansluiten bij andere programma's van andere opleidingen bij de HvA, bijvoorbeeld bij de <a href="https://everythingweb.org/">Minor Web Design & Development</a> bij CMD Amsterdam.</p>
     </Block>
-</CollapsingColumns>
 
-<CollapsingColumns>
     <Block class="rounded green-on-blue title-outset-left" tag="section">
         <h2>Sprint reviews</h2>
         <p> Elke sprint presenteren de studenten hun werk in een sprint review. Tijdens de review wordt de backlog bekeken en waar nodig aangepast, zodat het duidelijk is waar de volgende sprint aan gewerkt kan worden.</p>
