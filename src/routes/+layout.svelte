@@ -49,6 +49,7 @@
 	}
 	:global(ul) {
 		list-style:none;
+		margin-left: 0 !important;
 	}
 	:global(nav ul) {
 		margin-left: 0.5rem;
