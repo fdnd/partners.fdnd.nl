@@ -21,7 +21,7 @@
                 <li><BulletIcon /><a href="/">Mijn Funda</a></li>
                 <li><BulletIcon /><a href="/">Toolgankelijkheid</a></li>
                 <li><BulletIcon /><a href="/">Platform Visual Thinking</a></li>
-                <li><BulletIcon /><a href="/">Cmmentary Tool UltiTV</a></li>
+                <li><BulletIcon /><a href="/">Commentary Tool UltiTV</a></li>
             </ul>
         </Block>
     
