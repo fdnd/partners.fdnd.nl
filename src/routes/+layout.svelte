@@ -39,6 +39,7 @@
 <style>
 	:global(:root) {
 		--component-padding:1rem !important;
+		scroll-behavior: smooth;
 	}
 	:global(a) {
 		color: currentColor;
@@ -57,6 +58,9 @@
 		font-weight: 200;
 		padding-left:1rem !important;
 		padding-right:1rem !important;
+	}
+	:global(h3) {
+		font-weight: normal;
 	}
 	:global(h2, h3, h4, p) {
 		margin-bottom: 1rem !important;
@@ -137,6 +141,10 @@
 	}
 	:global(img.rounded) {
 		border:none;
+	}
+	:global(.bleed) {
+		margin-bottom: 2rem;
+		max-width:50rem;
 	}
 	@media (min-width:40rem) {
 		:global(body) {

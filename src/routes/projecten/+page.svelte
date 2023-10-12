@@ -4,11 +4,13 @@
     export let data
 </script>
 
-<Block class="no-spacing" tag="section">
+<Block class="blue-on-green gradient rounded title-outset-left bleed" tag="section">
     <h2>Projecten</h2>
 
+    <p>Studenten werken, 4 sprints van elk semester, doorlopend aan projecten voor echte opdrachtgevers. In twee jaar ontwerpen en ontwikkelen studenten, aan de hand van agile methodes, een betekenisvol en bruikbaar eindproduct. <a href="#semesters-en-sprints">Lees hier meer over de semesters en sprints</a>.</p>
+
     <CollapsingColumns>
-        <Block tag="div" class="blue-on-green gradient-reverse rounded title-outset-left">
+        <Block tag="div" class="">
             <h3>2023 - 2024</h3>
 
             <ul>
@@ -23,7 +25,7 @@
             </ul>
         </Block>
     
-        <Block tag="div" class="blue-on-green gradient-reverse rounded title-outset-left">
+        <Block tag="div" class="">
             <h3>2022 - 2023</h3>
             <ul>
                 {#each data.projects as project}
@@ -43,11 +45,12 @@
 </Block>
 
 <CollapsingColumns>
-    <Block class="rounded green-on-blue" tag="section">
-        <h2>Semesters & Sprints</h2>
-        <p>Elk semester bestaat uit 6 sprints van ieder 3 weken. Tijdens de middelste 4 sprints van de eerste 3 semesters itereren studententeams aan de hand van een backlog op de projecten.</p>
+    <Block class="rounded blue-on-green title-outset-left" tag="section" >
+        <h2 id="semesters-en-sprints">Semesters & Sprints</h2>
+        <p>
+            In de semester en sprints zit een opbouw van toenemende complexiteit en afnemende sturing. Zo krijgen studenten steeds meer grip op hun eigen ontwikkeling en werken, aan de hand van een <a href="#backlog">Backlog</a> in toenemende mate zelfstandig aan de projecten.
+        </p>
 
-        <p>In totaal werken de studententeams dus 12 sprints van ieder 3 weken aan de projecten. Er zit een opbouw in de semesters in complexiteit van de te bouwen web applicatie.
         <h3>
             <a href="https://programma.fdnd.nl/static-web">Semester 1: Static Web</a>
         </h3>
@@ -66,8 +69,8 @@
         <p><a href="https://programma.fdnd.nl/">Bekijk hier het FDND programma</a></p>
     </Block>
 
-    <Block class="rounded green-on-blue" tag="section">
-        <h2>Backlog</h2>
+    <Block class="rounded green-on-blue title-outset-right" tag="section">
+        <h2 id="backlog">Backlog</h2>
         <p>De voortgang van het project wordt bijgehouden in een backlog. Voor elke sprints worden user stories en de hand van de user stories werken de studenten aan de projecten.</p>
         
         <figure>
@@ -83,7 +86,7 @@
 </CollapsingColumns>
 
 <CollapsingColumns>
-    <Block class="rounded blue-on-green" tag="section">
+    <Block class="rounded green-on-blue title-outset-left" tag="section">
         <h2>Sprint reviews</h2>
         <p> Elke sprint presenteren de studenten hun werk in een sprint review. Tijdens de review wordt de backlog bekeken en waar nodig aangepast, zodat het duidelijk is waar de volgende sprint aan gewerkt kan worden.</p>
     </Block>
