@@ -109,10 +109,10 @@
 	}
 	:global(.collapsing-columns) {
 		align-items: start;
-		margin-bottom: 2rem;
+		margin-bottom: 1rem;
 	}
 	:global(section figure) {
-        margin: 0 0 2rem
+        margin: 0 0 1rem
     }
 
 	:global(figcaption) {
@@ -143,7 +143,7 @@
 		border:none;
 	}
 	:global(.bleed) {
-		margin-bottom: 2rem;
+		margin-bottom: 1rem;
 		max-width:50rem;
 	}
 	@media (min-width:40rem) {
