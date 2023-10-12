@@ -101,5 +101,7 @@
 		gap:.5rem;
 		flex-wrap: wrap;
 	}
-
+	img {
+		float:right;
+	}
 </style>
