@@ -6,8 +6,7 @@
     <Block tag="section" class="blue-on-green gradient rounded title-outset-left">
         <h2>Talks</h2>
 
-        <p>Professionals uit het vakgebied geven tijdens een van onze We ❤️ Web-sessies een talk, aansluitend bij het thema van de sprint. Bijvoorbeeld Toegankelijkheid op het Web in <a href="">Sprint 3 All Human</a>. 
-        </p>
+        <p>Professionals uit het vakgebied geven talks over diverse onderwerpen, aansluitend bij het thema van de sprint. Bijvoorbeeld Toegankelijkheid op het Web in <a href="">Sprint 3 All Human</a>. Wij noemen dit de We ❤️ Web-sessies.</p>
 
         <a href="https://programma.fdnd.nl/">Bekijk hier het FDND programma</a>
     </Block>
