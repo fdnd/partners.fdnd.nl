@@ -56,12 +56,12 @@
 		margin-top: 0;
 	}
 	:global(h2) {
-		font-weight: 200;
+		font-weight: 200 !important;
 		padding-left:1rem !important;
 		padding-right:1rem !important;
 	}
 	:global(h3) {
-		font-weight: normal;
+		font-weight: normal !important;
 	}
 	:global(h2, h3, h4, p) {
 		margin-bottom: 1rem !important;
