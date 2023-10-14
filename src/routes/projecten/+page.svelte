@@ -4,7 +4,7 @@
     export let data
 </script>
 
-<Block class="blue-on-green gradient rounded title-outset-left bleed" tag="section">
+<Block class="blue-on-green rounded title-outset-left bleed" tag="section">
     <h2>Projecten</h2>
 
     <p>Studenten werken, 4 sprints van elk semester, doorlopend aan projecten voor echte opdrachtgevers. In twee jaar ontwerpen en ontwikkelen studenten, aan de hand van agile methodes, een betekenisvol en bruikbaar eindproduct. <a href="#semesters-en-sprints">Lees hier meer over de semesters en sprints</a>.</p>

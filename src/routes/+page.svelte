@@ -4,7 +4,7 @@
 </script>
 
 <CollapsingColumns>
-	<Block class="blue-on-green gradient rounded title-outset-left" tag="section">
+	<Block class="blue-on-green rounded title-outset-left" tag="section">
 		<h2>Samenwerken</h2>
 		<p>
 			FDND studenten werken, voor echte opdrachtgevers, aan grote <a href="/projecten">langlopende projecten</a> van meerdere sprints en aan kleine opdrachten van één sprint; de <a href="/mini-meesterproef">mini-meesterproef</a>. 

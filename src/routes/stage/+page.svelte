@@ -3,7 +3,7 @@
 </script>
 
 <CollapsingColumns>
-    <Block class="blue-on-green gradient rounded title-outset-left" type="section">
+    <Block class="blue-on-green rounded title-outset-left" type="section">
         <h2>Stage</h2>
 
         <p>Studenten kunnen in het 4e een stage van 10 of 20 weken lopen. In de stageperiode verzamelen studenten bewijslast voor het assessment door het werken aan projecten bij het stagebedrijf.

@@ -3,7 +3,7 @@
 </script>
 
 <CollapsingColumns>
-    <Block class="blue-on-green gradient rounded title-outset-left" tag="section">
+    <Block class="blue-on-green rounded title-outset-left" tag="section">
         <h2>Mini meesterproef</h2>
 
         <p>

@@ -7,7 +7,7 @@
 	export let students
 </script>
 
-<article class="rounded blue-on-purple">
+<article class="rounded gradient blue-on-purple">
 	<h3>
 		{title}
 		<small>sprint {sprint}</small>

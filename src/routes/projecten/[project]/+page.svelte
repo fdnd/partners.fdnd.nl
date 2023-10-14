@@ -13,7 +13,7 @@
 
 
 <CollapsingColumns>
-	<Block class="blue-on-green gradient rounded title-outset-left" tag="section">
+	<Block class="blue-on-green rounded title-outset-left" tag="section">
 			<h2>{data.project.title}</h2>
 			{#if data.project.visual.url}
 				<img src="{data.project.visual.url}" alt="{data.project.clients[0].title}" width="250">
@@ -71,7 +71,7 @@
 	</Block>
 </CollapsingColumns>
 
-<Block class="rounded purple-on-blue title-outset-left" tag="section">
+<Block class="rounded green-on-blue title-outset-left" tag="section">
 		<h2 id="work">Studentenwerk</h2>
 
 		<p><br><br></p><!-- Hack: fix in component library-->

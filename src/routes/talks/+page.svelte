@@ -3,7 +3,7 @@
 </script>
 
 <CollapsingColumns>
-    <Block tag="section" class="blue-on-green gradient rounded title-outset-left">
+    <Block tag="section" class="blue-on-green rounded title-outset-left">
         <h2>Talks</h2>
 
         <p>Professionals uit het vakgebied geven talks over diverse onderwerpen, aansluitend bij het thema's van de sprints. Bijvoorbeeld een talk over toegankelijkheid op het Web in <a href="">Sprint 3: All Human</a>. Wij noemen dit de <a href="https://weloveweb.fdnd.nl/">We ❤️ Web-sessies.</a></p>
