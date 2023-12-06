@@ -50,6 +50,9 @@
 		margin-left: 0.5rem;
 		margin-top: 0;
 	}
+	:global(body nav ul li a) {
+		border-radius: var(--pilled) !important;
+	}
 	:global(h2) {
 		font-weight: 200 !important;
 		padding-left:1rem !important;
