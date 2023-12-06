@@ -7,7 +7,7 @@
         <h2>Design challenge</h2>
 
         <p>
-            In sprint 6 en sprint 12 van een semester werken de studenten aan design challenge voor een agency. In drie weken ontwerpen en bouwen de studenten een proof of concept en presenteren dit bij de opdrachtgever. Het is voor studenten een eerste kennismaking met het werkveld en kans om een kijkje in de keuken van een agency te nemen.
+            In sprint 6 en sprint 12 van een semester werken de studenten aan een design challenge voor een agency. In drie weken ontwerpen en bouwen de studenten een proof of concept en presenteren dit bij de opdrachtgever. Het is voor studenten een eerste kennismaking met het werkveld en kans om een kijkje in de keuken van een agency te nemen.
         </p>
 
         <a href="design-challenge/sprint-6">Design challenge sprint 6: The Startup</a>
