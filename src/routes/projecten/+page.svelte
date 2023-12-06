@@ -69,7 +69,7 @@
         <p><a href="https://programma.fdnd.nl/">Bekijk hier het FDND programma</a></p>
     </Block>
 
-    <Block class="rounded green-on-blue title-outset-right" tag="section">
+    <Block class="rounded green-on-blue title-outset-left" tag="section">
         <h2 id="backlog">Backlog</h2>
         <p>De voortgang van het project wordt bijgehouden in een backlog. Voor elke sprints worden user stories en de hand van de user stories werken de studenten aan de projecten.</p>
         
@@ -86,7 +86,7 @@
 
     <Block class="rounded green-on-blue title-outset-left" tag="section">
         <h2>Sprint reviews</h2>
-        <p> Elke sprint presenteren de studenten hun werk in een sprint review. Tijdens de review wordt de backlog bekeken en waar nodig aangepast, zodat het duidelijk is waar de volgende sprint aan gewerkt kan worden.</p>
+        <p>Elke sprint presenteren de studenten hun werk in een sprint review. Tijdens de review wordt de backlog bekeken en waar nodig aangepast, zodat het duidelijk is waar de volgende sprint aan gewerkt kan worden.</p>
     </Block>
 
     <figure>

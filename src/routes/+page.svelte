@@ -17,7 +17,7 @@
 		</p>
 	</Block>
 
-	<Block class="rounded green-on-blue title-outset-right" tag="section">
+	<Block class="rounded green-on-blue title-outset-left" tag="section">
 		<h2>Projecten</h2>
 
 		<h3>2022 - 2023</h3>

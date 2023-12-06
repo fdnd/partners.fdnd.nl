@@ -23,7 +23,7 @@
 			</div>
 	</Block>
 
-	<Block class="rounded green-on-blue title-outset-right" tag="section">
+	<Block class="rounded green-on-blue title-outset-left" tag="section">
 		<h2>Teamleden</h2>
 
 		<h3>Opdrachtgever</h3> 

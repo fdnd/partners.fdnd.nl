@@ -15,6 +15,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fdnd/components": "^0.0.33"
+		"@fdnd/components": "^0.0.35"
 	}
 }

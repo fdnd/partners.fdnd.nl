@@ -3,12 +3,12 @@
 
 	const nav = {
 		Menu: {
-			Home: "/",
-			Projecten: "/projecten",
-			"Mini meesterproef": "/mini-meesterproef",
-			Stage: "/stage",
+			"Home": "/",
+			"Projecten": "/projecten",
+			"Design challenge": "/design-challenge",
+			"Stage": "/stage",
 			"Co-teaching": "/co-teaching",
-			Talks: "/talks",
+			"Talks": "/talks",
 		},
 	}
 </script>
@@ -39,17 +39,12 @@
 <style>
 	:global(:root) {
 		--component-padding:1rem !important;
-		scroll-behavior: smooth;
 	}
 	:global(a) {
 		color: currentColor;
 	}
 	:global(a.active) {
 		--highlight: var(--color-green) !important;
-	}
-	:global(ul) {
-		list-style:none;
-		margin-left: 0 !important;
 	}
 	:global(nav ul) {
 		margin-left: 0.5rem;
@@ -60,15 +55,14 @@
 		padding-left:1rem !important;
 		padding-right:1rem !important;
 	}
+
 	:global(h3) {
 		font-weight: normal !important;
 	}
 	:global(h2, h3, h4, p) {
 		margin-bottom: 1rem !important;
 	}
-	:global(.wrapper) {
-		margin: 2rem 0;
-	}
+	
 	:global(header) {
 		max-width: 45rem;
 		padding: 0 1rem;
@@ -79,9 +73,6 @@
 		translate:-23px -1rem;
 		fill: var(--color-green) !important;
 		height: auto !important;
-		position:absolute;
-		right:-1rem;
-		top:-3rem;
 	}
 	:global(.logo-background) {
 		fill: var(--color-green) !important;
@@ -97,10 +88,6 @@
 	}
 	:global(h1 abbr) {
 		display: none;
-	}
-	:global(main ul) {
-		padding:0;
-		margin:0 0 1rem;
 	}
 	:global(main ul li) {
 		display:flex;
@@ -147,16 +134,5 @@
 	:global(.bleed) {
 		margin-bottom: 1rem;
 		max-width:50rem;
-	}
-	@media (min-width:40rem) {
-		:global(body) {
-			/padding:2rem;
-		}
-		:global(header) {
-			/padding:0 2rem
-		}
-		:global(.payoff) {
-			/translate:-1rem -1rem;
-		}
 	}
 </style>
