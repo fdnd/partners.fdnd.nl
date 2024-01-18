@@ -52,7 +52,6 @@
 
                 <a href="https://programma.fdnd.nl/static-web/the-startup">Lees meer over het programma van sprint 6</a>  
             </Block>
-<<<<<<< HEAD
 
             <Block tag="section">
                 <h3>Studentenwerk</h3>
@@ -70,8 +69,6 @@
             </Block>
 
             <!-- Opdrachtgevers -->
-=======
->>>>>>> parent of 21cd02f (added studentwork for sprint 6 design challenge)
         </div>
     </Block>
 
@@ -87,7 +84,6 @@
     time {
         font-weight: bold;
     }
-<<<<<<< HEAD
 
     ul.scroll li {
         list-style:none;
@@ -102,8 +98,6 @@
         aspect-ratio: 3 / 2;
     }
     
-=======
->>>>>>> parent of 21cd02f (added studentwork for sprint 6 design challenge)
     li {
         display:list-item;
         margin-left:2rem;
