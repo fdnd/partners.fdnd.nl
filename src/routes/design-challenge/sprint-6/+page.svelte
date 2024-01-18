@@ -58,21 +58,17 @@
                 <ul class="scroll">
                     <li><a href="https://sannevanseeventer.github.io/The-Startup-SPATwater/"><img src="/img/design-challenges/spatwater.png" alt="Spatwater"></a></li>
                     <li><a href="https://stefan-espant.github.io/funda-detail-page/"><img src="/img/design-challenges/funda.png" alt="Funda"></a></li>
+                    <li><a href="https://ralphkocken.github.io/DeVoorhoedeLustrumPagina/"><img src="/img/design-challenges/voorhoede.png" alt="De Voorhoede"></a></li>
                     <li><a href="https://knetters.github.io/ThisWebsiteIsNotResponsive/"><img src="/img/design-challenges/digital-natives.png" alt="Digital Natives"></a></li>
-                    <!-- <li><a href="https://tolga1999.github.io/Lifely-getting-started-with-AI/"><img src="" alt="Lifely"></a></li>
-                    <li><a href="https://rosahoffer.github.io/avocado-media-vacature-detailpagina/"><img src="" alt="Avocado Media"></a></li>
-                    <li><a href="https://ralphkocken.github.io/DeVoorhoedeLustrumPagina/"><img src="" alt="De Voorhoede"></a></li> -->
+                    <li><a href="https://tolga1999.github.io/Lifely-getting-started-with-AI/"><img src="/img/design-challenges/lifely.png" alt="Lifely"></a></li>
+                    <li><a href="https://rosahoffer.github.io/avocado-media-vacature-detailpagina/"><img src="/img/design-challenges/avacado-media.png" alt="Avocado Media"></a></li>
+                    
                     
                 </ul> 
-                
-                
-                
-                
-                 
-                
-            
             
             </Block>
+
+            <!-- Opdrachtgevers -->
         </div>
     </Block>
 
@@ -92,13 +88,14 @@
     ul.scroll li {
         list-style:none;
         margin-left: -1rem;
+        
     }
 
     ul.scroll li a::after {
         display: none;
     }
     ul.scroll li img {
-        aspect-ratio: 3 / 2
+        aspect-ratio: 3 / 2;
     }
     
     li {
