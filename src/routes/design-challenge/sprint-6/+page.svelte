@@ -1,5 +1,5 @@
 <script>
-    import { Block } from '@fdnd/components'
+    import { Block, CollapsingColumns } from '@fdnd/components'
 </script>
 
     <Block tag="section">
@@ -8,7 +8,7 @@
                 <h2>Design Challenge sprint 6: The Startup</h2>
                 <p>Startdatum: <time>08-01-2024</time></p>
                 
-                <p>Eerstejaars studenten Frontend Design & Development (<a href="https://programma.fdnd.nl/">FDND</a>) gaan een bedrijf helpen met een responsive website of online concept.</p>
+                <p>Eerstejaars studenten Frontend Design & Development (<a href="https://programma.fdnd.nl/">FDND</a>) gaan individueel of met een team een bedrijf helpen met een responsive website of online concept.</p>
                 
                 <p>In het eerste semester van de opleiding FDND hebben studenten veel geleerd over layout, responsive design, toegankelijkheid, interactie en het werken met een huisstijl. Alle studenten kunnen HTML, CSS en (een beetje) JavaScript.</p>
                 <p>Studenten gaan alles wat ze hebben geleerd toepassen om een opdracht voor een opdrachtgever te maken.</p>
@@ -52,6 +52,7 @@
 
                 <a href="https://programma.fdnd.nl/static-web/the-startup">Lees meer over het programma van sprint 6</a>  
             </Block>
+<<<<<<< HEAD
 
             <Block tag="section">
                 <h3>Studentenwerk</h3>
@@ -69,6 +70,8 @@
             </Block>
 
             <!-- Opdrachtgevers -->
+=======
+>>>>>>> parent of 21cd02f (added studentwork for sprint 6 design challenge)
         </div>
     </Block>
 
@@ -84,6 +87,7 @@
     time {
         font-weight: bold;
     }
+<<<<<<< HEAD
 
     ul.scroll li {
         list-style:none;
@@ -98,9 +102,10 @@
         aspect-ratio: 3 / 2;
     }
     
+=======
+>>>>>>> parent of 21cd02f (added studentwork for sprint 6 design challenge)
     li {
         display:list-item;
         margin-left:2rem;
     }
-
 </style>
