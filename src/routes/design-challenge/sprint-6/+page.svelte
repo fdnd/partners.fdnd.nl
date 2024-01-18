@@ -1,5 +1,5 @@
 <script>
-    import { Block, CollapsingColumns } from '@fdnd/components'
+    import { Block } from '@fdnd/components'
 </script>
 
     <Block tag="section">
@@ -8,7 +8,7 @@
                 <h2>Design Challenge sprint 6: The Startup</h2>
                 <p>Startdatum: <time>08-01-2024</time></p>
                 
-                <p>Eerstejaars studenten Frontend Design & Development (<a href="https://programma.fdnd.nl/">FDND</a>) gaan individueel of met een team een bedrijf helpen met een responsive website of online concept.</p>
+                <p>Eerstejaars studenten Frontend Design & Development (<a href="https://programma.fdnd.nl/">FDND</a>) gaan een bedrijf helpen met een responsive website of online concept.</p>
                 
                 <p>In het eerste semester van de opleiding FDND hebben studenten veel geleerd over layout, responsive design, toegankelijkheid, interactie en het werken met een huisstijl. Alle studenten kunnen HTML, CSS en (een beetje) JavaScript.</p>
                 <p>Studenten gaan alles wat ze hebben geleerd toepassen om een opdracht voor een opdrachtgever te maken.</p>
@@ -52,6 +52,27 @@
 
                 <a href="https://programma.fdnd.nl/static-web/the-startup">Lees meer over het programma van sprint 6</a>  
             </Block>
+
+            <Block tag="section">
+                <h3>Studentenwerk</h3>
+                <ul class="scroll">
+                    <li><a href="https://sannevanseeventer.github.io/The-Startup-SPATwater/"><img src="/img/design-challenges/spatwater.png" alt="Spatwater"></a></li>
+                    <li><a href="https://stefan-espant.github.io/funda-detail-page/"><img src="/img/design-challenges/funda.png" alt="Funda"></a></li>
+                    <li><a href="https://knetters.github.io/ThisWebsiteIsNotResponsive/"><img src="/img/design-challenges/digital-natives.png" alt="Digital Natives"></a></li>
+                    <!-- <li><a href="https://tolga1999.github.io/Lifely-getting-started-with-AI/"><img src="" alt="Lifely"></a></li>
+                    <li><a href="https://rosahoffer.github.io/avocado-media-vacature-detailpagina/"><img src="" alt="Avocado Media"></a></li>
+                    <li><a href="https://ralphkocken.github.io/DeVoorhoedeLustrumPagina/"><img src="" alt="De Voorhoede"></a></li> -->
+                    
+                </ul> 
+                
+                
+                
+                
+                 
+                
+            
+            
+            </Block>
         </div>
     </Block>
 
@@ -67,8 +88,22 @@
     time {
         font-weight: bold;
     }
+
+    ul.scroll li {
+        list-style:none;
+        margin-left: -1rem;
+    }
+
+    ul.scroll li a::after {
+        display: none;
+    }
+    ul.scroll li img {
+        aspect-ratio: 3 / 2
+    }
+    
     li {
         display:list-item;
         margin-left:2rem;
     }
+
 </style>
