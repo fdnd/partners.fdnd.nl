@@ -185,4 +185,9 @@
     article a:hover {
         text-decoration: none;
     }
+    @media (min-width: 80rem) {
+        img {
+            border-radius: 0 var(--pilled) var(--pilled) 0
+        }
+    }
 </style>
