@@ -69,7 +69,7 @@
 
     <article>
         <a href="/">
-            <h3>The Ocean Cleanup - Dashboard</h3>
+            <h3>The Ocean Cleanup</h3>
             <img src="/img/projecten/release-candidates/the-ocean-cleanup.png" alt="">
             <p></p>
         </a>
@@ -77,7 +77,7 @@
 
     <article>
         <a href="/">
-            <h3>INK Where the real legends begin</h3>
+            <h3>Where the real legends begin</h3>
             <img src="/img/projecten/release-candidates/ink.png" alt="">
             <p></p>
         </a>
@@ -93,7 +93,7 @@
 
     <article>
         <a href="/">
-            <h3>Vervoerregio Amsterdam Toolgankelijkheid</h3>
+            <h3>Toolgankelijkheid</h3>
             <img src="/img/projecten/release-candidates/toolgankelijkheid.png" alt="">
             <p></p>
         </a>
@@ -101,7 +101,7 @@
 
     <article>
         <a href="/">
-            <h3>Visual Thinking Platform</h3>
+            <h3>Visual Thinking</h3>
             <img src="/img/projecten/release-candidates/visual-thinking.png" alt="">
             <p></p>
         </a>
@@ -117,7 +117,7 @@
 
     <article>
         <a href="/">
-            <h3>Platform Grote Thema's</h3>
+            <h3>Grote Thema's</h3>
             <img src="/img/projecten/release-candidates/platform-grote-themas.png" alt="">
             <p></p>
         </a>
@@ -140,7 +140,7 @@
 
     <article>
         <a href="/">
-            <h3>Mijn OBA redesign</h3>
+            <h3>Mijn OBA</h3>
             <img src="/img/projecten/release-candidates/mijn-oba.png" alt="">
             <p></p>
         </a>
@@ -163,6 +163,8 @@
         background-color: var(--color-green);
         color:var(--color-blue);
         border-radius:var(--rounded) var(--rounded) 0 0;
+        font-size: 1rem;
+        font-weight: bold;
     }
     article   {
         padding:0;
@@ -179,7 +181,8 @@
     }
 
     article img {
-        border-top:.5rem solid var(--color-green)
+        border-top:.5rem solid rgba(103, 229, 191, .7);
+        margin-top: -0.5rem;
     }
 
     @media (min-width:40em) {
