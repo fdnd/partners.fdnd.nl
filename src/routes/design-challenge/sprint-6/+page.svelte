@@ -53,7 +53,7 @@
                 <a href="https://programma.fdnd.nl/static-web/the-startup">Lees meer over het programma van sprint 6</a>  
             </Block>
 
-            <Block tag="section" id="studentenwerk">
+            <Block tag="section">
                 <h3>Studentenwerk</h3>
                 <ul class="scroll">
                     <li><a href="https://sannevanseeventer.github.io/The-Startup-SPATwater/"><img src="/img/design-challenges/spatwater.png" alt="Spatwater"></a></li>
@@ -96,12 +96,10 @@
     }
     ul.scroll li img {
         aspect-ratio: 3 / 2;
-        
     }
     
     li {
         display:list-item;
         margin-left:2rem;
-        
     }
 </style>
