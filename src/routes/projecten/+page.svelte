@@ -69,17 +69,12 @@
         <p><a href="https://programma.fdnd.nl/">Bekijk hier het FDND programma</a></p>
     </Block>
 
+
+
     <Block class="rounded green-on-blue title-outset-left" tag="section">
         <h2 id="backlog">Backlog</h2>
         <p>De voortgang van het project wordt bijgehouden in een backlog. Voor elke sprints worden user stories en de hand van de user stories werken de studenten aan de projecten.</p>
-        
-        <figure>
-            <img
-                src="/img/backlog.png"
-                alt="Voorbeeld van een backlog bij FDND"
-            />
-            <figcaption>Backlog met user stories en taken</figcaption>
-        </figure>
+
 
         <p>Omdat we de voortgang van projecten op deze manieren bijhouden kunnen we heel gericht projecten laten aansluiten bij andere programma's van andere opleidingen bij de HvA, bijvoorbeeld bij de <a href="https://everythingweb.org/">Minor Web Design & Development</a> bij CMD Amsterdam.</p>
     </Block>
@@ -89,17 +84,13 @@
         <p>Elke sprint presenteren de studenten hun werk in een sprint review. Tijdens de review wordt de backlog bekeken en waar nodig aangepast, zodat het duidelijk is waar de volgende sprint aan gewerkt kan worden.</p>
     </Block>
 
-    <figure>
-        <img src="/img/review-sprint-12.jpeg" alt="Studenten presenteren het werk bij de opdrachtgever en krijgen feedback." class="rounded"/>
-    </figure>
+
 </CollapsingColumns>
 
-<Block class="rounded purple-on-blue title-outset-left" tag="section">
+<Block tag="section">
     <h2 id="studentenwerk">Studentenwerk</h2>
 
-    <p><br><br></p><!-- Hack: fix in component library-->
-
-    <ul class="scroll">
+    <!-- <ul class="scroll">
         <li><a href="/"><img src="/img/projecten/arexan.png" alt="Arexan @Simplicate" /></a></li>
         <li><a href="/"><img src="/img/projecten/demi.png" alt="Demi @The Ocean Cleanup" /></a></li>
         <li><a href="/"><img src="/img/projecten/ivar.png" alt="Ivar @Correspondent" /></a></li>
@@ -112,5 +103,111 @@
         <li><a href="/"><img src="/img/projecten/stefan.png" alt="Stefan @Correspondent" /></a></li>
         <li><a href="/"><img src="/img/projecten/thomas.png" alt="Thomas @UltiTV" /></a></li>
         <li><a href="/"><img src="/img/projecten/tom.png" alt="Tom @Schiphol" /></a></li>
-    </ul>
+    </ul> -->
+
+    <article>
+        <a href="/">
+            <h3>The Ocean Cleanup - Dashboard</h3>
+            <img src="/img/projecten/release-candidates/the-ocean-cleanup.png" alt="">
+            <p></p>
+        </a>
+    </article>
+
+    <article>
+        <a href="/">
+            <h3>INK Where the real legends begin</h3>
+            <img src="/img/projecten/release-candidates/ink.png" alt="">
+            <p></p>
+        </a>
+    </article>
+
+    <article>
+        <a href="/">
+            <h3>SPATwater</h3>
+            <img src="/img/projecten/release-candidates/spatwater.png" alt="">
+            <p></p>
+        </a>
+    </article>
+
+    <article>
+        <a href="/">
+            <h3>Vervoerregio Amsterdam Toolgankelijkheid</h3>
+            <img src="/img/projecten/release-candidates/toolgankelijkheid.png" alt="">
+            <p></p>
+        </a>
+    </article>
+
+    <article>
+        <a href="/">
+            <h3>Visual Thinking Platform</h3>
+            <img src="/img/projecten/release-candidates/visual-thinking.png" alt="">
+            <p></p>
+        </a>
+    </article>
+    
+    <article>
+        <a href="/">
+            <h3>PlantSwap</h3>
+            <img src="/img/projecten/release-candidates/plantswap.png" alt="">
+            <p></p>
+        </a>
+    </article>
+
+    <article>
+        <a href="/">
+            <h3>Platform Grote Thema's</h3>
+            <img src="/img/projecten/release-candidates/platform-grote-themas.png" alt="">
+            <p></p>
+        </a>
+    </article>
+    <article>
+        <a href="/">
+            <h3>UltiTV</h3>
+            <img src="/img/projecten/release-candidates/ulti-tv.png" alt="">
+            <p></p>
+        </a>
+    </article>
+    
+    <article>
+        <a href="/">
+            <h3>Hallo Strandeiland</h3>
+            <img src="/img/projecten/release-candidates/hallo-strandeiland.png" alt="">
+            <p></p>
+        </a>
+    </article>
+
+    <article>
+        <a href="/">
+            <h3>Mijn OBA redesign</h3>
+            <img src="/img/projecten/release-candidates/mijn-oba.png" alt="">
+            <p></p>
+        </a>
+    </article>
 </Block>
+
+<style>
+    #studentenwerk {
+        margin:2rem -1rem;
+    }
+
+    #studentenwerk ~ article h3 {
+        padding: 1rem;
+        margin-left: 2rem;
+        margin-bottom: 0 !important;
+        background-color: var(--color-green);
+        color:var(--color-blue)
+    }
+    article   {
+        padding:2rem 0 4rem;
+        margin:0 -3rem
+    }
+    article a {
+        display:flex;
+        flex-direction: column;
+        align-items:flex-start;
+        text-decoration: none;
+    }
+    article a:hover {
+        text-decoration: none;
+    }
+</style>
