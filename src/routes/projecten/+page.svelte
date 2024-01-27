@@ -151,6 +151,7 @@
 <style>
     :global(.collapsing-columns) {
         margin-top: 2rem;
+        gap:2rem !important;
     }
     
     #studentenwerk {
@@ -186,7 +187,7 @@
         margin-top: -0.5rem;
     }
 
-    @media (min-width:40em) {
+    @media (min-width:50em) {
         :global(.collapsing-columns section:first-of-type) {
             grid-row-end: span 3;
             gap:2rem;
@@ -197,14 +198,14 @@
         }
 
         article img {
-            max-width: 85%;
+            max-width: 95vw;
             border-radius: 0 var(--pilled) var(--pilled) 0
         }
     }
 
     @media (min-width: 80em) {
         article img {
-            max-width: 75%;
+            max-width: 85vw;
         }
     }
 </style>
