@@ -9,7 +9,7 @@
 
     <p>Studenten werken, 4 sprints van elk semester, doorlopend aan projecten voor echte opdrachtgevers. In twee jaar ontwerpen en ontwikkelen studenten, aan de hand van agile methodes, een betekenisvol en bruikbaar eindproduct. <a href="#semesters-en-sprints">Lees hier meer over de semesters en sprints</a>.</p>
 
-    <CollapsingColumns>
+    <!-- <CollapsingColumns>
         <Block tag="div" class="">
             <h3>2023 - 2024</h3>
 
@@ -41,7 +41,7 @@
                 {/each}
             </ul>
         </Block>
-    </CollapsingColumns>    
+    </CollapsingColumns>     -->
 </Block>
 
 <CollapsingColumns>
