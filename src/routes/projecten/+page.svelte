@@ -149,17 +149,9 @@
 
 <style>
     :global(.collapsing-columns) {
-        --component-padding:2rem;
         margin-top: 2rem;
     }
-    :global(.collapsing-columns section:first-of-type) {
-        grid-row-end: span 3;
-
-    }
-    :global(.collapsing-columns section:last-of-type) {
-        grid-row-start: span 1;
-        grid-column: 2 / 3
-    }
+    
     #studentenwerk {
         margin:1rem -1rem;
     }
@@ -174,7 +166,7 @@
     }
     article   {
         padding:0;
-        margin:0 -2rem
+        margin:0 -2rem;
     }
     article a {
         display:flex;
@@ -185,7 +177,23 @@
     article a:hover {
         text-decoration: none;
     }
-    @media (min-width: 80rem) {
+
+    article img {
+        border-top:.5rem solid var(--color-green)
+    }
+
+    @media (min-width:40em) {
+        :global(.collapsing-columns section:first-of-type) {
+            grid-row-end: span 3;
+
+        }
+        :global(.collapsing-columns section:last-of-type) {
+            grid-row-start: span 1;
+            grid-column: 2 / 3
+        }
+    }
+
+    @media (min-width: 80em) {
         img {
             border-radius: 0 var(--pilled) var(--pilled) 0
         }
