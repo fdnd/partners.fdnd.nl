@@ -9,43 +9,10 @@
 
     <p>Studenten werken, 4 sprints van elk semester, doorlopend aan projecten voor echte opdrachtgevers. In twee jaar ontwerpen en ontwikkelen studenten, aan de hand van agile methodes, een betekenisvol en bruikbaar eindproduct. <a href="#semesters-en-sprints">Lees hier meer over de semesters en sprints</a>.</p>
 
-    <!-- <CollapsingColumns>
-        <Block tag="div" class="">
-            <h3>2023 - 2024</h3>
-
-            <ul>
-                <li><BulletIcon /><a href="/">Dashboard The Ocean Cleanup</a></li>
-                <li><BulletIcon /><a href="/">Buurtplatform De Hallen</a></li>
-                <li><BulletIcon /><a href="/">Hallo Strandeiland</a></li>
-                <li><BulletIcon /><a href="/">SPATwater.nl</a></li>
-                <li><BulletIcon /><a href="/">Mijn Funda</a></li>
-                <li><BulletIcon /><a href="/">Toolgankelijkheid</a></li>
-                <li><BulletIcon /><a href="/">Platform Visual Thinking</a></li>
-                <li><BulletIcon /><a href="/">Commentary Tool UltiTV</a></li>
-            </ul>
-        </Block>
-    
-        <Block tag="div" class="">
-            <h3>2022 - 2023</h3>
-            <ul>
-                {#each data.projects as project}
-                    <li>
-                        <BulletIcon />
-                        <a
-                            href="projecten/{project.slug}"
-                            data-sveltekit-preload-data
-                        >
-                            {project.title}
-                        </a>
-                    </li>
-                {/each}
-            </ul>
-        </Block>
-    </CollapsingColumns>     -->
 </Block>
 
 <CollapsingColumns>
-    <Block class="rounded blue-on-green title-outset-left" tag="section" >
+    <Block class="rounded green-on-blue title-outset-left" tag="section" >
         <h2 id="semesters-en-sprints">Semesters & Sprints</h2>
         <p>
             In de semester en sprints zit een opbouw van toenemende complexiteit en afnemende sturing. Zo krijgen studenten steeds meer grip op hun eigen ontwikkeling en werken, aan de hand van een <a href="#backlog">Backlog</a> in toenemende mate zelfstandig aan de projecten.
@@ -69,12 +36,9 @@
         <p><a href="https://programma.fdnd.nl/">Bekijk hier het FDND programma</a></p>
     </Block>
 
-
-
     <Block class="rounded green-on-blue title-outset-left" tag="section">
         <h2 id="backlog">Backlog</h2>
         <p>De voortgang van het project wordt bijgehouden in een backlog. Voor elke sprints worden user stories en de hand van de user stories werken de studenten aan de projecten.</p>
-
 
         <p>Omdat we de voortgang van projecten op deze manieren bijhouden kunnen we heel gericht projecten laten aansluiten bij andere programma's van andere opleidingen bij de HvA, bijvoorbeeld bij de <a href="https://everythingweb.org/">Minor Web Design & Development</a> bij CMD Amsterdam.</p>
     </Block>
@@ -83,8 +47,6 @@
         <h2>Sprint reviews</h2>
         <p>Elke sprint presenteren de studenten hun werk in een sprint review. Tijdens de review wordt de backlog bekeken en waar nodig aangepast, zodat het duidelijk is waar de volgende sprint aan gewerkt kan worden.</p>
     </Block>
-
-
 </CollapsingColumns>
 
 <Block tag="section">
@@ -186,19 +148,32 @@
 </Block>
 
 <style>
+    :global(.collapsing-columns) {
+        --component-padding:2rem;
+        margin-top: 2rem;
+    }
+    :global(.collapsing-columns section:first-of-type) {
+        grid-row-end: span 3;
+
+    }
+    :global(.collapsing-columns section:last-of-type) {
+        grid-row-start: span 1;
+        grid-column: 2 / 3
+    }
     #studentenwerk {
-        margin:2rem -1rem;
+        margin:1rem -1rem;
     }
 
     #studentenwerk ~ article h3 {
         padding: 1rem;
-        margin-left: 2rem;
+        margin-left: 1rem;
         margin-bottom: 0 !important;
         background-color: var(--color-green);
-        color:var(--color-blue)
+        color:var(--color-blue);
+        border-radius:var(--rounded) var(--rounded) 0 0;
     }
     article   {
-        padding:2rem 0 4rem;
+        padding:0;
         margin:0 -2rem
     }
     article a {
