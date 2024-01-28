@@ -19,21 +19,21 @@
         </p>
 
         <h3>
-            <a href="https://programma.fdnd.nl/static-web">Semester 1: Static Web</a>
+            Semester 1: Static Web
         </h3>
-        <p>In het  eerste semester ontwerpen en bouwen de studenten statische websites. Hier worden de fundamenten voor het project gelegd met focus op het implementeren van de huisstijl, Toegankelijkheid en de flow van de website.</p>
+        <p>In het  eerste semester ontwerpen en bouwen de studenten statische websites. Hier worden de fundamenten voor het project gelegd met focus op het implementeren van de huisstijl, Toegankelijkheid en de flow van de website. <a href="https://programma.fdnd.nl/static-web">Semester 1: Static Web</a></p>
         
         <h3>
-            <a href="https://programma.fdnd.nl/data-driven-web">Semester 2: Data-Driven Web</a>
+            Semester 2: Data-Driven Web
         </h3>
-        <p>In het tweede semester werken de studenten verder aan het project, alleen nu op basis van dynamische data. De studenten leren hoe ze op de server data kunnen ophalen uit een API en dit vervolgens te renderen naar HTML.</p>
+        <p>In het tweede semester werken de studenten verder aan het project, alleen nu op basis van dynamische data. De studenten leren hoe ze op de server data kunnen ophalen uit een API en dit vervolgens te renderen naar HTML. <a href="https://programma.fdnd.nl/data-driven-web">Semester 2: Data-Driven Web</a></p>
         
         <h3>
-            <a href="https://programma.fdnd.nl/workflow-tooling-frameworks">Semester 3: semester</a>
+            Semester 3: semester
         </h3>
-        <p> In het derde semester leren de studenten werken met frameworks en wordt het project afgerond. De studenten werken toe naar een robuste, schaalbare en overdraagbare website die opgebouwd is uit componenten.</p>
+        <p> In het derde semester leren de studenten werken met frameworks en wordt het project afgerond. De studenten werken toe naar een robuste, schaalbare en overdraagbare website die opgebouwd is uit componenten. <a href="https://programma.fdnd.nl/workflow-tooling-frameworks">Semester 3: semester</a></p>
 
-        <p><a href="https://programma.fdnd.nl/">Bekijk hier het FDND programma</a></p>
+        <a href="https://programma.fdnd.nl/">Bekijk hier het FDND programma</a>
     </Block>
 
     <Block class="rounded green-on-blue title-outset-left" tag="section">
@@ -52,21 +52,6 @@
 
 <Block tag="section">
     <h2 id="studentenwerk">Studentenwerk</h2>
-
-    <!-- <ul class="scroll">
-        <li><a href="/"><img src="/img/projecten/arexan.png" alt="Arexan @Simplicate" /></a></li>
-        <li><a href="/"><img src="/img/projecten/demi.png" alt="Demi @The Ocean Cleanup" /></a></li>
-        <li><a href="/"><img src="/img/projecten/ivar.png" alt="Ivar @Correspondent" /></a></li>
-        <li><a href="/"><img src="/img/projecten/jalal.png" alt="Jalal @TheOcean Cleanup"/></a></li>
-        <li><a href="/"><img src="/img/projecten/luuk.png" alt="Luuk @Vervoerregio" /></a></li>
-        <li><a href="/"><img src="/img/projecten/milan.png" alt="Milan @INK" /></a></li>
-        <li><a href="/"><img src="/img/projecten/ralph.png" alt="Ralp @PlantSwap" /></a></li>
-        <li><a href="/"><img src="/img/projecten/roelie.png" alt="Roelie @IO" /></a></li>
-        <li><a href="/"><img src="/img/projecten/sanne.png" alt="Sanne @The Ocean Cleanup" /></a></li>
-        <li><a href="/"><img src="/img/projecten/stefan.png" alt="Stefan @Correspondent" /></a></li>
-        <li><a href="/"><img src="/img/projecten/thomas.png" alt="Thomas @UltiTV" /></a></li>
-        <li><a href="/"><img src="/img/projecten/tom.png" alt="Tom @Schiphol" /></a></li>
-    </ul> -->
 
     <article>
         <a href="/">
@@ -152,6 +137,14 @@
     :global(.collapsing-columns) {
         margin-top: 2rem;
         gap:2rem !important;
+    }
+    :global(.collapsing-columns section:first-of-type h3) {
+        margin-top:3rem;
+    }
+    :global(.collapsing-columns section:first-of-type a) {
+        display:block;
+        margin-top: 1rem;
+        font-size: .9em;
     }
     
     #studentenwerk {
