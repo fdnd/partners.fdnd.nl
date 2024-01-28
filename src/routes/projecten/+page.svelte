@@ -31,9 +31,9 @@
         <h3>
             Semester 3: semester
         </h3>
-        <p> In het derde semester leren de studenten werken met frameworks en wordt het project afgerond. De studenten werken toe naar een robuste, schaalbare en overdraagbare website die opgebouwd is uit componenten. <a href="https://programma.fdnd.nl/workflow-tooling-frameworks">Semester 3: semester</a></p>
+        <p> In het derde semester leren de studenten werken met frameworks en wordt het project afgerond. De studenten werken toe naar een robuste, schaalbare en overdraagbare website die opgebouwd is uit componenten. <a href="https://programma.fdnd.nl/workflow-tooling-frameworks">Semester 3: Workflow, Tooling & Frameworks</a></p>
 
-        <a href="https://programma.fdnd.nl/">Bekijk hier het FDND programma</a>
+        <a href="https://programma.fdnd.nl/" class="program rounded blue-on-green">Bekijk hier het hele FDND programma</a>
     </Block>
 
     <Block class="rounded green-on-blue title-outset-left" tag="section">
@@ -180,6 +180,15 @@
         margin-top: -0.5rem;
     }
 
+    a.program {
+        padding:.5rem;
+        text-decoration:none;
+        margin-top: 2rem;
+    }
+    a.program:hover {
+        background-color: var(--color-purple);
+        
+    }
     @media (min-width:50em) {
         :global(.collapsing-columns section:first-of-type) {
             grid-row-end: span 3;
