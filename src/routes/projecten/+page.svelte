@@ -33,7 +33,7 @@
         </h3>
         <p> In het derde semester leren de studenten werken met frameworks en wordt het project afgerond. De studenten werken toe naar een robuste, schaalbare en overdraagbare website die opgebouwd is uit componenten. <a href="https://programma.fdnd.nl/workflow-tooling-frameworks">Semester 3: Workflow, Tooling & Frameworks</a></p>
 
-        <a href="https://programma.fdnd.nl/" class="program rounded blue-on-green">Bekijk hier het hele FDND programma</a>
+        <a href="https://programma.fdnd.nl/" class="program rounded blue-on-green">Bekijk hier het FDND programma</a>
     </Block>
 
     <Block class="rounded green-on-blue title-outset-left" tag="section">
