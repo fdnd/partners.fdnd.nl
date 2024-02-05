@@ -1,7 +1,5 @@
 <script>
     import { Block, CollapsingColumns } from "@fdnd/components"
-    import BulletIcon from "$lib/components/icons/bullet.svelte"
-    export let data
 </script>
 
 <Block class="blue-on-green rounded title-outset-left bleed" tag="section">
@@ -50,88 +48,93 @@
     </Block>
 </CollapsingColumns>
 
-<Block tag="section">
-    <h2 id="studentenwerk">Studentenwerk</h2>
+<section id="studentenwerk">
+    <h2>Studentenwerk</h2>
 
-    <article>
-        <a href="/">
-            <h3>The Ocean Cleanup</h3>
-            <img src="/img/projecten/release-candidates/the-ocean-cleanup.png" alt="">
-            <p></p>
-        </a>
-    </article>
-
-    <article>
-        <a href="/">
-            <h3>Where the real legends begin</h3>
-            <img src="/img/projecten/release-candidates/ink.png" alt="">
-            <p></p>
-        </a>
-    </article>
-
-    <article>
-        <a href="/">
-            <h3>SPATwater</h3>
-            <img src="/img/projecten/release-candidates/spatwater.png" alt="">
-            <p></p>
-        </a>
-    </article>
-
-    <article>
-        <a href="/">
-            <h3>Toolgankelijkheid</h3>
-            <img src="/img/projecten/release-candidates/toolgankelijkheid.png" alt="">
-            <p></p>
-        </a>
-    </article>
-
-    <article>
-        <a href="/">
-            <h3>Visual Thinking</h3>
-            <img src="/img/projecten/release-candidates/visual-thinking.png" alt="">
-            <p></p>
-        </a>
-    </article>
+    <div>
+        <article>
+            <a href="lets-jam-webapplicatie-rouge.vercel.app/">
+                <h3>The Ocean Cleanup</h3>
+                <img src="/img/projecten/release-candidates/the-ocean-cleanup.png" alt="">
+                <p>Een dashboard van The Ocean Cleanup met informatie over de verschillende Interceptors en de hoeveelheid opgeruimd plastic.
+                </p>
+            </a>
+        </article>
     
-    <article>
-        <a href="/">
-            <h3>PlantSwap</h3>
-            <img src="/img/projecten/release-candidates/plantswap.png" alt="">
-            <p></p>
-        </a>
-    </article>
-
-    <article>
-        <a href="/">
-            <h3>Grote Thema's</h3>
-            <img src="/img/projecten/release-candidates/platform-grote-themas.png" alt="">
-            <p></p>
-        </a>
-    </article>
-    <article>
-        <a href="/">
-            <h3>UltiTV</h3>
-            <img src="/img/projecten/release-candidates/ulti-tv.png" alt="">
-            <p></p>
-        </a>
-    </article>
+        <article>
+            <a href="https://jalaltoufik.github.io/INK-lets-jam-webapplicatie/">
+                <h3>Where the real legends begin</h3>
+                <img src="/img/projecten/release-candidates/ink.png" alt="">
+                <p>Met deze website wil INK het verhaal uitdragen van jongeren die via voetbal een weg uit de sloppenwijken van Rio de Janeiro weten te vinden.</p>
+            </a>
+        </article>
     
-    <article>
-        <a href="/">
-            <h3>Hallo Strandeiland</h3>
-            <img src="/img/projecten/release-candidates/hallo-strandeiland.png" alt="">
-            <p></p>
-        </a>
-    </article>
+        <article>
+            <a href="https://fdnd-finalspatwater.netlify.app/">
+                <h3>SPATwater</h3>
+                <img src="/img/projecten/release-candidates/spatwater.png" alt="">
+                <p>De website voor SPATwater; een nieuwe generatie enthousiaste hydrologen die met een technische achtergrond nét wat anders kijken naar ruimtelijke opgaven.</p>
+            </a>
+        </article>
+    
+        <article>
+            <a href="https://toolgankelijk.vercel.app/">
+                <h3>Toolgankelijkheid</h3>
+                <img src="/img/projecten/release-candidates/toolgankelijkheid.png" alt="">
+                <p>De Toolgankelijkheid applicatie voor Vervoerregio Amsterdam om partners te checken op de toegankelijkheid van hun websites.</p>
+            </a>
+        </article>
+    
+        <article>
+            <a href="https://lets-jam-webapplicatie-weld.vercel.app/">
+                <h3>Visual Thinking</h3>
+                <img src="/img/projecten/release-candidates/visual-thinking.png" alt="">
+                <p>Een platform die studenten leert om tekenen te gebruiken als communicatiemiddel.</p>
+            </a>
+        </article>
+        
+        <article>
+            <a href="https://plantswap-webapplicatie.vercel.app/">
+                <h3>PlantSwap</h3>
+                <img src="/img/projecten/release-candidates/plantswap.png" alt="">
+                <p>Een website voor Buurtcampus-Oost in Amsterdam waar je meer informatie kan vinden over de stekjes beschikbaar die beschikbaar zijn in de, door kinderen gemaakte, Stekjeskast. </p>
+            </a>
+        </article>
+    
+        <article>
+            <a href="lets-jam-webapplicatie-five.vercel.app">
+                <h3>Platform Grote Thema's</h3>
+                <img src="/img/projecten/release-candidates/platform-grote-themas.png" alt="">
+                <p>Het platform met werkvormen die helpen om grote thema's bespreekbaar en behapbaar te maken.</p>
+            </a>
+        </article>
 
-    <article>
-        <a href="/">
-            <h3>Mijn OBA</h3>
-            <img src="/img/projecten/release-candidates/mijn-oba.png" alt="">
-            <p></p>
-        </a>
-    </article>
-</Block>
+        <article>
+            <a href="lets-jam-webapplicatie-xi.vercel.app/">
+                <h3>UltiTV</h3>
+                <img src="/img/projecten/release-candidates/ulti-tv.png" alt="">
+                <p>Een dashboard voor commentatoren van UltiTV bij ultimate frisbee wedstrijden.</p>
+            </a>
+        </article>
+        
+        <article>
+            <a href="lets-jam-webapplicatie-lilac.vercel.app">
+                <h3>Hallo Strandeiland</h3>
+                <img src="/img/projecten/release-candidates/hallo-strandeiland.png" alt="">
+                <p>Een website voor het participatie project Hallo Strandeiland, waar toekomstige bewoners ideeën kunen delen over de realisatie van de nieuwe wijk op IJburg.</p>
+            </a>
+        </article>
+    
+        <article>
+            <a href="lets-jam-webapplicatie-phi.vercel.app">
+                <h3>Mijn OBA</h3>
+                <img src="/img/projecten/release-candidates/mijn-oba.png" alt="">
+                <p>Een redesign voor de mijn OBA omgeving</p>
+            </a>
+        </article>
+    </div>
+    
+</section>
 
 <style>
     :global(.collapsing-columns) {
@@ -146,38 +149,120 @@
         margin-top: 1rem;
         font-size: .9em;
     }
-    
-    #studentenwerk {
-        margin:1rem -1rem;
+
+    #studentenwerk h2 {
+        margin:1rem 0;
     }
 
-    #studentenwerk ~ article h3 {
+    #studentenwerk div {
+        display:flex;
+        overflow-x:auto;
+        scroll-snap-type: x mandatory;
+        margin:0;
+        gap:2rem;   
+    }
+    
+    article {
+        display:flex;
+        padding:0;
+        flex:1 0 100%;
+        border-radius:0 var(--rounded) var(--rounded);
+        scroll-snap-align: center;
+        position: relative;
+        max-width:80vw;
+    }
+    @supports (animation-timeline: scroll()) {
+        article {
+            view-timeline-name: --extend-info;
+            view-timeline-axis: inline;
+
+            animation: linear appear both;
+            animation-timeline: --extend-info;
+        }
+            
+    }
+    article h3 {
         padding: 1rem;
-        margin-left: 1rem;
+        margin-left: 0;
         margin-bottom: 0 !important;
         background-color: var(--color-green);
         color:var(--color-blue);
-        border-radius:var(--rounded) var(--rounded) 0 0;
-        font-size: 1rem;
-        font-weight: bold;
-    }
-    article   {
-        padding:0;
-        margin:0 -2rem;
+        font-size: 1.25rem;
+        font-weight: 600;
+        white-space: nowrap;
+        border-radius:var(--rounded) var(--rounded) 0 0
     }
     article a {
         display:flex;
         flex-direction: column;
         align-items:flex-start;
         text-decoration: none;
+        overflow:hidden;
+    }
+
+    @supports (animation-timeline: scroll()) {
+        article a {
+            animation: linear appear both;
+            animation-timeline: --extend-info;
+        }
+    }
+
+    @keyframes appear {
+        0% {
+            opacity:.5;
+            scale:.9;
+        }
+        50% {
+            opacity:1;
+            scale:1;
+        }
+        100% {
+            opacity: .1;
+            scale:.9;
+        }
     }
     article a:hover {
         text-decoration: none;
     }
+    article a::after {
+        display:none;
+    }
 
     article img {
-        border-top:.5rem solid rgba(103, 229, 191, .85);
         margin-top: -0.5rem;
+        border-radius:0 var(--rounded) var(--rounded) 0;
+        z-index:2;
+    }
+    article p {
+        background:  var(--color-green);
+        color: var(--color-blue);
+        padding:1rem;
+        border-radius:var(--rounded);
+        align-self: flex-start;
+        z-index:10;
+        max-width:30rem;
+        position:absolute;
+        bottom:2rem;
+        right:2rem;
+    }
+    @supports (animation-timeline: scroll()) {
+        article p {
+            animation: linear slide-out both;
+            animation-delay:.25s;
+            animation-timeline: --extend-info;
+        }
+    } 
+
+    @keyframes slide-out {
+        10% {
+            translate:120% 0
+        }
+        50% {
+            translate:0 0
+        }
+        90% {
+            translate:-120% 0
+        }
     }
 
     a.program {
@@ -197,17 +282,6 @@
         :global(.collapsing-columns section:last-of-type) {
             grid-row-start: span 1;
             grid-column: 2 / 3
-        }
-
-        article img {
-            max-width: 95vw;
-            border-radius: 0 var(--pilled) var(--pilled) 0
-        }
-    }
-
-    @media (min-width: 80em) {
-        article img {
-            max-width: 85vw;
         }
     }
 </style>
