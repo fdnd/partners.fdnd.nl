@@ -102,7 +102,7 @@
         </article>
     
         <article>
-            <a href="lets-jam-webapplicatie-five.vercel.app">
+            <a href="https://lets-jam-webapplicatie-five.vercel.app">
                 <h3>Platform Grote Thema's</h3>
                 <img src="/img/projecten/release-candidates/platform-grote-themas.png" alt="">
                 <p>Het platform met werkvormen die helpen om grote thema's bespreekbaar en behapbaar te maken.</p>
@@ -110,7 +110,7 @@
         </article>
 
         <article>
-            <a href="lets-jam-webapplicatie-xi.vercel.app/">
+            <a href="https://lets-jam-webapplicatie-xi.vercel.app/">
                 <h3>UltiTV</h3>
                 <img src="/img/projecten/release-candidates/ulti-tv.png" alt="">
                 <p>Een dashboard voor commentatoren van UltiTV bij ultimate frisbee wedstrijden.</p>
@@ -118,7 +118,7 @@
         </article>
         
         <article>
-            <a href="lets-jam-webapplicatie-lilac.vercel.app">
+            <a href="https://lets-jam-webapplicatie-lilac.vercel.app">
                 <h3>Hallo Strandeiland</h3>
                 <img src="/img/projecten/release-candidates/hallo-strandeiland.png" alt="">
                 <p>Een website voor het participatie project Hallo Strandeiland, waar toekomstige bewoners ideeën kunen delen over de realisatie van de nieuwe wijk op IJburg.</p>
@@ -126,7 +126,7 @@
         </article>
     
         <article>
-            <a href="lets-jam-webapplicatie-phi.vercel.app">
+            <a href="https://lets-jam-webapplicatie-phi.vercel.app">
                 <h3>Mijn OBA</h3>
                 <img src="/img/projecten/release-candidates/mijn-oba.png" alt="">
                 <p>Een redesign voor de mijn OBA omgeving</p>
