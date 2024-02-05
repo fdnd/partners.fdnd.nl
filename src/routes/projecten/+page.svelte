@@ -53,7 +53,7 @@
 
     <div>
         <article>
-            <a href="lets-jam-webapplicatie-rouge.vercel.app/">
+            <a href="https://lets-jam-webapplicatie-rouge.vercel.app/">
                 <h3>The Ocean Cleanup</h3>
                 <img src="/img/projecten/release-candidates/the-ocean-cleanup.png" alt="">
                 <p>Een dashboard van The Ocean Cleanup met informatie over de verschillende Interceptors en de hoeveelheid opgeruimd plastic.
