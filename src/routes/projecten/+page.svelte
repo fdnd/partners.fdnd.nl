@@ -1,5 +1,6 @@
 <script>
     import { Block, CollapsingColumns } from "@fdnd/components"
+    
 </script>
 
 <Block class="blue-on-green rounded title-outset-left bleed" tag="section">
@@ -19,17 +20,17 @@
         <h3>
             Semester 1: Static Web
         </h3>
-        <p>In het  eerste semester ontwerpen en bouwen de studenten statische websites. Hier worden de fundamenten voor het project gelegd met focus op het implementeren van de huisstijl, Toegankelijkheid en de flow van de website. <a href="https://programma.fdnd.nl/static-web">Semester 1: Static Web</a></p>
+        <p>In het  eerste semester ontwerpen en bouwen de studenten statische websites. Hier worden de fundamenten voor het project gelegd met focus op het implementeren van de huisstijl, Toegankelijkheid en de flow van de website. <a href="https://programma.fdnd.nl/static-web" class="semester">Semester 1: Static Web</a></p>
         
         <h3>
             Semester 2: Data-Driven Web
         </h3>
-        <p>In het tweede semester werken de studenten verder aan het project, alleen nu op basis van dynamische data. De studenten leren hoe ze op de server data kunnen ophalen uit een API en dit vervolgens te renderen naar HTML. <a href="https://programma.fdnd.nl/data-driven-web">Semester 2: Data-Driven Web</a></p>
+        <p>In het tweede semester werken de studenten verder aan het project, alleen nu op basis van dynamische data. De studenten leren hoe ze op de server data kunnen ophalen uit een API en dit vervolgens te renderen naar HTML. <a href="https://programma.fdnd.nl/data-driven-web" class="semester">Semester 2: Data-Driven Web</a></p>
         
         <h3>
             Semester 3: semester
         </h3>
-        <p> In het derde semester leren de studenten werken met frameworks en wordt het project afgerond. De studenten werken toe naar een robuste, schaalbare en overdraagbare website die opgebouwd is uit componenten. <a href="https://programma.fdnd.nl/workflow-tooling-frameworks">Semester 3: Workflow, Tooling & Frameworks</a></p>
+        <p> In het derde semester leren de studenten werken met frameworks en wordt het project afgerond. De studenten werken toe naar een robuste, schaalbare en overdraagbare website die opgebouwd is uit componenten. <a href="https://programma.fdnd.nl/workflow-tooling-frameworks" class="semester">Semester 3: Workflow, Tooling & Frameworks</a></p>
 
         <a href="https://programma.fdnd.nl/" class="program rounded blue-on-green">Bekijk hier het FDND programma</a>
     </Block>
@@ -144,7 +145,7 @@
     :global(.collapsing-columns section:first-of-type h3) {
         margin-top:3rem;
     }
-    :global(.collapsing-columns section:first-of-type a) {
+    a.semester {
         display:block;
         margin-top: 1rem;
         font-size: .9em;
@@ -170,7 +171,9 @@
         scroll-snap-align: center;
         position: relative;
         max-width:80vw;
+        overflow:hidden;
     }
+
     @supports (animation-timeline: scroll()) {
         article {
             view-timeline-name: --extend-info;
@@ -182,12 +185,12 @@
             
     }
     article h3 {
-        padding: 1rem;
+        padding:.75rem 1rem 1rem;
         margin-left: 0;
         margin-bottom: 0 !important;
         background-color: var(--color-green);
         color:var(--color-blue);
-        font-size: 1.25rem;
+        font-size: 1.15rem;
         font-weight: 600;
         white-space: nowrap;
         border-radius:var(--rounded) var(--rounded) 0 0
@@ -230,38 +233,31 @@
 
     article img {
         margin-top: -0.5rem;
-        border-radius:0 var(--rounded) var(--rounded) 0;
+        border-radius:0 var(--rounded) 0 0;
         z-index:2;
     }
     article p {
         background:  var(--color-green);
         color: var(--color-blue);
         padding:1rem;
-        border-radius:var(--rounded);
-        align-self: flex-start;
-        z-index:10;
+        border-radius:0 0 var(--rounded) var(--rounded);
+        align-self: center;
+        justify-self: center;
         max-width:30rem;
-        position:absolute;
-        bottom:2rem;
-        right:2rem;
+        font-size: .9em;
+        width:100%;
     }
-    @supports (animation-timeline: scroll()) {
-        article p {
-            animation: linear slide-out both;
-            animation-delay:.25s;
-            animation-timeline: --extend-info;
-        }
-    } 
+   
 
     @keyframes slide-out {
         10% {
-            translate:120% 0
+            translate:100% 0
         }
         50% {
             translate:0 0
         }
         90% {
-            translate:-120% 0
+            translate:-100% 0
         }
     }
 
@@ -283,5 +279,25 @@
             grid-row-start: span 1;
             grid-column: 2 / 3
         }
+
+        article p {
+            background:  var(--color-green);
+            color: var(--color-blue);
+            padding:1rem;
+            border-radius:var(--rounded);
+            align-self: flex-start;
+            z-index:10;
+            max-width:30rem;
+            position:absolute;
+            bottom:2rem;
+            right:2rem;
+        }
+        @supports (animation-timeline: scroll()) {
+            article p {
+                animation: linear slide-out both;
+                animation-delay:.25s;
+                animation-timeline: --extend-info;
+            }
+        } 
     }
 </style>
