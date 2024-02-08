@@ -58,14 +58,16 @@
                 <h3>The Ocean Cleanup</h3>
                 <img src="/img/projecten/release-candidates/the-ocean-cleanup.png" alt="">
 
-                <footer>
+                <p>Een dashboard van The Ocean Cleanup met informatie over de verschillende Interceptors en de hoeveelheid opgeruimd plastic.</p>
+
+                <!-- <footer>
                     <p>Een dashboard van The Ocean Cleanup met informatie over de verschillende Interceptors en de hoeveelheid opgeruimd plastic.</p>
 
                     <ul>
                         <li><a href="/">live webiste</a></li>
                         <li><a href="/">codebase</a></li>
                     </ul>
-                </footer>
+                </footer> -->
                 
             </a>
         </article>
