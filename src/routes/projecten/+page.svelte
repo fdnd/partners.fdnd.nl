@@ -57,8 +57,16 @@
             <a href="https://lets-jam-webapplicatie-rouge.vercel.app/">
                 <h3>The Ocean Cleanup</h3>
                 <img src="/img/projecten/release-candidates/the-ocean-cleanup.png" alt="">
-                <p>Een dashboard van The Ocean Cleanup met informatie over de verschillende Interceptors en de hoeveelheid opgeruimd plastic.
-                </p>
+
+                <footer>
+                    <p>Een dashboard van The Ocean Cleanup met informatie over de verschillende Interceptors en de hoeveelheid opgeruimd plastic.</p>
+
+                    <ul>
+                        <li><a href="/">live webiste</a></li>
+                        <li><a href="/">codebase</a></li>
+                    </ul>
+                </footer>
+                
             </a>
         </article>
     
@@ -152,7 +160,7 @@
     }
 
     #studentenwerk h2 {
-        margin:1rem 0;
+        margin:2rem 0;
     }
 
     #studentenwerk div {
@@ -271,13 +279,13 @@
         
     }
     @media (min-width:50em) {
-        :global(.collapsing-columns section:first-of-type) {
+        :global(.collapsing-columns:has(#semesters-en-sprints) section:first-of-type) {
             grid-row-end: span 3;
             gap:2rem;
         }
-        :global(.collapsing-columns section:last-of-type) {
+        :global(.collapsing-columns:has(#semesters-en-sprints) section:last-of-type) {
             grid-row-start: span 1;
-            grid-column: 2 / 3
+            grid-column: 2 / 3;
         }
 
         article p {
