@@ -58,16 +58,16 @@
                 <h3>The Ocean Cleanup</h3>
                 <img src="/img/projecten/release-candidates/the-ocean-cleanup.png" alt="">
 
-                <p>Een dashboard van The Ocean Cleanup met informatie over de verschillende Interceptors en de hoeveelheid opgeruimd plastic.</p>
+                <!-- <p>Een dashboard van The Ocean Cleanup met informatie over de verschillende Interceptors en de hoeveelheid opgeruimd plastic.</p> -->
 
-                <!-- <footer>
+                <footer>
                     <p>Een dashboard van The Ocean Cleanup met informatie over de verschillende Interceptors en de hoeveelheid opgeruimd plastic.</p>
 
                     <ul>
-                        <li><a href="/">live webiste</a></li>
-                        <li><a href="/">codebase</a></li>
+                        <li><a href="/">live site</a></li>
+                        <li><a href="/">repository</a></li>
                     </ul>
-                </footer> -->
+                </footer>
                 
             </a>
         </article>
@@ -76,7 +76,15 @@
             <a href="https://jalaltoufik.github.io/INK-lets-jam-webapplicatie/">
                 <h3>Where the real legends begin</h3>
                 <img src="/img/projecten/release-candidates/ink.png" alt="">
-                <p>Met deze website wil INK het verhaal uitdragen van jongeren die via voetbal een weg uit de sloppenwijken van Rio de Janeiro weten te vinden.</p>
+                
+                <footer>
+                    <p>Met deze website wil INK het verhaal uitdragen van jongeren die via voetbal een weg uit de sloppenwijken van Rio de Janeiro weten te vinden.</p>
+
+                    <ul>
+                        <li><a href="/">live site</a></li>
+                        <li><a href="/">repository</a></li>
+                    </ul>
+                </footer>
             </a>
         </article>
     
@@ -168,7 +176,7 @@
     #studentenwerk div {
         display:flex;
         overflow-x:auto;
-        scroll-snap-type: x mandatory;
+        /* scroll-snap-type: x mandatory; */
         margin:0;
         gap:2rem;   
     }
@@ -178,7 +186,7 @@
         padding:0;
         flex:1 0 100%;
         border-radius:0 var(--rounded) var(--rounded);
-        scroll-snap-align: center;
+        /* scroll-snap-align: center; */
         position: relative;
         max-width:80vw;
         overflow:hidden;
@@ -188,6 +196,8 @@
         article {
             view-timeline-name: --extend-info;
             view-timeline-axis: inline;
+            view-timeline-inset: 0% 20%;
+            animation-range: 25% 50%;
 
             animation: linear appear both;
             animation-timeline: --extend-info;
@@ -212,7 +222,6 @@
         text-decoration: none;
         overflow:hidden;
     }
-
     @supports (animation-timeline: scroll()) {
         article a {
             animation: linear appear both;
@@ -220,20 +229,7 @@
         }
     }
 
-    @keyframes appear {
-        0% {
-            opacity:.5;
-            scale:.9;
-        }
-        50% {
-            opacity:1;
-            scale:1;
-        }
-        100% {
-            opacity: .1;
-            scale:.9;
-        }
-    }
+    
     article a:hover {
         text-decoration: none;
     }
@@ -246,6 +242,9 @@
         border-radius:0 var(--rounded) 0 0;
         z-index:2;
     }
+    article footer {
+        
+    }
     article p {
         background:  var(--color-green);
         color: var(--color-blue);
@@ -257,18 +256,22 @@
         font-size: .9em;
         width:100%;
     }
-   
 
-    @keyframes slide-out {
-        10% {
-            translate:100% 0
-        }
-        50% {
-            translate:0 0
-        }
-        90% {
-            translate:-100% 0
-        }
+    article footer ul {
+        display:flex;
+        gap:1rem;
+    }
+
+    article footer ul a {
+        background:  var(--color-purple);
+        color: var(--color-blue);
+        padding:.5rem;
+        font-size: .9em;
+        border-radius:var(--rounded);
+    }
+    article footer ul a:hover,
+    article footer ul a:focus-visible {
+        background:  var(--color-green);
     }
 
     a.program {
@@ -302,12 +305,64 @@
             bottom:2rem;
             right:2rem;
         }
+
+        article ul {
+            position:absolute;
+            bottom:10rem;
+            right:2rem;
+            z-index:5
+        }
         @supports (animation-timeline: scroll()) {
             article p {
-                animation: linear slide-out both;
-                animation-delay:.25s;
+                animation: linear slide-left both;
+                animation-timeline: --extend-info;
+            }
+
+            article ul {
+                animation: linear slide-right both;
                 animation-timeline: --extend-info;
             }
         } 
+    }
+
+
+    /* animations */
+    @keyframes appear {
+        0% {
+            opacity:.5;
+            scale:.9;
+        }
+        50% {
+            opacity:1;
+            scale:1;
+        }
+        100% {
+            opacity: .1;
+            scale:.9;
+        }
+    }
+
+    @keyframes slide-left {
+        10% {
+            translate:100% 0
+        }
+        50% {
+            translate:0 0
+        }
+        90% {
+            translate:-100% 0
+        }
+    }
+
+    @keyframes slide-right {
+        0% {
+            translate:-100% 0;
+        }
+        50% {
+            translate:0 0;
+        }
+        100% {
+            translate:100% 0;
+        }
     }
 </style>
