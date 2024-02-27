@@ -57,18 +57,7 @@
             <a href="https://lets-jam-webapplicatie-rouge.vercel.app/">
                 <h3>The Ocean Cleanup</h3>
                 <img src="/img/projecten/release-candidates/the-ocean-cleanup.png" alt="">
-
-                <!-- <p>Een dashboard van The Ocean Cleanup met informatie over de verschillende Interceptors en de hoeveelheid opgeruimd plastic.</p> -->
-
-                <footer>
-                    <p>Een dashboard van The Ocean Cleanup met informatie over de verschillende Interceptors en de hoeveelheid opgeruimd plastic.</p>
-
-                    <ul>
-                        <li><a href="/">live site</a></li>
-                        <li><a href="/">repository</a></li>
-                    </ul>
-                </footer>
-                
+                <p>Een dashboard van The Ocean Cleanup met informatie over de verschillende Interceptors en de hoeveelheid opgeruimd plastic.</p>
             </a>
         </article>
     
@@ -76,15 +65,7 @@
             <a href="https://jalaltoufik.github.io/INK-lets-jam-webapplicatie/">
                 <h3>Where the real legends begin</h3>
                 <img src="/img/projecten/release-candidates/ink.png" alt="">
-                
-                <footer>
-                    <p>Met deze website wil INK het verhaal uitdragen van jongeren die via voetbal een weg uit de sloppenwijken van Rio de Janeiro weten te vinden.</p>
-
-                    <ul>
-                        <li><a href="/">live site</a></li>
-                        <li><a href="/">repository</a></li>
-                    </ul>
-                </footer>
+                <p>Met deze website wil INK het verhaal uitdragen van jongeren die via voetbal een weg uit de sloppenwijken van Rio de Janeiro weten te vinden.</p>
             </a>
         </article>
     
