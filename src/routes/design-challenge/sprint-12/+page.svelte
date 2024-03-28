@@ -42,13 +42,15 @@
             <Block class="green-on-blue rounded" tag="div">
                 <h3>Ideeën en voorbeelden van projecten</h3>
                 <ul>
+                    <li>Een proof of concept voor een feature voor een klant waar geen budget voor is.</li>
+                    <li>Een feature voor een klant waar geen budget voor is.</li>
                     <li>Een quiz tool waarmee je een online quiz kan aanmaken en laten invullen. Misschien wil je de resultaten real-time tonen?</li>
                     <li>Een ping-pong score app om bij te houden wie de lunch toernooien wint.</li>
-                    <li>Een dashboard die toon aan welke projecten er wordt gewerkt en waar werknemers likes en opmerkingen bij kunnen plaatsen.</li>
+                    <li>Een dashboard die toont aan welke projecten er wordt gewerkt en waar werknemers likes en opmerkingen bij kunnen plaatsen.</li>
                     <li>...</li>
                 </ul>
 
-                <a href="https://programma.fdnd.nl/static-web/the-startup">Lees meer over het programma van sprint 6</a>  
+                <a href="https://programma.fdnd.nl/static-web/https://programma.fdnd.nl/data-driven-web/proof-of-concept">Lees meer over het programma van sprint 12</a>  
             </Block>
 
             <Block tag="section" id="studentenwerk">
@@ -62,7 +64,7 @@
                 </ul> 
             </Block>
 
-            <!-- Opdrachtgevers -->
+            <!-- Lijst met opdrachtgevers (logo's) -->
         </div>
     </Block>
 
