@@ -20,7 +20,7 @@
                 <h3>Planning</h3>
                 <ul>
                     <p>In 3 weken gaan studenten een opdracht realiseren voor een opdrachtgever.</p>
-                    <li>Maandag 3 juni 2023 krijgen de studenten een briefing bij de opdrachtgever. Tijdens de briefing maken de studenten kennis met het bedrijf en wordt besproken wat ze gaan maken.</li>
+                    <li>Maandag 3 juni 2024 krijgen de studenten een briefing bij de opdrachtgever. Tijdens de briefing maken de studenten kennis met het bedrijf en wordt besproken wat ze gaan maken.</li>
                     <li>Donderdag 20 juni wordt de opdracht gepresenteerd aan de opdrachtgever.</li>
                 </ul>
             </Block>
