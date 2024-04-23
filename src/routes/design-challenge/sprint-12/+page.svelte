@@ -50,7 +50,7 @@
                     <li>...</li>
                 </ul>
 
-                <a href="https://programma.fdnd.nl/static-web/https://programma.fdnd.nl/data-driven-web/proof-of-concept">Lees meer over het programma van sprint 12</a>  
+                <a href="https://programma.fdnd.nl/data-driven-web/proof-of-concept">Lees meer over het programma van sprint 12</a>  
             </Block>
 
             <Block tag="section" id="studentenwerk">
