@@ -8,9 +8,9 @@
                 <h2>Design Challenge sprint 12: Proof of Concept</h2>
                 <p>Startdatum: <time>03-06-2024</time></p>
 
-                <p>In de sprint <a href="https://programma.fdnd.nl/data-driven-web/proof-of-concept">Proof of Concept</a> gaan studenten voor een opdrachtgever een data-driven-online-concept prototypen.</p>
-                <p>In het eerste semester van de opleiding FDND hebben studenten veel geleerd over semantische HTML, layout, responsive design, toegankelijkheid, interactie en het werken met een huisstijl.</p>
-                <p>In het tweede semester hebben studenten geleerd met NodeJs en REST API’s gebruiksvriendelijke websites te maken met Progressive Enhancement.</p>
+                <p>In de sprint <a href="https://programma.fdnd.nl/data-driven-web/proof-of-concept">Proof of Concept</a> gaan studenten voor een opdrachtgever een data-driven online concept prototypen.</p>
+                <p>In het eerste semester van de opleiding FDND hebben studenten veel geleerd over Semantische HTML, Layout, Responsive Design, Toegankelijkheid, Interactie en het werken met een huisstijl.</p>
+                <p>In het tweede semester hebben studenten geleerd met NodeJS en REST API’s gebruiksvriendelijke websites te maken met Server-Side Rendering, Progressive Enhancement en een focus op User Experience en Performance.</p>
                 <p>In deze sprint gaan studenten alles (!) wat ze hebben geleerd toepassen om een opdracht voor een opdrachtgever te maken.</p>
                 
                 <p>Bekijk het <a href="https://programma.fdnd.nl/">programma van Frontend Design & Development</a>.</p>
@@ -30,8 +30,8 @@
                 <ul>
                     <li>Op basis van een bestaand idee, concept of ontwerp gaan studenten FDND een prototype ontwerpen, maken en testen.</li>
                     <li>Studenten werken individueel of in een team aan een project.</li>
-                    <li>Voor het project is er bestaande content zoals teksten, beeldmateriaal, video’s, huisstijl of conceptmateriaal beschikbaar. </li>
-                    <li>De code voor het project wordt op Github bewaard en gepubliceerd.</li>
+                    <li>Voor het project is er—via een JSON/REST API—bestaande content zoals teksten, beeldmateriaal, video’s, huisstijl of conceptmateriaal beschikbaar.</li>
+                    <li>De code voor het project wordt op GitHub bewaard en gepubliceerd.</li>
                 </ul>
             </Block>
 
