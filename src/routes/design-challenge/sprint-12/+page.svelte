@@ -1,29 +1,5 @@
 <script>
-    import { Block } from '@fdnd/components';
-    import { enhance } from '$app/forms';
-
-    let loading = false;
-
-    function handleForm({ formElement, formData, action, cancel, submitter }){
-        // `formElement` is this `<form>` element
-        // `formData` is its `FormData` object that's about to be submitted
-        // `action` is the URL to which the form is posted
-        // calling `cancel()` will prevent the submission
-        // `submitter` is the `HTMLElement` that caused the form to be submitted
-
-        loading = true;
-
-        return async ({ result, update }) => {
-            await setTimeout(() => {
-                loading = false
-            }, 2000);
-            
-            // `result` is an `ActionResult` object
-            // `update` is a function which triggers the default logic that would be triggered if this callback wasn't set
-        };
-    }
-
-    
+    import { Block } from '@fdnd/components';    
 </script>
 
 <Block tag="section">
@@ -89,34 +65,6 @@
         </Block>
 
         <!-- Lijst met opdrachtgevers (logo's) -->
-
-        <!-- Aanmeldformulier -->
-        <!-- <Block class="green-on-blue rounded" tag="div">
-            <form action="/design-challenge/sprint-12" method="POST" use:enhance={handleForm}>
-
-                {#if loading }
-                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><style>.spinner_qM83{animation:spinner_8HQG 1.05s infinite}.spinner_oXPr{animation-delay:.1s}.spinner_ZTLf{animation-delay:.2s}@keyframes spinner_8HQG{0%,57.14%{animation-timing-function:cubic-bezier(0.33,.66,.66,1);transform:translate(0)}28.57%{animation-timing-function:cubic-bezier(0.33,0,.66,.33);transform:translateY(-6px)}100%{transform:translate(0)}}</style><circle class="spinner_qM83" cx="4" cy="12" r="3"/><circle class="spinner_qM83 spinner_oXPr" cx="12" cy="12" r="3"/><circle class="spinner_qM83 spinner_ZTLf" cx="20" cy="12" r="3"/></svg>
-                {/if}
-
-                <h2>Meld je aan voor een design challenge</h2>
-
-                <fieldset>
-                    <legend>Gegevens</legend>
-                    <label><span>Naam</span> <input type="text" name="name" /></label>
-                    
-                    <label><span>Email</span> <input type="email" name="email"></label>
-                    
-                </fieldset>
-
-                <fieldset>
-                    <legend>Opdracht</legend>
-                    <label for="challenge"><span>Design Challenge</span></label>
-                    <textarea name="challenge" id="challenge"></textarea>
-                </fieldset>
-
-                <button>Aanmelden</button>
-            </form>
-        </Block> -->
     </div>
 </Block>
 
@@ -151,44 +99,5 @@
         display:list-item;
         margin-left:2rem;
         
-    }
-
-    /* form styling */
-    form {
-        position: relative;
-    }
-    fieldset {
-        border:0;
-        padding:0;
-    }
-    legend {
-        display: none;
-    }
-    input, textarea {
-        display:block;
-        margin-top: .25rem;
-        margin-bottom: 1rem;
-        border-radius:.5rem;
-        border:none;
-        padding:.5rem;
-    }
-    button {
-        all:unset;
-        background-color: #66e5bf;
-        border-radius:.5rem;
-        padding:.5rem;
-        color:#050542
-    }
-    textarea {
-        width:100%;
-        
-    }
-
-
-    svg {
-        position: absolute;
-        right:1rem;
-        top:1rem;
-        fill:yellowgreen;
     }
 </style>
