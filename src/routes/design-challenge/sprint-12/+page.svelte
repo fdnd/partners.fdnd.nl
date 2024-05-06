@@ -91,7 +91,7 @@
         <!-- Lijst met opdrachtgevers (logo's) -->
 
         <!-- Aanmeldformulier -->
-        <!-- <Block class="green-on-blue rounded" tag="div">
+        <Block class="green-on-blue rounded" tag="div">
             <form action="/design-challenge/sprint-12" method="POST" use:enhance={handleForm}>
 
                 {#if loading }
@@ -116,7 +116,7 @@
 
                 <button>Aanmelden</button>
             </form>
-        </Block> -->
+        </Block>
     </div>
 </Block>
 
