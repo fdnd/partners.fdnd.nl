@@ -1,10 +1,13 @@
-<script>
-    import { Block } from '@fdnd/components'
-</script>
 
-    <Block tag="section">
-        <div class="global-hack">
-            <Block class="blue-on-green rounded" tag="div">
+<section class="image-with-text">
+    <figure class="image-container">
+        <img src="/img/review-sprint-12.jpeg" alt=" Martijn Nieuwenhuizen, senior Frontend Developer bij Grrrr, geeft les aan tweedejaars studenten" class="rounded" />
+        <figcaption class="font-semibold">
+            <span class="small-body">Martijn Nieuwenhuizen, senior Frontend Developer bij Grrrr, geeft les aan tweedejaars studenten.</span>
+        </figcaption>
+    </figure>
+
+    <div class="text-container">
                 <h2>Design Challenge sprint 6: The Startup</h2>
                 <p>Startdatum: <time>08-01-2024</time></p>
                 
@@ -12,9 +15,15 @@
                 
                 <p>In het eerste semester van de opleiding FDND hebben studenten veel geleerd over layout, responsive design, toegankelijkheid, interactie en het werken met een huisstijl. Alle studenten kunnen HTML, CSS en (een beetje) JavaScript.</p>
                 <p>Studenten gaan alles wat ze hebben geleerd toepassen om een opdracht voor een opdrachtgever te maken.</p>
-            </Block>
 
-            <Block class="green-on-blue rounded" tag="div">
+                <h3>Werkwijze</h3>
+                <ul>
+                    <li>Op basis van een bestaand idee, concept of ontwerp gaan studenten FDND een responsive website of webpagina ontwerpen, maken en testen.</li>
+                    <li>Studenten werken individueel of in een team aan een project.</li>
+                    <li>Voor het project is er bestaande content zoals teksten, beeldmateriaal, video's, huisstijl of conceptmateriaal beschikbaar.</li>
+                    <li>De code voor het project wordt publiekelijk op GitHub bewaard en gepubliceerd.</li>
+                </ul>
+
                 <h3>Planning</h3>
                 <p>In 3 weken gaan studenten een opdracht realiseren voor een opdrachtgever, en we verwachten twee contactmomenten van opdrachtgevers:</p>
                 <ul>
@@ -23,23 +32,7 @@
                 </ul>
                 <p><time>Vrijdag 26 januari</time> vindt bij FDND in Amsterdam een expo plaats, waar alle studenten (zo'n 70 in totaal) hun werk laten zien. Opdrachtgevers zijn hier vanzelfsprekend ook welkom om rond te kijken en te borrelen.</p>
                 <p>Eventuele extra tussentijdse afspraken of check-ins kunnen natuurlijk met studenten gemaakt worden.</p>
-            </Block>
-            
-            <Block class="green-on-blue rounded" tag="div">
-                <h3>Werkwijze</h3>
-                <ul>
-                    <li>Op basis van een bestaand idee, concept of ontwerp gaan studenten FDND een responsive website of webpagina ontwerpen, maken en testen.</li>
-                    <li>Studenten werken individueel of in een team aan een project.</li>
-                    <li>Voor het project is er bestaande content zoals teksten, beeldmateriaal, video's, huisstijl of conceptmateriaal beschikbaar.</li>
-                    <li>De code voor het project wordt publiekelijk op GitHub bewaard en gepubliceerd.</li>
-                </ul>
-            </Block>
 
-            <figure>
-                <img src="/img/review-sprint-12.jpeg" alt="" class="rounded">
-            </figure>
-            
-            <Block class="green-on-blue rounded" tag="div">
                 <h3>Ideeën en voorbeelden van projecten</h3>
                 <ul>
                     <li>Teampagina voor een corporate website met foto's, namen, teksten en …</li>
@@ -51,26 +44,12 @@
                 </ul>
 
                 <a href="https://programma.fdnd.nl/static-web/the-startup">Lees meer over het programma van sprint 6</a>  
-            </Block>
+     </div>
+</section>
 
-            <Block tag="section" id="studentenwerk">
-                <h3>Studentenwerk</h3>
-                <ul class="scroll">
-                    <li><a href="https://sannevanseeventer.github.io/The-Startup-SPATwater/"><img src="/img/design-challenges/sprint-6/spatwater.png" alt="Spatwater"></a></li>
-                    <li><a href="https://stefan-espant.github.io/funda-detail-page/"><img src="/img/design-challenges/sprint-6/funda.png" alt="Funda"></a></li>
-                    <li><a href="https://ralphkocken.github.io/DeVoorhoedeLustrumPagina/"><img src="/img/design-challenges/sprint-6/voorhoede.png" alt="De Voorhoede"></a></li>
-                    <li><a href="https://knetters.github.io/ThisWebsiteIsNotResponsive/"><img src="/img/design-challenges/sprint-6/digital-natives.png" alt="Digital Natives"></a></li>
-                    <li><a href="https://tolga1999.github.io/Lifely-getting-started-with-AI/"><img src="/img/design-challenges/sprint-6/lifely.png" alt="Lifely"></a></li>
-                    <li><a href="https://rosahoffer.github.io/avocado-media-vacature-detailpagina/"><img src="/img/design-challenges/sprint-6/avacado-media.png" alt="Avocado Media"></a></li>
-                    
-                    
-                </ul> 
+
             
-            </Block>
 
-            <!-- Opdrachtgevers -->
-        </div>
-    </Block>
 
 <style>
     :global(div.global-hack div),

@@ -1,10 +1,17 @@
-<script>
-    import { Block, CollapsingColumns } from "@fdnd/components"
-</script>
+<section class="image-with-text">
+    <figure class="image-container">
+        <img
+            src="/img/martijn.jpeg"
+            alt=" Martijn Nieuwenhuizen, senior Frontend Developer bij Grrrr, geeft les aan tweedejaars studenten"
+            class="rounded"
+        />
+        <figcaption class="font-semibold">
+            <span class="small-body">Martijn Nieuwenhuizen, senior Frontend Developer bij Grrrr, geeft les aan tweedejaars studenten.</span>
+        </figcaption>
+    </figure>
 
-<CollapsingColumns>
-    <Block tag="section" class="blue-on-green rounded title-outset-left">
-        <h2>Co-teaching</h2>
+    <div class="text-container">
+        <h2 class="large-heading">Co-teaching</h2>
 
         <p>
             Professionals uit het vakgebied kunnen bij FDND hun kennis komen
@@ -25,30 +32,5 @@
                 >info-fdnd@hva.nl</a
             >
         </p>
-    </Block>
-
-    <figure>
-        <img
-            src="/img/martijn.jpeg"
-            alt=" Martijn Nieuwenhuizen, senior Frontend Developer bij Grrrr, geeft les aan tweedejaars studenten"
-            class="rounded"
-        />
-        <figcaption>
-            Martijn Nieuwenhuizen, senior Frontend Developer bij Grrrr,
-            geeft les aan tweedejaars studenten.
-        </figcaption>
-    </figure>
-    
-</CollapsingColumns>
-
-<style>
-    figure {
-        margin-top: 0;
-    }
-    figcaption {
-        display: none;
-    }
-    img {
-        border:none
-    }
-</style>
+    </div>
+</section>

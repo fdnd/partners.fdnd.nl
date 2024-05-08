@@ -1,26 +1,19 @@
-<script>
-    import { Block, CollapsingColumns } from '@fdnd/components'
-</script>
+<section class="image-with-text">
+    <figure class="image-container">
+        <img src="/img/review-sprint-12.jpeg" alt="Design challenge briefing" class="rounded" />
+        <figcaption class="font-semibold">
+            <span class="small-body">Briefing voor de design challenge bij de opdrachtgever.</span>
+        </figcaption>
+    </figure>
 
-<CollapsingColumns>
-    <Block class="blue-on-green rounded" tag="section">
-        <h2>Design challenge</h2>
+    <div class="text-container">
+        <h2 class="large-heading">Design challenge</h2>
 
         <p>
             In sprint 6 en sprint 12 van een semester werken de studenten aan een design challenge voor een agency. In drie weken ontwerpen en bouwen de studenten een proof of concept en presenteren dit bij de opdrachtgever. Het is voor studenten een eerste kennismaking met het werkveld en kans om een kijkje in de keuken van een agency te nemen.
         </p>
 
-        <a href="design-challenge/sprint-6">Design challenge sprint 6: The Startup</a>
-        <a href="design-challenge/sprint-12">Design challenge sprint 12: Proof of Concept</a>
-    </Block>
-
-    <figure>
-        <img src="/img/review-sprint-12.jpeg" alt="" class="rounded">
-    </figure>
-</CollapsingColumns>
-
-<style>
-    h2 {
-        padding-left: 0 !important;
-    }
-</style>
+        <a href="design-challenge/sprint-6" class="button is-accent-2 is-full-color"><span>Design challenge sprint 6: The Startup</span></a>
+        <a href="design-challenge/sprint-12" class="button is-accent-1 is-full-color"><span>Design challenge sprint 12: Proof of Concept</span></a>
+    </div>
+</section>

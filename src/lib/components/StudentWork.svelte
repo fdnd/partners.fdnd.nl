@@ -90,8 +90,8 @@
 </section>
 
 <style>
-	#studentenwerk h2 {
-        margin:2rem 0;
+	#studentenwerk {
+        margin:02rem 4rem;
     }
 
     #studentenwerk div {

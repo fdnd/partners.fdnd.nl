@@ -1,28 +1,22 @@
-<script>
-    import { Block, CollapsingColumns } from "@fdnd/components"
-</script>
-
-<CollapsingColumns>
-    <Block class="blue-on-green rounded title-outset-left" type="section">
-        <h2>Stage</h2>
-
-        <p>Studenten kunnen in het 4e semester een stage van 10 of 20 weken lopen. In de stageperiode verzamelen studenten bewijslast voor het assessment door het werken aan projecten bij het stagebedrijf.
-        </p>
-
-        <h3>Semester 4</h3>
-        <ul>
-            <li>
-                <a href="https://programma.fdnd.nl/meesterproef/free-space">sprint 19: Free Space</a>
-            </li>
-            <li>
-                <a href="https://programma.fdnd.nl/meesterproef/final-sprint">sprint 20: Final sprint</a>
-            </li>
-        </ul>
-
-        <a href="https://programma.fdnd.nl/">Bekijk hier het FDND programma</a>
-    </Block>
-
-    <figure>
-        <img class="rounded" src="/img/review-sprint-12.jpeg" alt="" />
+<section class="image-with-text">
+    <figure class="image-container">
+        <img
+            src="/img/martijn.jpeg"
+            alt=" Martijn Nieuwenhuizen, senior Frontend Developer bij Grrrr, geeft les aan tweedejaars studenten"
+            class="rounded"
+        />
+        <figcaption class="font-semibold">
+            <span class="small-body">Martijn Nieuwenhuizen, senior Frontend Developer bij Grrrr, geeft les aan tweedejaars studenten.</span>
+        </figcaption>
     </figure>
-</CollapsingColumns>
+
+    <div class="text-container">
+        <h2 class="large-heading">Stage</h2>
+
+            <p>Studenten kunnen in het 4e semester een stage van 10 of 20 weken lopen. In de stageperiode verzamelen studenten bewijslast voor het assessment door het werken aan projecten bij het stagebedrijf.</p>
+
+            <a href="https://programma.fdnd.nl/" class="button is-accent-2 is-full-color">
+                <span>Bekijk hier het FDND programma</span>
+            </a>
+    </div>
+</section>
