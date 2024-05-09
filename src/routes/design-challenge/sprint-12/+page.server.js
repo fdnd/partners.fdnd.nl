@@ -2,8 +2,8 @@ export const prerender = false;
 
 export const actions = {
 	default: async ({request, url}) => {
-        const data = await request.formData();
+                const data = await request.formData();
 
-        console.log(data)
+                console.log(data)
 	}
 };
