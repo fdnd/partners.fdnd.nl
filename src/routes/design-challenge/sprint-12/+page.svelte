@@ -1,103 +1,126 @@
-<script>
-    import { Block } from '@fdnd/components';    
-</script>
+<section class="image-with-text">
+    <figure class="image-container">
+        <img src="/img/briefing-bij-fivespark.jpeg" alt="De briefing bij Fivespark" />
+        <figcaption class="font-semibold">
+            <span class="small-body">De briefing voor de design challenge bij Fivespark.</span>
+        </figcaption>
+    </figure>
 
-<Block tag="section">
-    <div class="global-hack">
-        <Block class="blue-on-green rounded" tag="div">
-            <h2>Design Challenge sprint 12: Proof of Concept</h2>
-            <p>Startdatum: <time>03-06-2024</time></p>
+    <div class="text-container">
+        <h2 class="large-heading">Design Challenge <br>sprint 12: Proof of Concept</h2>
+        <p>Startdatum: <time>03-06-2024</time></p>
 
-            <p>In de sprint <a href="https://programma.fdnd.nl/data-driven-web/proof-of-concept">Proof of Concept</a> gaan studenten voor een opdrachtgever een data-driven online concept prototypen.</p>
-            <p>In het eerste semester van de opleiding FDND hebben studenten veel geleerd over Semantische HTML, Layout, Responsive Design, Toegankelijkheid, Interactie en het werken met een huisstijl.</p>
-            <p>In het tweede semester hebben studenten geleerd met NodeJS en REST API’s gebruiksvriendelijke websites te maken met Server-Side Rendering, Progressive Enhancement en een focus op User Experience en Performance.</p>
-            <p>In deze sprint gaan studenten alles (!) wat ze hebben geleerd toepassen om een opdracht voor een opdrachtgever te maken.</p>
+        <p>In de sprint <a href="https://programma.fdnd.nl/data-driven-web/proof-of-concept">Proof of Concept</a> gaan studenten voor een opdrachtgever een data-driven online concept prototypen.</p>
+        <p>In het eerste semester van de opleiding FDND hebben studenten veel geleerd over Semantische HTML, Layout, Responsive Design, Toegankelijkheid, Interactie en het werken met een huisstijl.</p>
+        <p>In het tweede semester hebben studenten geleerd met NodeJS en REST API’s gebruiksvriendelijke websites te maken met Server-Side Rendering, Progressive Enhancement en een focus op User Experience en Performance.</p>
+        <p>In deze sprint gaan studenten alles (!) wat ze hebben geleerd toepassen om een opdracht voor een opdrachtgever te maken.</p>
+        
+        <a href="https://programma.fdnd.nl/"  class="button is-dark"><span>FDND Programma</span></a>
+    </div>
+</section>
+
+<section class="cta-row">
+    <div class="inner">
+        <header>
+            <h2 class="large-heading">Hoe werkt de design challenge?</h2>
+        </header>
+        <div class="cta">
+            <h3 class="small-heading">Planning</h3>
             
-            <p>Bekijk het <a href="https://programma.fdnd.nl/">programma van Frontend Design & Development</a>.</p>
-        </Block>
-
-        <Block class="green-on-blue rounded" tag="div">
-            <h3>Planning</h3>
             <ul>
-                <p>In 3 weken gaan studenten een opdracht realiseren voor een opdrachtgever.</p>
+                <li>In 3 weken gaan studenten een opdracht realiseren voor een opdrachtgever.</li>
                 <li>Maandag 3 juni 2024 krijgen de studenten een briefing bij de opdrachtgever. Tijdens de briefing maken de studenten kennis met het bedrijf en wordt besproken wat ze gaan maken.</li>
                 <li>Donderdag 20 juni wordt de opdracht gepresenteerd aan de opdrachtgever.</li>
             </ul>
-        </Block>
-        
-        <Block class="green-on-blue rounded" tag="div">
-            <h3>Werkwijze</h3>
+
+            <a href="https://programma.fdnd.nl/data-driven-web/proof-of-concept#sprint-planning" class="button is-dark"><span>Bekijk de planning</span></a>
+        </div>
+
+        <div class="cta">
+            <h3 class="small-heading">Werkwijze</h3>
             <ul>
                 <li>Op basis van een bestaand idee, concept of ontwerp gaan studenten FDND een prototype ontwerpen, maken en testen.</li>
                 <li>Studenten werken individueel of in een team aan een project.</li>
                 <li>Voor het project is er—via een JSON/REST API—bestaande content zoals teksten, beeldmateriaal, video’s, huisstijl of conceptmateriaal beschikbaar.</li>
                 <li>De code voor het project wordt op GitHub bewaard en gepubliceerd.</li>
             </ul>
-        </Block>
 
-        <figure>
-            <img src="/img/review-sprint-12.jpeg" alt="" class="rounded">
-        </figure>
-        
-        <Block class="green-on-blue rounded" tag="div">
-            <h3>Ideeën en voorbeelden van projecten</h3>
+            <a href="https://github.com/fdnd-task/proof-of-concept/blob/main/docs/INSTRUCTIONS.md" class="button is-dark"><span>Bekijk de studentenopdracht</span></a>
+        </div>
+
+        <div class="cta">
+            <h3 class="small-heading">Voorbeelden van projecten</h3>
             <ul>
                 <li>Een proof of concept voor een feature voor een klant waar geen budget voor is.</li>
-                <li>Een feature voor een klant waar geen budget voor is.</li>
-                <li>Een quiz tool waarmee je een online quiz kan aanmaken en laten invullen. Misschien wil je de resultaten real-time tonen?</li>
+                <li>Een dashboard met projecten waaraan wordt gewerkt.</li>
                 <li>Een ping-pong score app om bij te houden wie de lunch toernooien wint.</li>
-                <li>Een dashboard die toont aan welke projecten er wordt gewerkt en waar werknemers likes en opmerkingen bij kunnen plaatsen.</li>
-                <li>...</li>
+                <li>Een redesign voor een pagina van de eigen agency website (bijvoorbeeld blogs-, vacatures-, teampagina)</li>
             </ul>
 
-            <a href="https://programma.fdnd.nl/data-driven-web/proof-of-concept">Lees meer over het programma van sprint 12</a>  
-        </Block>
-
-        <Block tag="section" id="studentenwerk">
-            <h3>Studentenwerk</h3>
-            <ul class="scroll">
-                <li><a href="/"><img src="/img/design-challenges/sprint-12/badr-io.png" alt="IO"></a></li>
-                <li><a href="/"><img src="/img/design-challenges/sprint-12/milan-ink.png" alt="INK"></a></li>
-                <li><a href="/"><img src="/img/design-challenges/sprint-12/rosa-voorhoede.png" alt="De Voorhoede"></a></li>
-                <li><a href="/"><img src="/img/design-challenges/sprint-12/sanne-ocean-cleanup.png" alt="The Ocean Cleanup"></a></li>
-                <li><a href="/"><img src="/img/design-challenges/sprint-12/tom-schiphol.png" alt="Schiphol"></a></li>
-            </ul> 
-        </Block>
-
-        <!-- Lijst met opdrachtgevers (logo's) -->
+            <a href="/design-challenge/sprint-12#studentenwerk" class="button is-dark"><span>Bekijk het studentenwerk</span></a>
+        </div>
     </div>
-</Block>
+</section>
 
-<style>
-    :global(div.global-hack div),
-    figure {
-        margin-bottom: 2rem;
-        max-width:40em;
-    }
-    h2 {
-        padding-left:0 !important;
-    }
-    time {
-        font-weight: bold;
-    }
+<section id="studentenwerk" class="cta-row gallery" style="--background:var(--accent-color-1);">
+    <div class="inner">
+        <header>
+            <h2 class="large-heading">Studentenwerk</h2>
+        </header>
 
-    ul.scroll li {
-        list-style:none;
-        margin-left: -1rem;
-        
-    }
+        <a href="/" class="cta">
+            <figure>
+                <img src="/img/design-challenges/sprint-12/badr-io.png" alt="">
 
-    ul.scroll li a::after {
-        display: none;
-    }
-    ul.scroll li img {
-        aspect-ratio: 3 / 2;
+                <figcaption class="font-semibold small-body">IO Digital</figcaption>
+            </figure>
+        </a>
+
+        <a href="/" class="cta">
+            <figure>
+                <img src="/img/design-challenges/sprint-12/milan-ink.png" alt="">
+
+                <figcaption class="font-semibold small-body">Lama Lama</figcaption>
+            </figure>
+        </a>
+
+        <a href="/" class="cta">
+            <figure>
+                <img src="/img/design-challenges/sprint-12/rosa-voorhoede.png" alt="">
+
+                <figcaption class="font-semibold small-body">De Voorhoede</figcaption>
+            </figure>
+        </a>
+
+        <a href="/" class="cta">
+            <figure>
+                <img src="/img/design-challenges/sprint-12/sanne-ocean-cleanup.png" alt="">
+
+                <figcaption class="font-semibold small-body">Grrr</figcaption>
+            </figure>
+        </a>
+
+        <a href="/" class="cta">
+            <figure>
+                <img src="/img/design-challenges/sprint-12/tom-schiphol.png" alt="">
+
+                <figcaption class="font-semibold small-body">Schiphol</figcaption>
+            </figure>
+        </a>
+
+        <a href="/" class="cta">
+            <figure>
+                <img src="/img/design-challenges/sprint-12/duneya-de-correspondent.png" alt="">
+
+                <figcaption class="font-semibold small-body">De Correspondent</figcaption>
+            </figure>
+        </a>
         
-    }
-    
-    li {
-        display:list-item;
-        margin-left:2rem;
-        
-    }
-</style>
+
+            
+
+            
+
+            
+    </div>
+</section>

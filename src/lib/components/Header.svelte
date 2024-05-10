@@ -66,7 +66,7 @@
 
         <ul style="--total: 4;">
             <li style="--i: 1;"><a href="/projecten">Projecten</a></li>
-            <li style="--i: 2;"><a href="design-challenge">Design Challenge</a></li>
+            <li style="--i: 2;"><a href="/design-challenge">Design Challenge</a></li>
             <li style="--i: 3;"><a href="/stage">Stage</a></li>
             <li style="--i: 4;"><a href="/co-teaching">Co-teaching</a></li>
             <li style="--i: 5;"><a href="/talks">Talks</a></li>

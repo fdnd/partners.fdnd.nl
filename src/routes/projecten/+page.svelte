@@ -12,7 +12,7 @@
         <p>Studenten werken doorlopend aan projecten voor echte opdrachtgevers. In twee jaar ontwerpen en ontwikkelen studenten een betekenisvolle, robuuste en toegankelijke website.</p>
         <p>Wij werken onder andere samen met, Funda, de OBA, Schiphol, De Hallen, Vervoerregio Amsterdam en het Antonie van Leeuwenhoek.</p>
 
-        <a href="https://github.com/fdnd-agency/" class="button is-accent-3 is-full-color">
+        <a href="https://github.com/fdnd-agency/" class="button is-accent-2 is-full-color">
             <span>Bekijk de projecten op GitHub</span>
         </a>
     </div>
@@ -61,7 +61,16 @@
     <div class="text-container">
         <h2 class="large-heading">Backlog</h2>
 
-        <p>Omdat we de voortgang van projecten op deze manier bijhouden, kunnen we heel gericht projecten laten aansluiten bij andere programma's van andere opleidingen bij de HvA, bijvoorbeeld bij de <a href="https://everythingweb.org/">Minor Web Design & Development</a> bij CMD Amsterdam.</p>
+        <p>Omdat we de voortgang van projecten in een backlog bijhouden op GitHub, kunnen we heel gericht projecten laten aansluiten bij andere programma's van andere opleidingen bij de HvA, bijvoorbeeld bij de Minor Web Design & Development bij CMD Amsterdam.</p>
+
+        <a href="https://github.com/orgs/fdnd-agency/projects" class="button is-accent-1 is-full-color">
+            <span>Bekijk de projecten boards op GitHub</span>
+        </a>
+
+        <a href="https://everythingweb.org/" class="button is-accent-2 is-full-color">
+            <span>Minor Web Design & Development</span>
+        </a>
+        
 
     </div>
 </section>
@@ -77,7 +86,9 @@
     <div class="text-container">
         <h2 class="large-heading">Sprint reviews</h2>
 
-        <p>Elke sprint presenteren de studenten hun werk in een sprint review. Tijdens de review wordt de backlog bekeken en waar nodig aangepast, zodat het duidelijk is waar de volgende sprint aan gewerkt kan worden.In sprint 6 en sprint 12 van een semester werken de studenten aan een design challenge voor een agency. In drie weken ontwerpen en bouwen de studenten een proof of concept en presenteren dit bij de opdrachtgever. Het is voor studenten een eerste kennismaking met het werkveld en kans om een kijkje in de keuken van een agency te nemen.</p>
+        <p>Elke sprint presenteren de studenten hun werk in een sprint review. Tijdens de review wordt de backlog bekeken en waar nodig aangepast, zodat het duidelijk is waar de volgende sprint aan gewerkt kan worden.</p>
+        <p>Naast het doorlopend werken aan projecten voor echte opdrachtgevers, werken studenten in <a href="/design-challenge/sprint-6">sprint 6</a> en <a href="/design-challenge/sprint-12">sprint 12</a> van de opleiding aan een design challenge voor een agency. In drie weken ontwerpen en bouwen de studenten een proof of concept en presenteren dit bij de opdrachtgever.</p> 
+        <p>Het is voor studenten een eerste kennismaking met het werkveld en kans om een kijkje in de keuken van een agency te nemen.</p>
 
     </div>
 </section>

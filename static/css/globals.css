@@ -1,5 +1,5 @@
 :root {
-    --grey: #ECECEC;
+    --grey: #e7e7e7;
     --purple: #A675F5;
     --blue: #050542;
     --blue-50: rgba(5, 5, 66, 0.5);
@@ -155,4 +155,9 @@ main::after {
 
 section p {
     margin-bottom: 1rem;
+}
+
+section ul {
+    padding:0;
+    margin:1rem 0
 }
