@@ -1,8 +1,8 @@
 <section class="image-with-text">
     <figure class="image-container">
-        <img src="/img/review-sprint-12.jpeg" alt="Design challenge briefing" class="rounded" />
+        <img src="/img/werken-aan-design-challenge.jpeg" alt="Studenten werken samen aan een design challenge" class="rounded" />
         <figcaption class="font-semibold">
-            <span class="small-body">Briefing voor de design challenge bij de opdrachtgever.</span>
+            <span class="small-body">Studenten werken samen aan een design challenge.</span>
         </figcaption>
     </figure>
 

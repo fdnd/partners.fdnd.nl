@@ -7,7 +7,7 @@
     </figure>
 
     <div class="text-container">
-        <h2 class="large-heading">Doorlopende projecten</h2>
+        <h2 class="large-heading">FDND projecten</h2>
 
         <p>Studenten werken doorlopend aan projecten voor echte opdrachtgevers. In twee jaar ontwerpen en ontwikkelen studenten een betekenisvolle, robuuste en toegankelijke website.</p>
         <p>Wij werken onder andere samen met, Funda, de OBA, Schiphol, De Hallen, Vervoerregio Amsterdam en het Antonie van Leeuwenhoek.</p>
