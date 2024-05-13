@@ -7,8 +7,6 @@
 <Header />
 
 <main>
-    
-
 	<slot />
 
 	<Subscribe />
