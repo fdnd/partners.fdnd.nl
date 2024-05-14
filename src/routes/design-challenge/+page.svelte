@@ -1,6 +1,6 @@
 <section class="image-with-text">
     <figure class="image-container">
-        <img src="/img/werken-aan-design-challenge.jpeg" alt="Studenten werken samen aan een design challenge" class="rounded" />
+        <img src="/img/werken-aan-design-challenge.jpg" alt="Studenten werken samen aan een design challenge" class="rounded" />
         <figcaption class="font-semibold">
             <span class="small-body">Studenten werken samen aan een design challenge.</span>
         </figcaption>
