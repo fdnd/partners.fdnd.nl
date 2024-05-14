@@ -1,7 +1,9 @@
 <script>
-    import { enhance } from '$app/forms'
+    import { enhance, applyAction } from '$app/forms'
     
     export let form
+
+    console.log(form);
 
     let loading = false
 
@@ -160,8 +162,12 @@
     <h2 class="large-heading">Meld je aan voor een design challenge</h2>
 
     {#if form?.success }
-        <p class="message">Je hebt je aangemeld voor een design challenge</p>
+        <p class="message succes">Je hebt je aangemeld voor een design challenge</p>
     {/if}
+
+    {#if form?.error}
+		<p class="message fail">{form.message}</p>
+	{/if}
 
     <fieldset>
         <legend>Gegevens</legend>

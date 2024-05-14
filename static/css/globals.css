@@ -203,3 +203,14 @@ svg.loader {
     right:1rem;
     top:1rem;
 }
+p.message {
+    border:2px solid;
+    border-radius: var(--small-radius);
+    padding:.5em
+}
+p.succes {
+    border-color: var(--green);
+}
+p.fail {
+    border-color: var(--purple);
+}
