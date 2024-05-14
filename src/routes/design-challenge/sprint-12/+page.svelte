@@ -148,7 +148,7 @@
 
 <!-- Enhance the form with the use:enhance prop -->
 <!-- Custom Enhance form with the use:enhance={handleForm} prop pointing to a custom form handler function -->
-<form  action="/design-challenge/sprint-12#aanmelden-voor-design-challenge" method="POST" class="simple-text" id="aanmelden-voor-design-challenge" use:enhance={handleForm}> 
+<form  action="/design-challenge/sprint-12#aanmelden" method="POST" class="simple-text" id="aanmelden" use:enhance={handleForm}> 
     <h2 class="large-heading">Meld je aan voor een design challenge</h2>
     
     {#if loading }
@@ -190,5 +190,9 @@
 <style>
     form {
         display:none;
+    }
+
+    form:target {
+        display:block;
     }
 </style>
