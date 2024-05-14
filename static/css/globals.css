@@ -161,3 +161,45 @@ section ul {
     padding:0;
     margin:1rem 0
 }
+
+form {
+    position: relative;
+    width:50vw
+}
+
+fieldset {
+    border:0;
+    padding:0;
+    margin-top: 1rem;
+}
+legend {
+    display: none;
+}
+label {
+    font-weight: bold;
+}
+input, textarea {
+    display:block;
+    margin-top: .25rem;
+    margin-bottom: 1rem;
+    border-radius:.5rem;
+    border:none;
+    padding:.5rem;
+}
+button {
+    all:unset;
+    background-color: #66e5bf;
+    border-radius:.5rem;
+    padding:.5rem;
+    color:#050542
+}
+textarea {
+    width:100%;
+    max-width:60ch
+}
+
+svg.loader {
+    position: absolute;
+    right:1rem;
+    top:1rem;
+}

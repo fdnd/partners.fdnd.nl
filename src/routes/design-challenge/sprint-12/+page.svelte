@@ -1,3 +1,26 @@
+<script>
+    import { enhance } from '$app/forms'
+    
+    export let form
+
+    let loading = false
+
+    function handleForm({ formElement, formData, action, cancel, submitter }){
+        loading = true
+
+        return async ({ result, update }) => {
+            await setTimeout(async  () => {
+                loading = false  
+
+                console.log(result)
+                await update()
+            }, 1000);
+
+            
+        }
+    }
+</script>
+
 <section class="image-with-text">
     <figure class="image-container">
         <img src="/img/briefing-bij-fivespark.jpeg" alt="De briefing bij Fivespark" />
@@ -114,13 +137,45 @@
 
                 <figcaption class="font-semibold small-body">De Correspondent</figcaption>
             </figure>
-        </a>
-        
-
-            
-
-            
-
-            
+        </a>           
     </div>
 </section>
+
+<!-- Enhance the form with the use:enhance prop -->
+<!-- Custom Enhance form with the use:enhance={handleForm} prop pointing to a custom -->
+<form action="/design-challenge/sprint-12#aanmelden-voor-design-challenge" method="POST" class="simple-text" id="aanmelden-voor-design-challenge" use:enhance={handleForm}> 
+    {#if loading }
+        <svg class="loader" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <style>
+                .spinner_qM83{animation:spinner_8HQG .5s infinite; fill:#66e5bf}
+                .spinner_oXPr{animation-delay:.1s}.spinner_ZTLf{animation-delay:.2s}
+                @keyframes spinner_8HQG{0%,57.14%{animation-timing-function:cubic-bezier(0.33,.66,.66,1);transform:translate(0)}28.57%{animation-timing-function:cubic-bezier(0.33,0,.66,.33);transform:translateY(-6px)}100%{transform:translate(0)}}
+            </style>
+            <circle class="spinner_qM83" cx="4" cy="12" r="3"/>
+            <circle class="spinner_qM83 spinner_oXPr" cx="12" cy="12" r="3"/>
+            <circle class="spinner_qM83 spinner_ZTLf" cx="20" cy="12" r="3"/>
+        </svg>
+    {/if}
+
+    <h2 class="large-heading">Meld je aan voor een design challenge</h2>
+
+    {#if form?.success }
+        <p class="message">Je hebt je aangemeld voor een design challenge</p>
+    {/if}
+
+    <fieldset>
+        <legend>Gegevens</legend>
+        <label><span class="medium-body">Naam</span> <input type="text" name="name" value="{form?.name ?? ''}"  placeholder="e.g. John Doe"/></label>
+        
+        <label><span class="medium-body">Email</span> <input type="text" name="email" value="{form?.email ?? ''}" placeholder="e.g. john@example.com"></label>
+        
+    </fieldset>
+
+    <fieldset>
+        <legend>Opdracht</legend>
+        <label for="challenge" class="medium-body"><span>Design Challenge idee</span></label>
+        <textarea name="challenge" id="challenge" value="{form?.challenge ?? ''}"></textarea>
+    </fieldset>
+
+    <button>Aanmelden</button>
+</form>
