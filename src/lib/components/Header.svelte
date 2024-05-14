@@ -4,7 +4,7 @@
     let isActive = false
 
     onMount(() => {
-        const menuTrigger = document.querySelector('button')
+        const menuTrigger = document.querySelector('.menu button')
         if (menuTrigger) {
             const header = document.querySelector('header')
             const headerLinks = header.querySelectorAll('a')
@@ -194,6 +194,7 @@ header .insta {
     height: 3rem;
     width: auto;
     transition: transform 0.4s ease-out;
+    z-index:10;
 }
 
 @media (max-width: 1024px) {
