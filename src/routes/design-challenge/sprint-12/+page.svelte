@@ -1,35 +1,24 @@
 <script>
-    import { Block } from '@fdnd/components';
-    import { enhance } from '$app/forms';
+    import { Block } from '@fdnd/components'
+    import { enhance } from '$app/forms'
+    
+    export let form
 
-    let loading = false;
+    let loading = false
 
     function handleForm({ formElement, formData, action, cancel, submitter }){
-        // `formElement` is this `<form>` element
-        // `formData` is its `FormData` object that's about to be submitted
-        // `action` is the URL to which the form is posted
-        // calling `cancel()` will prevent the submission
-        // `submitter` is the `HTMLElement` that caused the form to be submitted
-
         loading = true
 
         return async ({ result, update }) => {
-            await setTimeout(() => {
-                loading = false
+            await update()
 
-                console.log(result)
-            }, 2000);
-            
-            // `result` is an `ActionResult` object
-            // `update` is a function which triggers the default logic that would be triggered if this callback wasn't set
+            loading = false
         };
     }
 
     
 </script>
 
-<Block tag="section">
-    <div class="global-hack">
         <Block class="blue-on-green rounded" tag="div">
             <h2>Design Challenge sprint 12: Proof of Concept</h2>
             <p>Startdatum: <time>03-06-2024</time></p>
@@ -93,7 +82,7 @@
         <!-- Lijst met opdrachtgevers (logo's) -->
 
         <!-- Aanmeldformulier -->
-        <Block class="green-on-blue rounded" tag="div"></Block>
+            <!-- <form action="/design-challenge/sprint-12" method="POST"> -->
             <form action="/design-challenge/sprint-12" method="POST" use:enhance={handleForm}>
 
                 {#if loading }
@@ -104,9 +93,9 @@
 
                 <fieldset>
                     <legend>Gegevens</legend>
-                    <label><span>Naam</span> <input type="text" name="name" /></label>
+                    <label><span>Naam</span> <input type="text" name="name" value="{form?.name ?? ''}"  placeholder="e.g. John Doe"/></label>
                     
-                    <label><span>Email</span> <input type="email" name="email"></label>
+                    <label><span>Email</span> <input type="text" name="email"></label>
                     
                 </fieldset>
 
@@ -118,7 +107,6 @@
 
                 <button>Aanmelden</button>
             </form>
-        </Block>
 
 <style>
     :global(div.global-hack div),
