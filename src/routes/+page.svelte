@@ -23,7 +23,7 @@
             <h3 class="small-heading">Design challenges</h3>
             <p>De laatste sprints van semester 1 en semester 2 werken de studenten aan een design challenge voor een creative agency. Studenten krijgen een kijkje in de keuken van een creative agency en de agency maakt kennis met studenten van FDND.</p>
 
-            <a href="/design-challenges" class="button is-dark"><span class="small-body">Meer over design challenges</span></a>
+            <a href="/design-challenge" class="button is-dark"><span class="small-body">Meer over design challenges</span></a>
         </div>
 
         <div class="cta">
@@ -34,10 +34,10 @@
         </div>
 
 		<div class="cta">
-            <h3 class="small-heading">Co-teachers</h3>
+            <h3 class="small-heading">Co-teaching</h3>
             <p>Een groep studenten, wij noemen dat een squad (naar het Spotify organisatiemodel) wordt altijd begeleid door een docent/coach én een co-teacher. Met vaste en wisselende co-teacher zorgen we ervoor dat er altijd actuele kennis wordt overgedragen aan studenten.</p>
 
-            <a href="/co-teachers" class="button is-dark"><span class="small-body">Meer over co-teachers</span></a>
+            <a href="/co-teaching" class="button is-dark"><span class="small-body">Meer over co-teachers</span></a>
         </div>
 
 		<div class="cta">
