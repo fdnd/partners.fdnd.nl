@@ -20,4 +20,4 @@ export const actions = {
 
         return { success: true, name, email, challenge }
 	}
-};
+}

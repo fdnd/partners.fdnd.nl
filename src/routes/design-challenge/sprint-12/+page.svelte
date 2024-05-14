@@ -7,19 +7,22 @@
 
     let loading = false
 
-    function handleForm({ formElement, formData, action, cancel, submitter }){
+    function handleForm({ formElement }){
         loading = true
 
         return async ({ result, update }) => {
-            await setTimeout(async  () => {
+            await setTimeout(() => {
                 loading = false  
 
                 console.log(result)
-                await update()
+                update()
             }, 1000);
-
             
         }
+
+        // Add custom clients side validation with the Constraint API
+        // https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_using_javascript
+        // https://superforms.rocks/ form library for SvelteKit
     }
 </script>
 
@@ -144,8 +147,10 @@
 </section>
 
 <!-- Enhance the form with the use:enhance prop -->
-<!-- Custom Enhance form with the use:enhance={handleForm} prop pointing to a custom -->
-<form action="/design-challenge/sprint-12#aanmelden-voor-design-challenge" method="POST" class="simple-text" id="aanmelden-voor-design-challenge" use:enhance={handleForm}> 
+<!-- Custom Enhance form with the use:enhance={handleForm} prop pointing to a custom form handler function -->
+<form  action="/design-challenge/sprint-12#aanmelden-voor-design-challenge" method="POST" class="simple-text" id="aanmelden-voor-design-challenge" use:enhance={handleForm}> 
+    <h2 class="large-heading">Meld je aan voor een design challenge</h2>
+    
     {#if loading }
         <svg class="loader" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <style>
@@ -159,8 +164,6 @@
         </svg>
     {/if}
 
-    <h2 class="large-heading">Meld je aan voor een design challenge</h2>
-
     {#if form?.success }
         <p class="message succes">Je hebt je aangemeld voor een design challenge</p>
     {/if}
@@ -171,16 +174,14 @@
 
     <fieldset>
         <legend>Gegevens</legend>
-        <label><span class="medium-body">Naam</span> <input type="text" name="name" value="{form?.name ?? ''}"  placeholder="e.g. John Doe"/></label>
-        
-        <label><span class="medium-body">Email</span> <input type="text" name="email" value="{form?.email ?? ''}" placeholder="e.g. john@example.com"></label>
-        
+        <label><span class="medium-body">Naam</span> <input type="text" name="name" minlength="2" required value="{form?.name ?? ''}"  placeholder="Sam Jansen"/></label>
+        <label><span class="medium-body">Email</span> <input type="email" name="email" required value="{form?.email ?? ''}" placeholder="s.jansen@mail.nl"></label>
     </fieldset>
 
     <fieldset>
         <legend>Opdracht</legend>
         <label for="challenge" class="medium-body"><span>Design Challenge idee</span></label>
-        <textarea name="challenge" id="challenge" value="{form?.challenge ?? ''}"></textarea>
+        <textarea name="challenge" id="challenge" rows="10" required value="{form?.challenge ?? ''}"></textarea>
     </fieldset>
 
     <button>Aanmelden</button>

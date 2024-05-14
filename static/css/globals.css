@@ -1,9 +1,12 @@
 :root {
     --grey: #e7e7e7;
-    --purple: #A675F5;
+    --purple: rgb(166, 117, 245);
+    --purple-10: rgb(166, 117, 245, 0.1);
     --blue: #050542;
     --blue-50: rgba(5, 5, 66, 0.5);
-    --green: #66E5BF;
+    --green: rgb(102, 229, 191);
+    --green-10: rgb(102, 229, 191, 0.1);
+
     --yellow: #FFFC86;
     --angle: 42deg;
 
@@ -185,6 +188,9 @@ input, textarea {
     border-radius:.5rem;
     border:none;
     padding:.5rem;
+
+    -webkit-appearance: none;
+    appearance: none;
 }
 button {
     all:unset;
@@ -196,6 +202,11 @@ button {
 textarea {
     width:100%;
     max-width:60ch
+}
+
+form button {
+    opacity:0;
+    transition:250ms;
 }
 
 svg.loader {
@@ -213,4 +224,29 @@ p.succes {
 }
 p.fail {
     border-color: var(--purple);
+}
+
+.error {
+    width  : 100%;
+    padding: 0;
+    color: white;
+    background-color: var(--purple);
+    border-radius: 0 0 5px 5px;
+}
+fieldset :invalid {
+    border: 1px solid var(--purple);
+}
+fieldset :valid {
+    border: 1px solid var(--green);
+}
+fieldset :focus {
+    outline:none;
+    background:var(--purple-10)
+}
+fieldset :valid:focus {
+    background:var(--green-10)
+}
+
+form:valid button{
+    opacity:1
 }
