@@ -8,8 +8,8 @@
 <section class="cta-row">
     <div class="inner">
         <header>
-            <h2 class="large-heading">Samenwerken @FDND</h2>
-			<p>Samenwerken met instellingen, bedrijven en het werkveld is één van de peilers van het onderwijsmodel van FDND, Hill (High Impact Learning that Lasts), anders gezegd het studio model. Studenten werken doorlopend aan echte projecten voor echte opdrachtgevers, krijgen les van experts uit het vakgebied en lopen stage bij bedrijven uit de creatieve industrie.</p>
+            <h2 class="large-heading">Samenwerken met FDND</h2>
+			<p>Samenwerken met instellingen, bedrijven en het werkveld, onze partners in education, is één van de peilers van FDND. Studenten werken in de fDND studio doorlopend aan echte projecten voor echte opdrachtgevers. Daarbij krijgen ze les van experts uit het vakgebied en lopen stage bij bedrijven uit de creatieve industrie. Regelmatig delen experts uit het vakgebied hun kennis bij FDND.</p>
         </header>
         <div class="cta">
             <h3 class="small-heading">Projecten</h3>
