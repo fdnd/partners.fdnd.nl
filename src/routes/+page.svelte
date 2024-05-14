@@ -23,14 +23,14 @@
             <h3 class="small-heading">Design challenges</h3>
             <p>De laatste sprints van semester 1 en semester 2 werken de studenten aan een design challenge voor een creative agency. Studenten krijgen een kijkje in de keuken van een creative agency en de agency maakt kennis met studenten van FDND.</p>
 
-            <a href="/Design challenges" class="button is-dark"><span class="small-body">Meer over design challenges</span></a>
+            <a href="/design-challenges" class="button is-dark"><span class="small-body">Meer over design challenges</span></a>
         </div>
 
         <div class="cta">
             <h3 class="small-heading">Stage</h3>
             <p>In het laatste semester van de opleiding kunnen de studenten ervoor kiezen om stage te lopen. In een periode van 10 of 20 weken verzamelen studenten, tijdens de stage, bewijslast voor het eindassessment.</p>
 
-            <a href="/design-challenge" class="button is-dark "><span class="small-body">Meer over stage</span></a>
+            <a href="/stage" class="button is-dark "><span class="small-body">Meer over stage</span></a>
         </div>
 
 		<div class="cta">
