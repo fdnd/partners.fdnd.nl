@@ -186,3 +186,9 @@
 
     <button>Aanmelden</button>
 </form>
+
+<style>
+    form {
+        display:none;
+    }
+</style>
