@@ -453,6 +453,7 @@ CTA ROW
     margin: auto;
     gap: var(--padding-side);
     padding: var(--padding-side);
+    justify-content: center;
 }
 
 .cta-row header {
@@ -510,6 +511,12 @@ CTA ROW
         width: 100%;
         max-width: unset;
         padding: 1.5rem;
+    }
+}
+
+@media (min-width: 750px) {
+    .cta {
+        min-width:300px
     }
 }
 
