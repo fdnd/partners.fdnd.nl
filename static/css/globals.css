@@ -1,5 +1,6 @@
 :root {
     --grey: #e7e7e7;
+    --darkgrey:#cbcbcb;
     --purple: rgb(166, 117, 245);
     --purple-10: rgb(166, 117, 245, 0.1);
     --blue: #050542;
@@ -169,6 +170,9 @@ form {
     position: relative;
     width:50vw
 }
+form h2 {
+    text-wrap:balance
+}
 
 fieldset {
     border:0;
@@ -192,32 +196,29 @@ input, textarea {
     -webkit-appearance: none;
     appearance: none;
 }
-button {
-    all:unset;
-    background-color: #66e5bf;
-    border-radius:.5rem;
-    padding:.5rem;
-    color:#050542
-}
 textarea {
     width:100%;
     max-width:60ch
 }
-
-form button {
-    opacity:0;
+form footer {
+    display:flex;
+    align-items: center;
+    gap:1rem;
+    flex-wrap: wrap;
+}
+button {
+    all:unset;
+    background-color: var(--darkgrey);
+    border-radius:.5rem;
+    padding:.5rem;
+    color:#aaa;
     transition:250ms;
 }
 
-svg.loader {
-    position: absolute;
-    right:1rem;
-    top:1rem;
-}
 p.message {
     border:2px solid;
     border-radius: var(--small-radius);
-    padding:.5em
+    padding:.25em .5rem;
 }
 p.succes {
     border-color: var(--green);
@@ -234,7 +235,7 @@ p.fail {
     border-radius: 0 0 5px 5px;
 }
 fieldset :invalid {
-    border: 1px solid var(--purple);
+    border: 1px solid var(--darkgrey);
 }
 fieldset :valid {
     border: 1px solid var(--green);
@@ -248,5 +249,6 @@ fieldset :valid:focus {
 }
 
 form:valid button{
-    opacity:1
+    background:var(--green);
+    color:var(--blue)
 }

@@ -3,18 +3,19 @@
     
     export let form
 
-    console.log(form);
+    console.log('form', form);
 
     let loading = false
 
-    function handleForm({ formElement }){
+    function handleForm(){
         loading = true
 
         return async ({ result, update }) => {
             await setTimeout(() => {
                 loading = false  
 
-                console.log(result)
+                console.log('result', result)
+
                 update()
             }, 1000);
             
@@ -149,25 +150,8 @@
 <!-- Enhance the form with the use:enhance prop -->
 <!-- Custom Enhance form with the use:enhance={handleForm} prop pointing to a custom form handler function -->
 <form  action="/design-challenge/sprint-12#aanmelden" method="POST" class="simple-text" id="aanmelden" use:enhance={handleForm}> 
-    <h2 class="large-heading">Meld je aan voor een design challenge</h2>
+    <h2 class="large-heading">Meld je aan voor <br>een design challenge</h2>
     
-    {#if loading }
-        <svg class="loader" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <style>
-                .spinner_qM83{animation:spinner_8HQG .5s infinite; fill:#66e5bf}
-                .spinner_oXPr{animation-delay:.1s}.spinner_ZTLf{animation-delay:.2s}
-                @keyframes spinner_8HQG{0%,57.14%{animation-timing-function:cubic-bezier(0.33,.66,.66,1);transform:translate(0)}28.57%{animation-timing-function:cubic-bezier(0.33,0,.66,.33);transform:translateY(-6px)}100%{transform:translate(0)}}
-            </style>
-            <circle class="spinner_qM83" cx="4" cy="12" r="3"/>
-            <circle class="spinner_qM83 spinner_oXPr" cx="12" cy="12" r="3"/>
-            <circle class="spinner_qM83 spinner_ZTLf" cx="20" cy="12" r="3"/>
-        </svg>
-    {/if}
-
-    {#if form?.success }
-        <p class="message succes">Je hebt je aangemeld voor een design challenge</p>
-    {/if}
-
     {#if form?.error}
 		<p class="message fail">{form.message}</p>
 	{/if}
@@ -184,7 +168,25 @@
         <textarea name="challenge" id="challenge" rows="10" required value="{form?.challenge ?? ''}"></textarea>
     </fieldset>
 
-    <button>Aanmelden</button>
+    <footer>
+        <button>Aanmelden</button>
+        {#if loading }
+            <svg class="loader" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <style>
+                    .spinner_qM83{animation:spinner_8HQG .5s infinite; fill:#66e5bf}
+                    .spinner_oXPr{animation-delay:.1s}.spinner_ZTLf{animation-delay:.2s}
+                    @keyframes spinner_8HQG{0%,57.14%{animation-timing-function:cubic-bezier(0.33,.66,.66,1);transform:translate(0)}28.57%{animation-timing-function:cubic-bezier(0.33,0,.66,.33);transform:translateY(-6px)}100%{transform:translate(0)}}
+                </style>
+                <circle class="spinner_qM83" cx="4" cy="12" r="3"/>
+                <circle class="spinner_qM83 spinner_oXPr" cx="12" cy="12" r="3"/>
+                <circle class="spinner_qM83 spinner_ZTLf" cx="20" cy="12" r="3"/>
+            </svg>
+        {/if}
+
+        {#if form?.success}
+            <p class="message succes small-body" class:active={form?.success}>Je hebt je aangemeld voor een design challenge</p>
+        {/if}
+    </footer>
 </form>
 
 <style>
