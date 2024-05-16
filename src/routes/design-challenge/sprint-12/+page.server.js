@@ -17,7 +17,7 @@ export const actions = {
             email,
             challenge
         })
-
+        
         return { success: true, name, email, challenge }
 	}
 }
