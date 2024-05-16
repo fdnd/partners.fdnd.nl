@@ -4,11 +4,11 @@
         <p>FDND maakt gebruik van microsites. Microsites zijn kleine websites ter ondersteuning van een campagne, informatie over een product, dienst of voor een ander specifiek doel.</p>
         <ul class="button-row">
             <li><a class="button" href="https://fdnd.nl"><span>FDND.nl</span></a></li>
-            <li><a class="button" href="https://contact.fdnd.nl"><span>Contact en routebeschrijving</span></a></li>
+            <li><a class="button" href="https://contact.fdnd.nl"><span>Contact</span></a></li>
             <li><a class="button" href="https://programma.fdnd.nl"><span>Programma</span></a></li>
             <li><a class="button" href="https://partners.fdnd.nl"><span>Partners</span></a></li>
-            <li><a class="button" href="https://tasks.fdnd.nl"><span>Leertaken</span></a></li>
-            <li><a class="button" href="https://styleguide.fdnd.nl"><span>Styleguide</span></a></li>
+            <li><a class="button" href="https://niveaumatrix.fdnd.nl"><span>Niveaumatrix</span></a></li>
+            <li><a class="button" href="https://docs.fdnd.nl"><span>Documenten</span></a></li>
         </ul>
     </div>
     <div class="bottom">
