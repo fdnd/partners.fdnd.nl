@@ -210,7 +210,7 @@ button {
     all:unset;
     background-color: var(--darkgrey);
     border-radius:.5rem;
-    padding:.5rem;
+    padding:calc(.5rem - 2px);
     color:#aaa;
     transition:250ms;
 }

@@ -3,25 +3,29 @@
     
     export let form
 
-    console.log('form', form);
+    // console.log('form', form);
 
     let loading = false
 
-    function handleForm(){
+    function handleForm({formElement, formData}){
+        // Voor de submit
         loading = true
 
         return async ({ result, update }) => {
+            // fake api post
             await setTimeout(() => {
-                loading = false  
+            // na de submit
 
-                console.log('result', result)
-
+                // console.log('result', result)
                 update()
+
+                loading = false  
             }, 1000);
             
         }
 
-        // Add custom clients side validation with the Constraint API
+        // More Enhancements
+        // Add custom clients side validation with the Constraint Validation API
         // https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_using_javascript
         // https://superforms.rocks/ form library for SvelteKit
     }
@@ -184,7 +188,7 @@
         {/if}
 
         {#if form?.success}
-            <p class="message succes small-body" class:active={form?.success}>Je hebt je aangemeld voor een design challenge</p>
+            <p class="message succes" class:active={form?.success}>Je hebt je aangemeld voor een design challenge</p>
         {/if}
     </footer>
 </form>
