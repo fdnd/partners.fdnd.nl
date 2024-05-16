@@ -51,11 +51,7 @@
     <div class="text-container">
         <h2 class="large-heading">Kilian Valkof: responsive design</h2>
 
-        <p>Vrijdag ... kwam Kilian Valkof vertelen over responsive design en hoe de door hem gebouwde tool Polypane .</p>
-
-        <a href="https://weloveweb.fdnd.nl/" class="button is-accent-2 is-full-color">
-            <span>Programma We ❤️ Web-sessies 2023/2024</span>
-        </a>
+        <p>Kilian Valkof kwam vertelen over responsive design en hoe de door hem gebouwde tool <a href="https://polypane.app/">Polypane</a> helpt bij het testen van responsive design in de browser. </p>
     </div>
 </section>
 
