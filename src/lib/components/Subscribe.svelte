@@ -104,6 +104,13 @@ footer .inner::after {
 }
 
 @media (max-width: 750px) {
+    footer .inner {
+        padding:.5rem 1rem
+    }
+    p + .button {
+        margin-top: .5rem;
+    }
+    
     footer .inner::before {
         content: unset;
     }
