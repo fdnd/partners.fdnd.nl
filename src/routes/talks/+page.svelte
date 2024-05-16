@@ -36,7 +36,7 @@
     <div class="text-container">
         <h2 class="large-heading">Gijs Laarman: case study mauritshuis.nl</h2>
 
-        <p>Vorig jaar kwam oud-student Gijs Laarman wat vertellen namens DEPT over de website van het Mauritshuis.</p>
+        <p>Vorig jaar kwam oud-student Gijs Laarman wat vertellen namens DEPT over de website van <a href="https://www.mauritshuis.nl/">Het Mauritshuis</a>.</p>
     </div>
 </section>
 
