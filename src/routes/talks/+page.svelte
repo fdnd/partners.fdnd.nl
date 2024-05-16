@@ -2,7 +2,7 @@
     <div class="inner">
         <h2 class="large-heading">Talks</h2>
 
-        <p>Professionals uit het vakgebied geven talks over diverse onderwerpen. Hierdoor blijven de studenten op de hoogte van (internationale) ontwikkelingen. Wij noemen dit de We ❤️ Web-sessies.</p>
+        <p>Professionals uit het vakgebied geven talks over diverse onderwerpen. Hierdoor blijven de studenten op de hoogte van (internationale) ontwikkelingen in het vakgebied. Wij noemen dit de We ❤️ Web-sessies.</p>
 
         <a href="https://weloveweb.fdnd.nl/" class="button is-accent-2 is-full-color">
             <span>Programma We ❤️ Web-sessies 2023/2024</span>
