@@ -1,31 +1,23 @@
 <script>
-    import { enhance, applyAction } from '$app/forms'
+    import { enhance } from '$app/forms'
     
     export let form
 
-    // console.log('form', form);
-
     let loading = false
 
-    function handleForm({formElement, formData}){
-        // Voor de submit
+    function handleForm({formElement, formData, action, cancel }) {
         loading = true
 
         return async ({ result, update }) => {
             // fake api post
             await setTimeout(() => {
-            // na de submit
-
-                // console.log('result', result)
                 update()
 
                 loading = false  
             }, 1000);
-            
         }
 
         // More Enhancements
-        // Add custom clients side validation with the Constraint Validation API
         // https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_using_javascript
         // https://superforms.rocks/ form library for SvelteKit
     }
@@ -153,7 +145,7 @@
 
 <!-- Enhance the form with the use:enhance prop -->
 <!-- Custom Enhance form with the use:enhance={handleForm} prop pointing to a custom form handler function -->
-<form  action="/design-challenge/sprint-12#aanmelden" method="POST" class="simple-text" id="aanmelden" use:enhance={handleForm}> 
+<form action="/design-challenge/sprint-12#aanmelden" method="POST" class="simple-text" id="aanmelden" use:enhance={handleForm}> 
     <h2 class="large-heading">Meld je aan voor <br>een design challenge</h2>
     
     {#if form?.error}
@@ -200,5 +192,12 @@
 
     form:target {
         display:block;
+    }
+
+    .validation-message {
+        color: red;
+        font-size: 14px;
+        margin-top: 5px;
+        border:5px solid deeppink
     }
 </style>
