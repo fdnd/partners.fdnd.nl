@@ -2,6 +2,7 @@
     import { enhance } from '$app/forms'
     
     export let form
+    export let data
 
     let loading = false
 
@@ -183,7 +184,16 @@
             <p class="message succes" class:active={form?.success}>Je hebt je aangemeld voor een design challenge</p>
         {/if}
     </footer>
+
+    <section class="simple-text">
+        <h2>Design Challenges voor 2024</h2>
+        {#each data?.people as person}
+            <p>{person.challenge}</p>
+        {/each}
+    </section>
 </form>
+
+
 
 <style>
     form {
