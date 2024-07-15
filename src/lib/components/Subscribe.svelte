@@ -39,7 +39,7 @@
 <footer class={isDown ? 'is-down' : ''}>
     <div class="inner">
         <p class="small-body caps font-bold">Samenwerken met FDND?</p>
-        <a class="button is-accent-2 is-full-color" href="mailto:info@fdnd.nl">
+        <a class="button is-accent-2 is-full-color" href="mailto:info-fdnd@hva.nl">
             <span>Laat het ons weten!</span>
         </a>
     </div>
