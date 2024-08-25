@@ -9,12 +9,12 @@
     <div class="inner">
         <header>
             <h2 class="large-heading">Samenwerken met FDND</h2>
-			<p>Samenwerken met instellingen, bedrijven en het werkveld; onze partners in education, is één van de peilers van de onderwijs visie van FDND. Studenten werken in de FDND studio doorlopend aan echte projecten voor echte opdrachtgevers. Daarbij krijgen ze les van experts uit het vakgebied en lopen stage bij bedrijven uit de creatieve industrie. Regelmatig delen experts uit het vakgebied hun kennis bij FDND.</p>
+			<p>Samenwerken met instellingen, bedrijven en het werkveld; onze partners in education, is één van de pijlers van de onderwijsvisie van FDND. Studenten werken in de FDND studio doorlopend aan echte projecten voor echte opdrachtgevers. Daarbij krijgen ze les van experts uit het vakgebied en lopen ze stage bij bedrijven uit de creatieve industrie. Regelmatig delen experts uit het vakgebied hun kennis bij FDND.</p>
         </header>
         <div class="cta">
             <h3 class="small-heading">Projecten</h3>
             
-            <p>Studenten werken individueel of in teams aan grote, langlopende projecten. Hierbij volgen ze verschillende aspecten van de scrum project methode, zoals sprint planning, stand-ups, sprint reviews en retrospect.</p>
+            <p>Studenten werken individueel of in teams aan grote, langlopende projecten. Hierbij volgen ze verschillende aspecten van de scrum project methode, zoals sprint planning, stand-ups, sprint reviews en retrospects.</p>
 
             <a href="/projecten" class="button is-dark"><span class="small-body">Meer over projecten</span></a>
         </div>
@@ -35,7 +35,7 @@
 
 		<div class="cta">
             <h3 class="small-heading">Co-teaching</h3>
-            <p>Een groep studenten, wij noemen dat een squad (naar het Spotify organisatiemodel) wordt altijd begeleid door een docent/coach én een co-teacher. Met vaste en wisselende co-teacher zorgen we ervoor dat er altijd actuele kennis wordt overgedragen aan studenten.</p>
+            <p>Een groep studenten, wij noemen dat een squad (naar het Spotify organisatiemodel) wordt altijd begeleid door een docent/coach én een co-teacher. Met vaste en wisselende co-teachers zorgen we ervoor dat er altijd actuele kennis wordt overgedragen aan studenten.</p>
 
             <a href="/co-teaching" class="button is-dark"><span class="small-body">Meer over co-teachers</span></a>
         </div>
