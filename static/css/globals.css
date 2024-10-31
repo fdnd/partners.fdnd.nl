@@ -3,12 +3,12 @@
     --darkgrey:#cbcbcb;
     --purple: rgb(166, 117, 245);
     --purple-10: rgb(166, 117, 245, 0.1);
-    --blue: #050542;
+    --blue: rgb(5, 5, 66);
     --blue-50: rgba(5, 5, 66, 0.5);
     --green: rgb(102, 229, 191);
     --green-10: rgb(102, 229, 191, 0.1);
 
-    --yellow: #FFFC86;
+    --yellow: rgb(255, 252, 134);
     --angle: 42deg;
 
     --background: var(--grey);

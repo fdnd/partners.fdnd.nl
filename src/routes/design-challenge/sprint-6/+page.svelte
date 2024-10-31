@@ -13,7 +13,7 @@
         <p>Eerstejaars studenten Frontend Design & Development (<a href="https://programma.fdnd.nl/">FDND</a>) gaan individueel of met een team een bedrijf helpen met een responsive website of online concept.</p>
         
         <p>In het eerste semester van de opleiding FDND hebben studenten veel geleerd over layout, responsive design, toegankelijkheid, interactie en het werken met een huisstijl. Alle studenten kunnen HTML, CSS en (een beetje) JavaScript.</p>
-        <p>Studenten gaan alles wat ze hebben geleerd toepassen om een opdracht voor een opdrachtgever te maken.</p>
+        <p>Studenten gaan alles wat ze hebben geleerd, in een sprint van 3 weken, toepassen om een opdracht voor een opdrachtgever te maken. Het idee van de design challenge is dat studenten een kijkje in de keuken van ene agency krijgen en ervaren hoe het is om een opdracht voor een agency te realiseren.</p>
         
         <a href="https://programma.fdnd.nl/"  class="button is-dark"><span>FDND Programma</span></a>
     </div>
@@ -22,19 +22,8 @@
 <section class="cta-row">
     <div class="inner">
         <header>
-            <h2 class="large-heading">Hoe werkt de design challenge?</h2>
+            <h2 class="large-heading">Hoe werkt de design challenge van <br>Sprint 6: The Startup?</h2>
         </header>
-        <div class="cta">
-            <h3 class="small-heading">Planning</h3>
-            
-            <ul>
-                <li><time>Maandag 8 januari 2024</time> krijgen de studenten een briefing bij de opdrachtgever. Tijdens de briefing maken de studenten kennis met het bedrijf en wordt besproken wat ze gaan maken.</li>
-                <li><time>Donderdag 25 januari</time> wordt de opdracht bij de opdrachtgever gepresenteerd en opgeleverd.</li>
-                <li>Tussentijdse contactmomenten zoals standups, vragenuurtje, communicatie via een teams channel zijn altijd mogelijk.</li>
-            </ul>
-
-            <a href="https://programma.fdnd.nl/static-web/the-startup#sprint-planning" class="button is-dark"><span>Bekijk de planning</span></a>
-        </div>
 
         <div class="cta">
             <h3 class="small-heading">Werkwijze</h3>
@@ -46,6 +35,18 @@
             </ul>
 
             <a href="https://github.com/fdnd-task/the-startup-responsive-interactieve-website/blob/main/docs/INSTRUCTIONS.md" class="button is-dark"><span>Bekijk de studentenopdracht</span></a>
+        </div>
+
+        <div class="cta">
+            <h3 class="small-heading">Planning</h3>
+            
+            <ul>
+                <li>Op de maandag in de <strong>1e week</strong> van de sprint krijgen de studenten <strong>een briefing</strong> bij de opdrachtgever. Tijdens de briefing maken de studenten kennis met het bedrijf en wordt besproken wat ze gaan maken.</li>
+                <li>Op de donderdag van de <strong>3e week</strong> van de sprint wordt de opdracht bij de opdrachtgever <strong>gepresenteerd</strong> en <strong>opgeleverd</strong>.</li>
+                <li>Tussentijdse contactmomenten zoals standups, vragenuurtje, communicatie via een teams channel zijn altijd mogelijk.</li>
+            </ul>
+
+            <a href="https://programma.fdnd.nl/static-web/the-startup#sprint-planning" class="button is-dark"><span>Bekijk de planning</span></a>
         </div>
 
         <div class="cta">
