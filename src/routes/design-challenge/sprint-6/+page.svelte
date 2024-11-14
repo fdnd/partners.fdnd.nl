@@ -28,7 +28,7 @@
         <div class="cta">
             <h3 class="small-heading">Werkwijze</h3>
             <ul>
-                <li>Op basis van een bestaand idee, concept of ontwerp gaan studenten FDND een responsive website of webpagina ontwerpen, maken en testen.</li>
+                <li>Op basis van een bestaand idee, concept of ontwerp (bij voorkeur een desktop versie uitgewerkt in een figma bestand) gaan studenten FDND een responsive website of webpagina ontwerpen, maken en testen.</li>
                 <li>Studenten werken individueel of in een team aan een project.</li>
                 <li>Voor het project is er bestaande content zoals teksten, beeldmateriaal, video's, huisstijl of conceptmateriaal beschikbaar.</li>
                 <li>De code voor het project wordt publiekelijk op GitHub bewaard en gepubliceerd.</li>
@@ -68,6 +68,7 @@
     <div class="inner">
         <header>
             <h2 class="large-heading">Studentenwerk</h2>
+            <a href="https://github.com/fdnd-task/the-startup-responsive-interactieve-website/network/members">Bekijk al het studentenwerk op GitHub</a>
         </header>
 
         <a href="/" class="cta">
