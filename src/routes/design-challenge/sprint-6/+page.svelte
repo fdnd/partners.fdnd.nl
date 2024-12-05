@@ -8,7 +8,7 @@
 
     <div class="text-container">
         <h2 class="large-heading">Design Challenge <br>sprint 6: The Startup</h2>
-        <p>Startdatum: <time>08-01-2024</time></p>
+        <p>Startdatum: <time>06-01-2025</time></p>
                 
         <p>Eerstejaars studenten Frontend Design & Development (<a href="https://programma.fdnd.nl/">FDND</a>) gaan individueel of met een team een bedrijf helpen met een responsive website of online concept.</p>
         
