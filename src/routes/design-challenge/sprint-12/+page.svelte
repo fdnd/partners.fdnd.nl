@@ -15,11 +15,13 @@
 
                 loading = false  
             }, 1000);
+
         }
 
         // More Enhancements
         // https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_using_javascript
         // https://superforms.rocks/ form library for SvelteKit
+        // PE POST/GET https://github.com/sveltejs/kit/issues/7251
     }
 </script>
 
@@ -156,6 +158,7 @@
         <a href="/" class="cta">
             <figure>
                 <img src="/img/design-challenges/sprint-12/badr-io.png" alt="">
+                
 
                 <figcaption class="font-semibold small-body">IO Digital</figcaption>
             </figure>
