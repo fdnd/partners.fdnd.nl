@@ -61,7 +61,7 @@
     <div class="inner">
         <header>
             <h2 class="large-heading">Semesters & sprints</h2>
-            <p>Elk semester werken de studenten in meerdere sprints van 3 weken aan een opdracht voor ee opdrachtgever. In de semester en sprints zit een opbouw van toenemende complexiteit en afnemende sturing. Zo krijgen studenten steeds meer grip op hun eigen ontwikkeling én wordt in de loop van twee jaar een volledige website of web applicatie ontworpen en ontwikkeld.</p>
+            <p>Elk semester werken de studenten in meerdere sprints van 3 weken aan een opdracht voor een opdrachtgever. In de semester en sprints zit een opbouw van toenemende complexiteit en afnemende sturing. Zo krijgen studenten steeds meer grip op hun eigen ontwikkeling én wordt in de loop van twee jaar een volledige website of web applicatie ontworpen en ontwikkeld.</p>
         </header>
         
         <div class="cta">
