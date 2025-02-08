@@ -1,3 +1,9 @@
+<script>
+    export let data
+
+    const { sites } = data
+</script>
+
 <section class="image-with-text">
     <figure class="image-container">
         <img src="/img/review-sprint-9.jpeg" alt=" Martijn Nieuwenhuizen, senior Frontend Developer bij Grrrr, geeft les aan tweedejaars studenten" class="rounded" />
@@ -92,3 +98,68 @@
 
     </div>
 </section>
+
+<section class="cta-row portfolio">
+    <div class="inner">
+        <header>
+            <h2 class="large-heading">Huidige projecten</h2>
+        </header>
+        {#each sites as site}
+            <div class="cta">
+                <h3 class="small-heading">{site.name}</h3>
+                
+                {#if site.screenshot_url !== null}
+                    <img src="{site.screenshot_url}" alt="{site.name}">
+                {/if}
+
+                <ul>
+                    <li>
+                        <a class="button is-accent-1 is-full-color" href="{site.live_url}">
+                            <span>Live site</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="button is-accent-2 is-full-color" href="{site.github_url}">
+                            <span>Github Repository</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+        {/each}
+
+    </div>  
+</section>
+
+<style>
+    .cta-row.portfolio {
+        gap:0
+    }
+    .portfolio .cta {
+        padding:0;
+        background:none;
+    }
+
+    .portfolio  .cta h3 {
+        text-transform: capitalize;
+        margin-bottom: 1rem;
+    }
+
+    .portfolio .cta img {
+        width: 100%;
+        margin-bottom: 0;
+        border-radius: 1rem;
+        border:1px solid var(--blue);
+    }
+
+    .portfolio  .cta ul {
+        display: flex;
+        justify-content: start;
+        list-style: none;
+        gap: 1rem;
+        padding:0;
+        margin-bottom: 2rem;
+    }
+</style>
