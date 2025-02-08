@@ -15,13 +15,46 @@
     <div class="text-container">
         <h2 class="large-heading">FDND projecten</h2>
 
-        <p>Studenten werken doorlopend aan projecten voor echte opdrachtgevers. In twee jaar ontwerpen en ontwikkelen studenten een betekenisvolle, robuuste en toegankelijke website.</p>
-        <p>Wij werken onder andere samen met, Funda, de OBA, Schiphol, De Hallen, Vervoerregio Amsterdam en het Antonie van Leeuwenhoek.</p>
+        <p>Studenten werken doorlopend aan projecten voor echte opdrachtgevers. In twee jaar ontwerpen en ontwikkelen studenten betekenisvolle, robuuste en toegankelijke websites.</p>
+        <p>Wij werken onder andere samen met, <a href="https://www.funda.nl/">Funda</a>, <a href="https://www.fabrique.nl/">Fabrique</a>, <a href="https://www.oba.nl/">OBA</a>, <a href="https://www.schiphol.nl/">Schiphol</a>, <a href="https://www.vervoerregio.nl/">Vervoerregio Amsterdam</a>, <a href="https://www.voorhoede.nl/">Voorhoede</a>, <a href="https://dutchdigitalagencies.com/">Dutch Digital Agencies</a>, <a href="https://www.deloitte.com/nl/nl.html">Deloitte</a>, <a href="https://www.futureready.design/">Future Ready Design</a>, <a href="https://www.wearetriple.com/nl/">Triple</a>,  <a href="https://www.avl.nl/">Antonie van Leeuwenhoek</a>, ...</p>
+    </div>
+</section>
+
+<section class="cta-row portfolio" id="huidige-projecten">
+    <div class="inner">
+        <header class="sr-only">
+            <h2 class="large-heading">FDND Agency</h2>
+            <p>De huidge projecten waar studenten bij FDND Agency aan werken.</p>
+        </header>
+        {#each sites as site}
+            <div class="cta">
+                <h3 class="small-heading">{site.name}</h3>
+                
+                {#if site.screenshot_url !== null}
+                    <img src="{site.screenshot_url}" alt="{site.name}">
+                {/if}
+
+                <ul>
+                    <li>
+                        <a class="button is-accent-1 is-full-color" href="{site.live_url}">
+                            <span>Live site</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="button is-accent-2 is-full-color" href="{site.github_url}">
+                            <span>Github Repository</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        {/each}
 
         <a href="https://github.com/fdnd-agency/" class="button is-accent-2 is-full-color">
-            <span>Bekijk de projecten op GitHub</span>
+            <span>Bekijk alle projecten op GitHub</span>
         </a>
-    </div>
+    </div>  
 </section>
 
 <section class="cta-row">
@@ -99,39 +132,7 @@
     </div>
 </section>
 
-<section class="cta-row portfolio" id="huidige-projecten">
-    <div class="inner">
-        <header>
-            <h2 class="large-heading">Huidige projecten</h2>
-        </header>
-        {#each sites as site}
-            <div class="cta">
-                <h3 class="small-heading">{site.name}</h3>
-                
-                {#if site.screenshot_url !== null}
-                    <img src="{site.screenshot_url}" alt="{site.name}">
-                {/if}
 
-                <ul>
-                    <li>
-                        <a class="button is-accent-1 is-full-color" href="{site.live_url}">
-                            <span>Live site</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a class="button is-accent-2 is-full-color" href="{site.github_url}">
-                            <span>Github Repository</span>
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-            
-        {/each}
-
-    </div>  
-</section>
 
 <style>
     .cta-row.portfolio {
