@@ -16,7 +16,7 @@
         <h2 class="large-heading">FDND projecten</h2>
 
         <p>Studenten werken doorlopend aan projecten voor echte opdrachtgevers. In twee jaar ontwerpen en ontwikkelen studenten betekenisvolle, robuuste en toegankelijke websites.</p>
-        <p>Wij werken onder andere samen met, <a href="https://www.funda.nl/">Funda</a>, <a href="https://www.fabrique.nl/">Fabrique</a>, <a href="https://www.oba.nl/">OBA</a>, <a href="https://www.schiphol.nl/">Schiphol</a>, <a href="https://www.vervoerregio.nl/">Vervoerregio Amsterdam</a>, <a href="https://www.voorhoede.nl/">Voorhoede</a>, <a href="https://dutchdigitalagencies.com/">Dutch Digital Agencies</a>, <a href="https://www.deloitte.com/nl/nl.html">Deloitte</a>, <a href="https://www.futureready.design/">Future Ready Design</a>, <a href="https://www.wearetriple.com/nl/">Triple</a>,  <a href="https://www.avl.nl/">Antonie van Leeuwenhoek</a>, ...</p>
+        <p>Wij werken onder andere samen met: <a href="https://www.funda.nl/">Funda</a>, <a href="https://www.fabrique.nl/">Fabrique</a>, <a href="https://www.oba.nl/">OBA</a>, <a href="https://www.schiphol.nl/">Schiphol</a>, <a href="https://www.vervoerregio.nl/">Vervoerregio Amsterdam</a>, <a href="https://www.voorhoede.nl/">Voorhoede</a>, <a href="https://dutchdigitalagencies.com/">Dutch Digital Agencies</a>, <a href="https://www.deloitte.com/nl/nl.html">Deloitte</a>, <a href="https://www.futureready.design/">Future Ready Design</a>, <a href="https://www.wearetriple.com/nl/">Triple</a>,  <a href="https://www.avl.nl/">Antonie van Leeuwenhoek</a>, ...</p>
     </div>
 </section>
 
@@ -36,13 +36,13 @@
 
                 <ul>
                     <li>
-                        <a class="button is-accent-1 is-full-color" href="{site.live_url}">
+                        <a href="{site.live_url}">
                             <span>Live site</span>
                         </a>
                     </li>
 
                     <li>
-                        <a class="button is-accent-2 is-full-color" href="{site.github_url}">
+                        <a href="{site.github_url}">
                             <span>Github Repository</span>
                         </a>
                     </li>
@@ -146,6 +146,7 @@
     .portfolio  .cta h3 {
         text-transform: capitalize;
         margin-bottom: 1rem;
+        font-weight: normal;
     }
 
     .portfolio .cta img {
