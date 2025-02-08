@@ -16,7 +16,7 @@
         <h2 class="large-heading">FDND projecten</h2>
 
         <p>Studenten werken doorlopend aan projecten voor echte opdrachtgevers. In twee jaar ontwerpen en ontwikkelen studenten betekenisvolle, robuuste en toegankelijke websites.</p>
-        <p>Wij werken onder andere samen met, <a href="https://www.funda.nl/">Funda</a>, <a href="https://www.fabrique.nl/">Fabrique</a>, <a href="https://www.oba.nl/">OBA</a>, <a href="https://www.schiphol.nl/">Schiphol</a>, <a href="https://www.vervoerregio.nl/">Vervoerregio Amsterdam</a>, <a href="https://www.voorhoede.nl/">Voorhoede</a>, <a href="https://dutchdigitalagencies.com/">Dutch Digital Agencies</a>, <a href="https://www.deloitte.com/nl/nl.html">Deloitte</a>, <a href="https://www.futureready.design/">Future Ready Design</a>, <a href="https://www.wearetriple.com/nl/">Triple</a>,  <a href="https://www.avl.nl/">Antonie van Leeuwenhoek</a>, ...</p>
+        <p>Wij werken onder andere samen met: <a href="https://www.funda.nl/">Funda</a>, <a href="https://www.fabrique.nl/">Fabrique</a>, <a href="https://www.oba.nl/">OBA</a>, <a href="https://www.schiphol.nl/">Schiphol</a>, <a href="https://www.vervoerregio.nl/">Vervoerregio Amsterdam</a>, <a href="https://www.voorhoede.nl/">Voorhoede</a>, <a href="https://dutchdigitalagencies.com/">Dutch Digital Agencies</a>, <a href="https://www.deloitte.com/nl/nl.html">Deloitte</a>, <a href="https://www.futureready.design/">Future Ready Design</a>, <a href="https://www.wearetriple.com/nl/">Triple</a>,  <a href="https://www.avl.nl/">Antonie van Leeuwenhoek</a>, ...</p>
     </div>
 </section>
 
