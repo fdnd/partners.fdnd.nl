@@ -99,7 +99,7 @@
     </div>
 </section>
 
-<section class="cta-row portfolio">
+<section class="cta-row portfolio" id="huidige-projecten">
     <div class="inner">
         <header>
             <h2 class="large-heading">Huidige projecten</h2>
