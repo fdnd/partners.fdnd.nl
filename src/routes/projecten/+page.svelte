@@ -36,13 +36,13 @@
 
                 <ul>
                     <li>
-                        <a class="button is-accent-1 is-full-color" href="{site.live_url}">
+                        <a href="{site.live_url}">
                             <span>Live site</span>
                         </a>
                     </li>
 
                     <li>
-                        <a class="button is-accent-2 is-full-color" href="{site.github_url}">
+                        <a href="{site.github_url}">
                             <span>Github Repository</span>
                         </a>
                     </li>
@@ -146,6 +146,7 @@
     .portfolio  .cta h3 {
         text-transform: capitalize;
         margin-bottom: 1rem;
+        font-weight: normal;
     }
 
     .portfolio .cta img {
