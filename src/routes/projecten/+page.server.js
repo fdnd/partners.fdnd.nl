@@ -21,12 +21,9 @@ export async function load() {
 
         const sites = await response.json()
 
-        
-
         const siteData = sites
           .filter(site => site.name.includes('agency') && site.screenshot_url != null)
           .map(site => {
-            console.log(site)
             return {
               name: formatName(site.name),
               live_url: site.url,
@@ -44,5 +41,7 @@ export async function load() {
 function formatName (siteName) {
   if(!siteName) return undefined
 
-  return siteName.replace(/-/g, " ")
+  return siteName
+            .replace(/-/g, " ")
+            .replace(/ agency/g, "")
 }
