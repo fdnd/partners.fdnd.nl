@@ -3,7 +3,6 @@ import { env } from '$env/dynamic/private';
 
 const NETLIFY_API = 'https://api.netlify.com/api/v1/sites'
 const TOKEN = env.NETLIFY_ACCESS_TOKEN
-//const TOKEN = 'nfp_WYaWNPbbEsPtud6547TyyoUrJzDNUbfP9576'
 
 export async function load() {
     if (!TOKEN) {
