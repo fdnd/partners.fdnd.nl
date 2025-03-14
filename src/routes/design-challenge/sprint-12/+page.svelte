@@ -135,8 +135,8 @@
                 </footer>
             </div>
 
-            <div>
-                <h3>Design Challenges voor 2024</h3>
+            <div class="challenges">
+                <h3>Aanmeldingen voor 2025</h3>
                 {#each data?.people as person}
                     <p>
                         <strong>{person.name}</strong>
@@ -227,6 +227,7 @@
         display:grid;
         grid-template-columns: 1fr 1fr;
         width:auto;
+        align-items: start;
     }
     form div {
         width: 100%
@@ -234,5 +235,19 @@
     strong {
         font-size: .9em;
         display: block;
+    }
+
+    form div.challenges {
+        border:1px solid var(--blue);
+        border-radius:1rem;
+        padding:1rem;
+        margin:1rem;
+        background-color: #fff;
+    }
+    form div.challenges h3 {
+        margin-bottom: 1rem;
+    }
+    p.message {
+        margin-bottom: 0;
     }
 </style>
