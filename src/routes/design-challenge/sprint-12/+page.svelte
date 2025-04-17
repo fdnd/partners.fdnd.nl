@@ -34,7 +34,7 @@
 
     <div class="text-container">
         <h2 class="large-heading">Design Challenge <br>sprint 12: Proof of Concept</h2>
-        <p>Startdatum: <time>03-06-2024</time></p>
+        <p>Startdatum: <time>02-06-2025</time></p>
 
         <p>In de sprint <a href="https://programma.fdnd.nl/data-driven-web/proof-of-concept">Proof of Concept</a> gaan studenten voor een opdrachtgever een data-driven online concept prototypen.</p>
         <p>In het eerste semester van de opleiding FDND hebben studenten veel geleerd over Semantische HTML, Layout, Responsive Design, Toegankelijkheid, Interactie en het werken met een huisstijl.</p>
@@ -55,8 +55,8 @@
             
             <ul>
                 <li>In 3 weken gaan studenten een opdracht realiseren voor een opdrachtgever.</li>
-                <li>Maandag 3 juni 2024 krijgen de studenten een briefing bij de opdrachtgever. Tijdens de briefing maken de studenten kennis met het bedrijf en wordt besproken wat ze gaan maken.</li>
-                <li>Donderdag 20 juni wordt de opdracht gepresenteerd aan de opdrachtgever.</li>
+                <li>Maandag 2 juni krijgen de studenten een briefing bij de opdrachtgever. Tijdens de briefing maken de studenten kennis met het bedrijf en wordt besproken wat ze gaan maken.</li>
+                <li>Donderdag 19 juni wordt de opdracht gepresenteerd aan de opdrachtgever.</li>
             </ul>
 
             <a href="https://programma.fdnd.nl/data-driven-web/proof-of-concept#sprint-planning" class="button is-dark"><span>Bekijk de planning</span></a>
