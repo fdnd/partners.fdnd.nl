@@ -49,9 +49,9 @@
     </figure>
 
     <div class="text-container">
-        <h2 class="large-heading">Kilian Valkof: responsive design</h2>
+        <h2 class="large-heading">Kilian Valkhof: responsive design</h2>
 
-        <p>Kilian Valkof kwam vertelen over responsive design en hoe de door hem gebouwde tool <a href="https://polypane.app/">Polypane</a> helpt bij het testen van responsive design in de browser. </p>
+        <p>Kilian Valkhof kwam vertellen over responsive design en hoe de door hem gebouwde tool <a href="https://polypane.app/">Polypane</a> helpt bij het testen van responsive design in de browser. </p>
     </div>
 </section>
 

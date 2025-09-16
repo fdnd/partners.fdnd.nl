@@ -8,7 +8,7 @@
     <figure class="image-container">
         <img src="/img/review-sprint-9.jpeg" alt=" Martijn Nieuwenhuizen, senior Frontend Developer bij Grrrr, geeft les aan tweedejaars studenten" class="rounded" />
         <figcaption class="font-semibold">
-            <span class="small-body">Martijn Nieuwenhuizen, senior Frontend Developer bij Grrrr, geeft les aan tweedejaars studenten.</span>
+            <span class="small-body">Studenten geven elkaar feedback op gemaakt werk</span>
         </figcaption>
     </figure>
 
@@ -24,7 +24,7 @@
     <div class="inner">
         <header class="sr-only">
             <h2 class="large-heading">FDND Agency</h2>
-            <p>De huidge projecten waar studenten bij FDND Agency aan werken.</p>
+            <p>De huidige projecten waar studenten bij FDND Agency aan werken.</p>
         </header>
         {#each sites as site}
             <div class="cta">
