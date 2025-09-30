@@ -1,6 +1,48 @@
-<section class="image-with-text">
+<section id="stagemarkt" class="image-with-text">
+      <figure class="image-container" style="--ratio: 426/630">
+        <img src="/img/stagemarkt.jpg"
+          alt="Speeddates bedrijven en studenten" />
+        <figcaption class="font-semibold">
+          <span class="caps small-body">
+            We ❤️ web
+          </span>
+          <span class="medium-body">
+            Stagemarkt in de FDND studio </span>
+        </figcaption>
+      </figure>
+
+      <div class="text-container">
+        <div class="p">
+          <h2 class="medium-heading">
+            Stagemarkt
+          </h2>
+          <p class="large-body font-medium">
+            Vrijdag 14 November 2025
+          </p>
+          <p class="medium-body">
+            Wij organiseren weer een stagemarkt waar bedrijven en studenten kunnen kennismaken. In de FDND studio kunnen de bedrijven en studenten vooruitkijken op een mogelijke afstudeerstage in Februari 2026.
+          </p>
+          <p class="medium-body">
+            Onze talentvolle studenten lopen in hun <a href="https://programma.fdnd.nl/meesterproef">laatste semester</a> een half jaar stage bij een frontend bedrijf of een multidisciplinair product team. Tijdens de stage werken ze aan projecten en verzamelen hiermee bewijslast voor hun portfolio.
+          </p>
+          <p class="medium-body">
+            Wil jij ook speeddaten met onze studenten?
+          </p>
+          <div class="button-row">
+            <a class="button is-accent-3 is-full-color"
+              href="mailto:info-fdnd@hva.nl?subject=Ik%20wil%20graag%20speeddaten%20met%20fdnd%20studenten">
+              <span>
+                Neem contact op
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section class="image-with-text is-reversed">
     <figure class="image-container">
-        <img src="img/stage.png" alt="Luuk loopt stage bij de Voorhoede." class="rounded" />
+        <img src="/img/stage.png" alt="Luuk loopt stage bij de Voorhoede." class="rounded" />
         <figcaption class="font-semibold">
             <span class="small-body">Luuk loopt stage bij de Voorhoede.</span>
         </figcaption>
