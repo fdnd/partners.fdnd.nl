@@ -55,8 +55,8 @@
             
             <ul>
                 <li>In 3 weken gaan studenten een opdracht realiseren voor een opdrachtgever.</li>
-                <li>Maandag 2 juni krijgen de studenten een briefing bij de opdrachtgever. Tijdens de briefing maken de studenten kennis met het bedrijf en wordt besproken wat ze gaan maken.</li>
-                <li>Donderdag 19 juni wordt de opdracht gepresenteerd aan de opdrachtgever.</li>
+                <li>Op de maandag in de <strong>1e week</strong> van de sprint krijgen de studenten <strong>een briefing</strong> bij de opdrachtgever. Tijdens de briefing maken de studenten kennis met het bedrijf en wordt besproken wat ze gaan maken.</li>
+                <li>Op de donderdag van de <strong>3e week</strong> van de sprint wordt de opdracht bij de opdrachtgever <strong>gepresenteerd</strong> en <strong>opgeleverd</strong>.</li>
             </ul>
 
             <a href="https://programma.fdnd.nl/data-driven-web/proof-of-concept#sprint-planning" class="button is-dark"><span>Bekijk de planning</span></a>
