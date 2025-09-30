@@ -24,7 +24,7 @@
     <div class="inner">
         <header class="sr-only">
             <h2 class="large-heading">FDND Agency</h2>
-            <p>De huidge projecten waar studenten bij FDND Agency aan werken.</p>
+            <p>De projecten waar studenten bij FDND Agency aan werken.</p>
         </header>
         {#each sites as site}
             <div class="cta">
@@ -142,21 +142,18 @@
         padding:0;
         background:none;
     }
-
-    .portfolio  .cta h3 {
+    .portfolio .cta h3 {
         text-transform: capitalize;
         margin-bottom: 1rem;
         font-weight: normal;
     }
-
     .portfolio .cta img {
         width: 100%;
         margin-bottom: 0;
         border-radius: 1rem;
         border:1px solid var(--blue);
     }
-
-    .portfolio  .cta ul {
+    .portfolio .cta ul {
         display: flex;
         justify-content: start;
         list-style: none;
@@ -164,4 +161,11 @@
         padding:0;
         margin-bottom: 2rem;
     }
+    a {
+        text-decoration: underline;
+    }
+    a:hover {
+        text-decoration: none;
+    }
+
 </style>
