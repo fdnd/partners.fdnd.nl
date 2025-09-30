@@ -5,23 +5,25 @@
         <p>Professionals uit het vakgebied geven talks over diverse onderwerpen. Hierdoor blijven de studenten op de hoogte van (internationale) ontwikkelingen in het vakgebied. Wij noemen dit de We ❤️ Web-sessies.</p>
 
         <a href="https://weloveweb.fdnd.nl/" class="button is-accent-2 is-full-color">
-            <span>Programma We ❤️ Web-sessies 2023/2024</span>
+            <span>Programma We ❤️ Web-sessies 2025/2026</span>
         </a>
     </div>
 </section>
 
 <section class="image-with-text is-reversed">
     <figure class="image-container">
+
         <img src="/img/talks/simon-riisnæs-dagfinrudon.jpg" alt="Talk over computational design door SimSimon Riisnæs Dagfinrudon." class="rounded" />
+
         <figcaption class="font-semibold">
-            <span class="small-body">Talk over computational design door SimSimon Riisnæs Dagfinrudon.</span>
+            <span class="small-body">Talk over computational design door Simon Riisnæs Dagfinrudon.</span>
         </figcaption>
     </figure>
 
     <div class="text-container">
-        <h2 class="large-heading">SimSimon Riisnæs Dagfinrudon: computational design</h2>
+        <h2 class="large-heading">Simon Riisnæs Dagfinrudon: computational design</h2>
 
-        <p>Vrijdag 16 Februari kwam Simon bij ons spreken over zijn werk als Computational Designer. Simon vertelde ons onder andere dat je helemaal niet hoeft te kiezen tussen development en design en dat je vooral een beetje weird moet blijven!</p>
+        <p>Vrijdag 16 februari kwam Simon bij ons spreken over zijn werk als Computational Designer. Simon vertelde ons onder andere dat je helemaal niet hoeft te kiezen tussen development en design en dat je vooral een beetje weird moet blijven!</p>
     </div>
 </section>
 
@@ -49,9 +51,9 @@
     </figure>
 
     <div class="text-container">
-        <h2 class="large-heading">Kilian Valkof: responsive design</h2>
+        <h2 class="large-heading">Kilian Valkhof: responsive design</h2>
 
-        <p>Kilian Valkof kwam vertelen over responsive design en hoe de door hem gebouwde tool <a href="https://polypane.app/">Polypane</a> helpt bij het testen van responsive design in de browser. </p>
+        <p>Kilian Valkhof kwam vertellen over responsive design en hoe de door hem gebouwde tool <a href="https://polypane.app/">Polypane</a> helpt bij het testen van responsive design in de browser. </p>
     </div>
 </section>
 
