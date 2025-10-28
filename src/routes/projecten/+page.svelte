@@ -1,7 +1,7 @@
 <script>
     export let data
 
-    const { sites } = data
+    // const { sites } = data
 </script>
 
 <section class="image-with-text">
@@ -29,7 +29,87 @@
 
 
         </header>
-        {#each sites as site}
+
+        <article class="cta">
+            <header>
+                <h3>Toolgankelijk</h3>
+                <p>Vervoer Regio Amsterdam</p>
+            </header>
+            
+            <p>Een dashboard voor de Vervoerregio Amsterdam om de toegankelijkheid van de websites van de aangesloten vervoerders in kaart te brengen.</p>
+
+            <img src="/img/projecten/signature/toolgankelijk.png" alt="Toolgankelijk dashboard van de Vervoerregio Amsterdam">
+
+            <ul>
+                <li>
+                    <a href="https://toolgankelijk.dev.fdnd.nl/">
+                        <span>Live website (staging)</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/fdnd-agency/toolgankelijk/">
+                        <span>GitHub Codebase</span>
+                    </a>
+                </li>
+                
+            </ul>
+        </article>
+
+        <article class="cta">
+            <header>
+                <h3>Oncollaboration</h3>
+                <p>Antoni van Leeuwenhoek</p>
+            </header>
+            
+            <p>Een kennisdelingsplatform tussen Nederland en Indonesië, met betrekking tot innovatie van de behandeling van kanker.</p>
+
+            <img src="/img/projecten/signature/oncollaboration.png" alt="Kennsidelingsplatform Antoni van Leeuwenhoek">
+
+            <ul>
+                <li>
+                    <a href="https://oncollaboration.dev.fdnd.nl/">
+                        <span>Live website (staging)</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/fdnd-agency/oncollaboration">
+                        <span>GitHub Codebase</span>
+                    </a>
+                </li>
+                
+            </ul>
+        </article>
+
+        <article class="cta">
+            <header>
+                <h3>Bieb in Bloei</h3>
+                <p>Buurtcampus Oost</p>
+            </header>
+            
+            <p>Een website voor de Buurtcampus Oost met informatie over de duurzame projecten van de Buurtcampus in de wijk.</p>
+
+            <img src="/img/projecten/signature/biebinbloei.png" alt="Biebinbloei website">
+
+            <ul>
+                <li>
+                    <a href="https://biebinbloei.nl/">
+                        <span>Live website</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/fdnd-agency/biebinbloei.nl">
+                        <span>GitHub Codebase</span>
+                    </a>
+                </li>
+                
+            </ul>
+        </article>
+        
+        <!-- Netlify projecten -->
+        <!-- {#each sites as site}
             <div class="cta">
                 <h3 class="small-heading">{site.name}</h3>
                 
@@ -52,7 +132,7 @@
                     
                 </ul>
             </div>
-        {/each}
+        {/each} -->
 
         <a href="https://github.com/fdnd-agency/" class="button is-accent-2 is-full-color">
             <span>Bekijk alle projecten op GitHub</span>
@@ -144,17 +224,20 @@
     .portfolio .cta {
         padding:0;
         background:none;
+        display:flex;
     }
     .portfolio .cta h3 {
         text-transform: capitalize;
-        margin-bottom: 1rem;
-        font-weight: normal;
+        margin-bottom: 0;
+        /* font-weight: normal; */
     }
     .portfolio .cta img {
         width: 100%;
+        aspect-ratio:3 / 2;
         margin-bottom: 0;
         border-radius: 1rem;
         border:1px solid var(--blue);
+        margin-top: auto;
     }
     .portfolio .cta ul {
         display: flex;
