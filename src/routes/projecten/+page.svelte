@@ -133,11 +133,11 @@
                 </ul>
             </div>
         {/each} -->
-
-        <a href="https://github.com/fdnd-agency/" class="button is-accent-2 is-full-color">
-            <span>Bekijk alle projecten op GitHub</span>
-        </a>
-    </div>  
+    </div>
+      
+    <a href="https://github.com/fdnd-agency/" class="button is-accent-2 is-full-color">
+        <span>Bekijk alle projecten op GitHub</span>
+    </a>
 </section>
 
 <section class="cta-row">
@@ -246,6 +246,9 @@
         gap: 1rem;
         padding:0;
         margin-bottom: 2rem;
+    }
+    section > a {
+        justify-self: center;
     }
     a {
         text-decoration: underline;
