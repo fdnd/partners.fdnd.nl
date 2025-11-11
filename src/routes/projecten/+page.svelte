@@ -158,7 +158,7 @@
         <div class="cta">
             <h3 class="small-heading">Semester 2:<br>Data-Driven Web</h3>
             <p class="medium-body font-medium">In het tweede semester werken de studenten verder aan het project, alleen nu op basis van dynamische data. De studenten leren hoe ze op de server data kunnen ophalen uit een API en dit vervolgens te renderen naar HTML.</p>
-            <a class="button is-dark" href="https://programma.fdnd.nl/data-drive-web">
+            <a class="button is-dark" href="https://programma.fdnd.nl/data-driven-web">
                 <span>Semester 2:<br>Data-Driven Web</span>
             </a>
         </div>
