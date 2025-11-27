@@ -1,4 +1,5 @@
-<section id="stagemarkt" class="image-with-text">
+<!-- Stagemarkt section -->
+<!-- <section id="stagemarkt" class="image-with-text">
   <figure class="image-container" style="--ratio: 426/630">
     <img src="/img/stagemarkt.jpg"
       alt="Speeddates bedrijven en studenten" />
@@ -38,7 +39,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <section class="image-with-text is-reversed">
   <figure class="image-container">
