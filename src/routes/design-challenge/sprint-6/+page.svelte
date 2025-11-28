@@ -12,8 +12,8 @@
                 
         <p>Eerstejaars studenten Frontend Design & Development (<a href="https://programma.fdnd.nl/">FDND</a>) gaan individueel of met een team een bedrijf helpen met een responsive website of online concept.</p>
         
-        <p>In het eerste semester van de opleiding FDND hebben studenten veel geleerd over layout, responsive design, toegankelijkheid, interactie en het werken met een huisstijl. Alle studenten kunnen HTML, CSS en (een beetje) JavaScript.</p>
-        <p>Studenten gaan alles wat ze hebben geleerd, in een sprint van 3 weken, toepassen om een opdracht voor een opdrachtgever te maken. Het idee van de design challenge is dat studenten een kijkje in de keuken van ene agency krijgen en ervaren hoe het is om een opdracht voor een agency te realiseren.</p>
+        <p>In het eerste semester van de opleiding FDND hebben studenten veel geleerd over <strong>layout</strong>, <strong>responsive design</strong>, <strong>toegankelijkheid</strong>, <strong>interactie</strong> en het werken met een <strong>huisstijl</strong>. Alle studenten kunnen HTML, CSS en (een beetje) JavaScript.</p>
+        <p>Studenten gaan alles wat ze hebben geleerd, in een sprint van 3 weken, toepassen om een opdracht voor een opdrachtgever te maken. Het idee van de design challenge is dat studenten een kijkje in de keuken van een agency krijgen en ervaren hoe het is om een opdracht voor een agency te realiseren.</p>
         
         <a href="https://programma.fdnd.nl/"  class="button is-dark"><span>FDND Programma</span></a>
     </div>
