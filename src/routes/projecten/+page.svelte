@@ -1,7 +1,5 @@
 <script>
-    export let data
 
-    // const { sites } = data
 </script>
 
 <section class="image-with-text">
@@ -107,32 +105,6 @@
                 
             </ul>
         </article>
-        
-        <!-- Netlify projecten -->
-        <!-- {#each sites as site}
-            <div class="cta">
-                <h3 class="small-heading">{site.name}</h3>
-                
-                {#if site.screenshot_url !== null}
-                    <img src="{site.screenshot_url}" alt="{site.name}">
-                {/if}
-
-                <ul>
-                    <li>
-                        <a href="{site.live_url}">
-                            <span>Live site</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="{site.github_url}">
-                            <span>Github Repository</span>
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-        {/each} -->
     </div>
       
     <a href="https://github.com/fdnd-agency/" class="button is-accent-2 is-full-color">
@@ -214,7 +186,6 @@
 
     </div>
 </section>
-
 
 
 <style>
