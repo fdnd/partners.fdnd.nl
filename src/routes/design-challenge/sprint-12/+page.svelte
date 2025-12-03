@@ -1,10 +1,9 @@
 <script>
     import { enhance } from '$app/forms'
     
-    export let form
-    export let data
+    let { form, data } = $props();
 
-    let loading = false
+    let loading = $state(false)
 
     function handleForm({formElement, formData, action, cancel }) {
         loading = true
@@ -116,7 +115,7 @@
 
                 <footer>
                     <button>Aanmelden</button>
-                    {#if loading }
+                    {#if loading}
                         <svg class="loader" width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <style>
                                 .spinner_qM83{animation:spinner_8HQG .5s infinite; fill:#66e5bf}
@@ -226,6 +225,7 @@
     form {
         display:grid;
         grid-template-columns: 1fr 1fr;
+        gap:1rem;
         width:auto;
     }
     form div {
