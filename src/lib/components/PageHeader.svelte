@@ -1,5 +1,5 @@
 <script>
-    export let img;
+    let { img } = $props();
 </script>
 
 <header class="has-image">

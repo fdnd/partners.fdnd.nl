@@ -262,3 +262,28 @@ form:valid button{
     background:var(--green);
     color:var(--blue)
 }
+
+footer {
+    color: var(--background);
+
+    ul {
+        list-style:none;
+        padding:0;
+    }
+
+    .button {
+    --background:var(--purple);
+    color: var(--color);
+    }
+
+    .legal {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        padding: 5rem 0 1.5rem;
+    }
+}
+
+
+

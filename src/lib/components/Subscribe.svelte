@@ -1,7 +1,7 @@
 <script>
     import { onMount } from "svelte"
 
-    let isDown = false
+    let isDown = $state(false)
 
     onMount(() => {
         // Scrolling functions
