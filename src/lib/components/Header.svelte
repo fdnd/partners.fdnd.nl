@@ -64,7 +64,7 @@
             </button>
         </div>
 
-        <ul style="--total: 4;">
+        <ul style="--total: 5;">
             <li style="--i: 1;"><a href="/projecten">Projecten</a></li>
             <li style="--i: 2;"><a href="/design-challenge">Design Challenge</a></li>
             <li style="--i: 3;"><a href="/stage">Stage</a></li>
@@ -75,7 +75,7 @@
 </header>
 
 <style>
-  /*
+/*
 ======================
 HEADER
 ======================
@@ -178,7 +178,6 @@ header .insta {
     align-items: center;
     margin-right: var(--grid-1-calc);
     z-index: 10;
-
 }
 
 @media (max-width: 750px) {

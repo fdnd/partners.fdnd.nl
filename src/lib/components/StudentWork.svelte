@@ -1,7 +1,3 @@
-<script>
-
-</script>
-
 <section id="studentenwerk">
     <h2>Studentenwerk</h2>
 
@@ -90,169 +86,169 @@
 </section>
 
 <style>
-	#studentenwerk {
-        margin:02rem 4rem;
-    }
+#studentenwerk {
+    margin:2rem 4rem;
+}
 
-    #studentenwerk div {
-        display:flex;
-        overflow-x:auto;
-        /* scroll-snap-type: x mandatory; */
-        margin:0;
-        gap:2rem;   
-    }
-    
+#studentenwerk div {
+    display:flex;
+    overflow-x:auto;
+    /* scroll-snap-type: x mandatory; */
+    margin:0;
+    gap:2rem;   
+}
+
+article {
+    display:flex;
+    padding:0;
+    flex:1 0 100%;
+    border-radius:0 var(--rounded) var(--rounded);
+    scroll-snap-align: center;
+    position: relative;
+    max-width:80vw;
+    overflow:hidden;
+}
+
+@supports (animation-timeline: scroll()) {
     article {
-        display:flex;
-        padding:0;
-        flex:1 0 100%;
-        border-radius:0 var(--rounded) var(--rounded);
-        scroll-snap-align: center;
-        position: relative;
-        max-width:80vw;
-        overflow:hidden;
-    }
+        view-timeline-name: --extend-info;
+        view-timeline-axis: inline;
+        view-timeline-inset: 0% 20%;
+        animation-range: 25% 50%;
 
-    @supports (animation-timeline: scroll()) {
-        article {
-            view-timeline-name: --extend-info;
-            view-timeline-axis: inline;
-            view-timeline-inset: 0% 20%;
-            animation-range: 25% 50%;
-
-            animation: linear appear both;
-            animation-timeline: --extend-info;
-        }
-            
+        animation: linear appear both;
+        animation-timeline: --extend-info;
     }
-    article h3 {
-        padding:.75rem 1rem 1rem;
-        margin-left: 0;
-        margin-bottom: 0 !important;
-        background-color: var(--color-green);
-        color:var(--color-blue);
-        font-size: 1.15rem;
-        font-weight: 600;
-        white-space: nowrap;
-        border-radius:var(--rounded) var(--rounded) 0 0
-    }
+        
+}
+article h3 {
+    padding:.75rem 1rem 1rem;
+    margin-left: 0;
+    margin-bottom: 0 !important;
+    background-color: var(--color-green);
+    color:var(--color-blue);
+    font-size: 1.15rem;
+    font-weight: 600;
+    white-space: nowrap;
+    border-radius:var(--rounded) var(--rounded) 0 0
+}
+article a {
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    text-decoration: none;
+    overflow:hidden;
+}
+@supports (animation-timeline: scroll()) {
     article a {
-        display:flex;
-        flex-direction: column;
-        align-items:flex-start;
-        text-decoration: none;
-        overflow:hidden;
+        animation: linear appear both;
+        animation-timeline: --extend-info;
     }
-    @supports (animation-timeline: scroll()) {
-        article a {
-            animation: linear appear both;
-            animation-timeline: --extend-info;
-        }
-    }
+}
 
-    
-    article a:hover {
-        text-decoration: none;
-    }
-    article a::after {
-        display:none;
-    }
 
-    article img {
-        margin-top: -0.5rem;
-        border-radius:0 var(--rounded) 0 0;
-        z-index:2;
-    }
+article a:hover {
+    text-decoration: none;
+}
+article a::after {
+    display:none;
+}
 
+article img {
+    margin-top: -0.5rem;
+    border-radius:0 var(--rounded) 0 0;
+    z-index:2;
+}
+
+article p {
+    background:  var(--color-green);
+    color: var(--color-blue);
+    padding:1rem;
+    border-radius:0 0 var(--rounded) var(--rounded);
+    align-self: center;
+    justify-self: center;
+    max-width:30rem;
+    font-size: .9em;
+    width:100%;
+}
+
+article footer ul a {
+    background:  var(--color-purple);
+    color: var(--color-blue);
+    padding:.5rem;
+    font-size: .9em;
+    border-radius:var(--rounded);
+}
+article footer ul a:hover,
+article footer ul a:focus-visible {
+    background:  var(--color-green);
+}
+
+@media (min-width:50em) {
     article p {
         background:  var(--color-green);
         color: var(--color-blue);
         padding:1rem;
-        border-radius:0 0 var(--rounded) var(--rounded);
-        align-self: center;
-        justify-self: center;
-        max-width:30rem;
-        font-size: .9em;
-        width:100%;
-    }
-
-    article footer ul a {
-        background:  var(--color-purple);
-        color: var(--color-blue);
-        padding:.5rem;
-        font-size: .9em;
         border-radius:var(--rounded);
-    }
-    article footer ul a:hover,
-    article footer ul a:focus-visible {
-        background:  var(--color-green);
+        align-self: flex-start;
+        z-index:10;
+        max-width:30rem;
+        position:absolute;
+        bottom:2rem;
+        right:2rem;
     }
 
-	@media (min-width:50em) {
+    @supports (animation-timeline: scroll()) {
         article p {
-            background:  var(--color-green);
-            color: var(--color-blue);
-            padding:1rem;
-            border-radius:var(--rounded);
-            align-self: flex-start;
-            z-index:10;
-            max-width:30rem;
-            position:absolute;
-            bottom:2rem;
-            right:2rem;
+            animation: linear slide-left both;
+            animation-timeline: --extend-info;
         }
 
-        @supports (animation-timeline: scroll()) {
-            article p {
-                animation: linear slide-left both;
-                animation-timeline: --extend-info;
-            }
+        article ul {
+            animation: linear slide-right both;
+            animation-timeline: --extend-info;
+        }
+    } 
+}
 
-            article ul {
-                animation: linear slide-right both;
-                animation-timeline: --extend-info;
-            }
-        } 
+
+/* animations */
+@keyframes appear {
+    0% {
+        opacity:.5;
+        scale:.9;
     }
-
-
-    /* animations */
-    @keyframes appear {
-        0% {
-            opacity:.5;
-            scale:.9;
-        }
-        50% {
-            opacity:1;
-            scale:1;
-        }
-        100% {
-            opacity: .1;
-            scale:.9;
-        }
+    50% {
+        opacity:1;
+        scale:1;
     }
-
-    @keyframes slide-left {
-        10% {
-            translate:100% 0
-        }
-        50% {
-            translate:0 0
-        }
-        90% {
-            translate:-100% 0
-        }
+    100% {
+        opacity: .1;
+        scale:.9;
     }
+}
 
-    @keyframes slide-right {
-        0% {
-            translate:-100% 0;
-        }
-        50% {
-            translate:0 0;
-        }
-        100% {
-            translate:100% 0;
-        }
+@keyframes slide-left {
+    10% {
+        translate:100% 0
     }
+    50% {
+        translate:0 0
+    }
+    90% {
+        translate:-100% 0
+    }
+}
+
+@keyframes slide-right {
+    0% {
+        translate:-100% 0;
+    }
+    50% {
+        translate:0 0;
+    }
+    100% {
+        translate:100% 0;
+    }
+}
 </style>

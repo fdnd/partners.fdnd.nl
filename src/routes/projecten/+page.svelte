@@ -1,6 +1,3 @@
-<script>
-
-</script>
 
 <section class="image-with-text">
     <figure class="image-container">
@@ -189,43 +186,43 @@
 
 
 <style>
-    .cta-row.portfolio {
-        gap:0
-    }
-    .portfolio .cta {
-        padding:0;
-        background:none;
-        display:flex;
-    }
-    .portfolio .cta h3 {
-        text-transform: capitalize;
-        margin-bottom: 0;
-        /* font-weight: normal; */
-    }
-    .portfolio .cta img {
-        width: 100%;
-        aspect-ratio:3 / 2;
-        margin-bottom: 0;
-        border-radius: 1rem;
-        border:1px solid var(--blue);
-        margin-top: auto;
-    }
-    .portfolio .cta ul {
-        display: flex;
-        justify-content: start;
-        list-style: none;
-        gap: 1rem;
-        padding:0;
-        margin-bottom: 2rem;
-    }
-    section > a {
-        justify-self: center;
-    }
-    a {
-        text-decoration: underline;
-    }
-    a:hover {
-        text-decoration: none;
-    }
+.cta-row.portfolio {
+    gap:0
+}
+.portfolio .cta {
+    padding:0;
+    background:none;
+    display:flex;
+}
+.portfolio .cta h3 {
+    text-transform: capitalize;
+    margin-bottom: 0;
+    /* font-weight: normal; */
+}
+.portfolio .cta img {
+    width: 100%;
+    aspect-ratio:3 / 2;
+    margin-bottom: 0;
+    border-radius: 1rem;
+    border:1px solid var(--blue);
+    margin-top: auto;
+}
+.portfolio .cta ul {
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    gap: 1rem;
+    padding:0;
+    margin-bottom: 2rem;
+}
+section > a {
+    justify-self: center;
+}
+a {
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+}
 
 </style>

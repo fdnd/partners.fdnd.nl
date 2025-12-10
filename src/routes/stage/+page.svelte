@@ -41,7 +41,7 @@
   </div>
 </section> -->
 
-<section class="image-with-text is-reversed">
+<section class="image-with-text">
   <figure class="image-container">
       <img src="/img/stage.png" alt="Luuk loopt stage bij de Voorhoede." class="rounded" />
       <figcaption class="font-semibold">

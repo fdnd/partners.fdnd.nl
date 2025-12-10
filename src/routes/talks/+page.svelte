@@ -10,7 +10,7 @@
     </div>
 </section>
 
-<section class="image-with-text is-reversed">
+<section class="image-with-text">
     <figure class="image-container">
 
         <img src="/img/talks/simon-riisnæs-dagfinrudon.jpg" alt="Talk over computational design door SimSimon Riisnæs Dagfinrudon." class="rounded" />
@@ -27,7 +27,7 @@
     </div>
 </section>
 
-<section class="image-with-text">
+<section class="image-with-text is-reversed">
     <figure class="image-container">
         <img src="/img/talks/gijs-laarman.png" alt="Case Study van de website van het Mauritshuis door Gijs Laarman van DEPT." class="rounded" />
         <figcaption class="font-semibold">
@@ -42,7 +42,7 @@
     </div>
 </section>
 
-<section class="image-with-text is-reversed">
+<section class="image-with-text">
     <figure class="image-container">
         <img src="/img/talks/killian-valkhof-polypane.png" alt="Talk over responsive design door Kilian Valkof van Polypane" class="rounded" />
         <figcaption class="font-semibold">

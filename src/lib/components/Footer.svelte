@@ -27,3 +27,36 @@
         </a>
     </div>
 </footer>
+
+<style>
+/*
+======================
+FOOTER
+======================
+*/
+footer {
+    display:flex;
+    align-items: center;
+    gap:1rem;
+    flex-wrap: wrap;
+    color: var(--background);
+
+    ul {
+        list-style:none;
+        padding:0;
+    }
+
+    .button {
+    --background:var(--purple);
+    color: var(--color);
+    }
+
+    .legal {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        padding: 5rem 0 1.5rem;
+    }
+}
+</style>
