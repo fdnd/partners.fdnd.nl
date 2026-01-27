@@ -107,8 +107,8 @@
         </article>
     </div>
       
-    <a href="https://github.com/fdnd-agency/" class="button is-accent-2 is-full-color">
-        <span>Bekijk alle projecten op GitHub</span>
+    <a href="https://dashboard.fdnd.nl" class="button is-accent-2 is-full-color">
+        <span>Bekijk alle projecten in het FDND Agency Dashboard</span>
     </a>
 </section>
 
