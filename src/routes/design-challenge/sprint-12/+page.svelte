@@ -54,8 +54,8 @@
             
             <ul>
                 <li>In 3 weken gaan studenten een opdracht realiseren voor een opdrachtgever.</li>
-                <li>Op de maandag in de <strong>1e week</strong> van de sprint krijgen de studenten <strong>een briefing</strong> bij de opdrachtgever. Tijdens de briefing maken de studenten kennis met het bedrijf en wordt besproken wat ze gaan maken.</li>
-                <li>Op de donderdag van de <strong>3e week</strong> van de sprint wordt de opdracht bij de opdrachtgever <strong>gepresenteerd</strong> en <strong>opgeleverd</strong>.</li>
+                <li>Op <strong>maandag 1 Juni</strong> in de 1e week van de sprint krijgen de studenten <strong>een briefing</strong> bij de opdrachtgever. Tijdens de briefing maken de studenten kennis met het bedrijf en wordt besproken wat ze gaan maken.</li>
+                <li>Op <strong>donderdag 20 Juni</strong> van de 3e week van de sprint wordt de opdracht bij de opdrachtgever <strong>gepresenteerd</strong> en <strong>opgeleverd</strong>.</li>
             </ul>
 
             <a href="https://programma.fdnd.nl/data-driven-web/proof-of-concept#sprint-planning" class="button is-dark"><span>Bekijk de planning</span></a>
@@ -66,7 +66,7 @@
             <ul>
                 <li>Op basis van een bestaand idee, concept of ontwerp gaan studenten FDND een prototype ontwerpen, maken en testen.</li>
                 <li>Studenten werken individueel of in een team aan een project.</li>
-                <li>Voor het project is er—via een JSON/REST API—bestaande content zoals teksten, beeldmateriaal, video’s, huisstijl of conceptmateriaal beschikbaar.</li>
+                <li>Voor het project is er, via een <strong>JSON/REST API</strong>, content zoals teksten, beeldmateriaal, video’s, huisstijl of conceptmateriaal beschikbaar.</li>
                 <li>De code voor het project wordt op GitHub bewaard en gepubliceerd.</li>
             </ul>
 
@@ -231,8 +231,5 @@
     form div {
         width: 100%
     }
-    strong {
-        font-size: .9em;
-        display: block;
-    }
+
 </style>
