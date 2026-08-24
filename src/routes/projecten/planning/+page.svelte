@@ -6,7 +6,7 @@
   <div class="simple-text">
       <h2 class="medium-heading">FDND projectplanning <small>2026 / 2027</small></h2>
       
-      <h3>Semester 1: Static Web <small>/ Jaar 1</small></h3>
+      <h3>Semester 1: Static Web <small> Jaar 1</small></h3>
 
       <table>
         <thead>
@@ -57,7 +57,7 @@
         
       </table>
       
-      <h3>Semester 2: Data-Driven Web <small>/ Jaar 1</small></h3>
+      <h3>Semester 2: Data-Driven Web <small> Jaar 1</small></h3>
 
       <table>
         <thead>
@@ -107,7 +107,7 @@
         </tbody>
       </table>
 
-      <h3>Semester 3: Workflow, Tooling & Frameworks <small>/ Jaar 2</small></h3>
+      <h3>Semester 3: Workflow, Tooling & Frameworks <small> Jaar 2</small></h3>
 
       <table>
         <thead>
@@ -166,7 +166,7 @@
         
       </table>
 
-      <h3>Semester 4: Meesterproef <small>/ Jaar 2</small></h3>
+      <h3>Semester 4: Meesterproef <small> Jaar 2</small></h3>
 
       <table>
         <thead>
@@ -259,7 +259,9 @@
       <details id="sprint-2" open>
         <summary>Sprint 2: The Client <time datetime="">21/09</time></summary>
         
-        <p class="body-text">In de tweede sprint, The Client, leren de studenten hoe zij een opdracht voor een echte opdrachtgever aanpakken. Samen met de opdrachtgever verkennen zij de opdracht, brengen zij wensen en verwachtingen in kaart en vertalen zij deze naar een concrete taken.</p>
+        <p class="body-text">In deze sprint leren de studenten hoe zij een opdracht voor een echte opdrachtgever aanpakken. Samen met de opdrachtgever verkennen zij de opdracht, brengen zij wensen en verwachtingen in kaart en vertalen zij deze naar concrete taken.</p>
+
+        <p class="body-text">De focus ligt op het omzetten van de, door de opdrachtgever aangeleverde, content naar HTML en dit stijlen in de huisstijl.</p>
       </details>
 
       <details id="sprint-3">
@@ -365,6 +367,7 @@
     position: relative;
     display:flex;
     align-items:center;
+    gap:.5rem;
 
     small {
       font-weight: normal;
