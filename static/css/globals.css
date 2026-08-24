@@ -84,6 +84,7 @@ body {
 
 html {
     background-color: var(--blue);
+    scroll-padding-top: 1rem;
 }
 
 body {
