@@ -224,7 +224,7 @@
         </tbody>
       </table>
 
-      <a href="/projecten/planning" class="button is-accent-1 is-full-color">
+      <a href="/projecten/planning" >
           <span>Bekijk het FDND programma</span>
         </a>
     </div>
@@ -232,7 +232,10 @@
 
 <section>
   <div class="simple-text">
-    <h2>Scrum onderdelen</h2>
+    <h2>
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-info-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M12 9h.01" /><path d="M11 12h1v4h1" /></svg>
+      Scrum onderdelen
+    </h2>
 
     <h3 id="sprint-planning">Sprint planning</h3>
     <p class="body-text">Aan het begin de eerste sprint van een semester houden de studenten een sprint planning mét de opdrachtgever in de FDND Studio. Op basis van de geactualiseerde backlog bepalen zij, in afstemming met de opdrachtgever, welke werkzaamheden in de komende sprint prioriteit hebben. De studenten vertalen deze werkzaamheden naar concrete en haalbare sprintdoelen, verdelen taken binnen het team en maken afspraken over de aanpak, planning en verwachte resultaten.</p>
@@ -244,31 +247,34 @@
 
 <section>
   <div class="simple-text">
-    <h2>Inhoud van de sprints</h2>
+    <h2>
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-info-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M12 9h.01" /><path d="M11 12h1v4h1" /></svg>
+      Inhoud van de sprints
+    </h2>
 
     <section id="semester-1">
       <h3>Semester 1: Static Web</h3>
-      <p>In semester 1 werken de eerstejaarsstudenten ieder aan een eigen oplossing voor de vraag van de opdrachtgever. Het resultaat is een statisch prototype.</p>
+      <p class="body-text">In semester 1 werken de eerstejaarsstudenten ieder aan een eigen oplossing voor de vraag van de opdrachtgever. Het resultaat is een statisch prototype.</p>
     
       <details id="sprint-2" open>
         <summary>Sprint 2: The Client <time datetime="">21/09</time></summary>
         
-        <p>In de tweede sprint, The Client, leren de studenten hoe zij een opdracht voor een echte opdrachtgever aanpakken. Samen met de opdrachtgever verkennen zij de opdracht, brengen zij wensen en verwachtingen in kaart en vertalen zij deze naar een concrete taken.</p>
+        <p class="body-text">In de tweede sprint, The Client, leren de studenten hoe zij een opdracht voor een echte opdrachtgever aanpakken. Samen met de opdrachtgever verkennen zij de opdracht, brengen zij wensen en verwachtingen in kaart en vertalen zij deze naar een concrete taken.</p>
       </details>
 
       <details id="sprint-3">
         <summary>Sprint 3: All Human</summary>
-        <p>...</p>
+        <p class="body-text">...</p>
       </details>
 
       <details id="sprint-4">
         <summary>Sprint 4: Look and Feel</summary>
-        <p>...</p>
+        <p class="body-text">...</p>
       </details>
 
       <details id="sprint-5">
         <summary>Sprint 5: Fix the Flow</summary>
-        <p>...</p>
+        <p class="body-text">...</p>
       </details>
       
     </section>
@@ -276,72 +282,72 @@
     
     <section id="semester-2">
       <h3 id="semester-2">Semester 2</h3>
-      <p>In semester 2 werken de eerstejaarsstudenten ieder aan een eigen oplossing voor de vraag van de opdrachtgever. Het resultaat is een dynamisch prototype.</p>
+      <p class="body-text">In semester 2 werken de eerstejaarsstudenten ieder aan een eigen oplossing voor de vraag van de opdrachtgever. Het resultaat is een dynamisch prototype.</p>
 
       <details id="sprint-8">
        <summary>Sprint 8: Server-Side Rendering</summary>
-        <p>...</p>
+        <p class="body-text">...</p>
       </details>
       
 
       <details id="sprint-9">
         <summary>Sprint 9: The Web is for Everyone</summary>
-        <p>...</p>
+        <p class="body-text">...</p>
       </details>
 
       <details id="sprint-10">
         <summary>Sprint 10: User Experience</summary>
-        <p>...</p>
+        <p class="body-text">...</p>
       </details>
 
       <details id="sprint-11">
         <summary>Sprint 11: Pleasurable UI</summary>
-        <p>...</p>
+        <p class="body-text">...</p>
       </details>
     </section>
 
     <section id="semester-3">
       <h3 id="semester0-3">Semester 3</h3>
-      <p>In semester 3 werken de tweedejaarsstudenten, in een klein team frontenders, samen aan een oplossing voor de vraag van de opdrachtgever. Het resultaat is een eerste release candidate.</p>
+      <p class="body-text">In semester 3 werken de tweedejaarsstudenten, in een klein team frontenders, samen aan een oplossing voor de vraag van de opdrachtgever. Het resultaat is een eerste release candidate.</p>
 
       <details id="sprint-14" open>
         <summary>Sprint 14: Louse Your Head</summary>
-        <p>...</p>
+        <p class="body-text">...</p>
       </details>
 
       <details id="sprint-15">
         <summary>Sprint 15: Don't Repeat Yourself</summary>
-        <p>...</p>
+        <p class="body-text">...</p>
       </details>
 
       <details id="sprint-16">
         <summary>Sprint 16: Choices, Choices</summary>
-        <p>...</p>
+        <p class="body-text">...</p>
       </details>
 
       <details id="sprint-17">
         <summary>Sprint 17: User Needs</summary>
-        <p>...</p>
+        <p class="body-text">...</p>
       </details>
 
       <details id="sprint-18">
         <summary>Sprint 18: Release Candidate</summary>
-        <p>...</p>
+        <p class="body-text">...</p>
       </details>
     </section>
 
     <section id="semester-4">
       <h3 id="semester-4">Semester 4</h3>
-      <p>In semester 4 werken de tweedejaarsstudenten, bij FDND Agency, in een multidisciplinair team samen aan een oplossing voor de vraag van de opdrachtgever. Het resultaat is een verbeterde release candidate / productiesite.</p>
+      <p class="body-text">In semester 4 werken de tweedejaarsstudenten, bij FDND Agency, in een multidisciplinair team samen aan een oplossing voor de vraag van de opdrachtgever. Het resultaat is een verbeterde release candidate / productiesite.</p>
 
       <details id="sprint-19">
         <summary>Sprint 19: Free Space</summary>
-        <p>...</p>
+        <p class="body-text">...</p>
       </details>
 
       <details id="sprint-20">
         <summary>Sprint 20: Final Sprint</summary>
-        <p>...</p>
+        <p class="body-text">...</p>
       </details>
     </section>
     
@@ -356,9 +362,18 @@
   h2 {
     margin-bottom: 1rem;
     translate:-2px 0;
+    position: relative;
+    display:flex;
+    align-items:center;
 
     small {
       font-weight: normal;
+    }
+
+    svg {
+      position: absolute;
+      left:-25px;
+      
     }
   }
 
@@ -372,8 +387,7 @@
 
   table {
     border-collapse: collapse;
-    margin-left: -1rem;
-    margin:.5rem 0 2rem -1rem;
+    margin:.5rem 0 2rem;
     width:fit-content;  
   }
 
@@ -404,9 +418,13 @@
     background-color: #d6d6d6;
   }
 
+  a.button {
+    align-self:center;
+  }
+
   details {
-    max-width: calc(60ch + 2rem);
-    margin:0 -1rem 2rem;
+    width:60ch;
+    margin:0 0 2rem;
   }
 
   details summary {
@@ -420,5 +438,7 @@
     margin-bottom: 1rem;
   }
 
-
+  p.body-text {
+    font-size: 1rem;
+  }
 </style>
