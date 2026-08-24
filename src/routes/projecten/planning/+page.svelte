@@ -12,6 +12,7 @@
         <thead>
           <tr>
             <th>Datum</th>
+            <th>Tijd</th>
             <th>Activiteit</th>
             <th>Semester 1</th>
             <th>Locatie</th>
@@ -21,6 +22,7 @@
         <tbody>
           <tr>
             <td>Maandag 21 September</td>
+            <td>10.30 - 12.30</td>
             <td><a href="#sprint-planning">Sprint Planning</a></td>
             <td><a href="#sprint-2">Sprint 2: The Client</a></td>
             <td>FDND Studio</td>
@@ -28,6 +30,7 @@
 
           <tr>
             <td>Donderdag 8 Oktober</td>
+            <td>14.00 - 15.00</td>
             <td><a href="#sprint-review">Sprint Review</a></td>
             <td><a href="#sprint-2">Sprint 2: The Client</a></td>
             <td>Op locatie bij de opdrachtgever</td>
@@ -35,6 +38,7 @@
 
           <tr>
             <td>Donderdag 29 Oktober</td>
+            <td>14.00 - 15.00</td>
             <td><a href="#sprint-review">Sprint Review</a></td>
             <td><a href="#sprint-3">Sprint 3: All Human</a></td>
             <td>Op locatie bij de opdrachtgever</td>
@@ -42,6 +46,7 @@
 
           <tr>
             <td>Donderdag 26 November</td>
+            <td>14.00 - 15.00</td>
             <td><a href="#sprint-review">Sprint Review</a></td>
             <td><a href="#sprint-4">Sprint 4: Look and Feel</a></td>
             <td>Op locatie bij de opdrachtgever</td>
@@ -49,6 +54,7 @@
 
           <tr>
             <td>Donderdag 17 December</td>
+            <td>14.00 - 15.00</td>
             <td><a href="#sprint-review">Sprint Review</a></td>
             <td><a href="#sprint-5">Sprint 5: Fix the Flow</a></td>
             <td>Op locatie bij de opdrachtgever</td>
@@ -63,6 +69,7 @@
         <thead>
           <tr>
             <th>Datum</th>
+            <td>Tijd</td>
             <th>Activiteit</th>
             <th>Semester 2</th>
             <th>Locatie</th>
@@ -72,6 +79,7 @@
         <tbody>
           <tr>
             <td>Maandag 1 Maart</td>
+            <td>11.00 - 12.30</td>
             <td><a href="#sprint-planning">Sprint Planning</a></td>
             <td><a href="#sprint-8">Sprint 8: Server-Side Rendering</a></td>
             <td>FDND Studio</td>
@@ -79,6 +87,7 @@
 
           <tr>
             <td>Donderdag 11 Maart</td>
+            <td>14.00 - 15.00</td>
             <td><a href="#sprint-review">Sprint Review</a></td>
             <td><a href="#sprint-8">Sprint 8: Server-Side Rendering</a></td>
             <td>Op locatie bij de opdrachtgever</td>
@@ -86,6 +95,7 @@
 
           <tr>
             <td>Donderdag 1 April</td>
+            <td>14.00 - 15.00</td>
             <td><a href="#sprint-review">Sprint Review</a></td>
             <td><a href="#sprint-9">Sprint 9: The Web is for Everyone</a></td>
             <td>Op locatie bij de opdrachtgever</td>
@@ -93,6 +103,7 @@
 
           <tr>
             <td>Donderdag 22 April</td>
+            <td>14.00 - 15.00</td>
             <td><a href="#sprint-review">Sprint Review</a></td>
             <td><a href="#sprint-10">Sprint 10: User Experience</a></td>
             <td>Op locatie bij de opdrachtgever</td>
@@ -100,6 +111,7 @@
 
           <tr>
             <td>Donderdag 17 December</td>
+            <td>14.00 - 15.00</td>
             <td><a href="#sprint-review">Sprint Review</a></td>
             <td><a href="#sprint-11">Sprint 11: Pleasurable UI</a></td>
             <td>Op locatie bij de opdrachtgever</td>
@@ -113,6 +125,7 @@
         <thead>
           <tr>
             <th>Datum</th>
+            <td>Tijd</td>
             <th>Activiteit</th>
             <th>Semester 3</th>
             <th>Locatie</th>
@@ -121,7 +134,8 @@
 
         <tbody>
           <tr>
-            <td>Maandag 21 September</td>
+            <td>Dinsdag 22 September</td>
+            <td>10.00 - 11.30</td>
             <td><a href="#sprint-planning">Sprint Planning</a></td>
             <td><a href="#sprint-14">Sprint 14: Lose Your Heade</a></td>
             <td>Op locatie bij de opdrachtgever</td>
@@ -129,6 +143,7 @@
 
           <tr>
             <td>Donderdag 8 Oktober</td>
+            <td>14.00 - 15.00</td>
             <td><a href="#sprint-review">Sprint Review</a></td>
             <td><a href="#sprint-14">Sprint 14: Loose Your Head</a></td>
             <td>Op locatie bij de opdrachtgever</td>
@@ -136,6 +151,7 @@
 
           <tr>
             <td>Donderdag 29 Oktober</td>
+            <td>14.00 - 15.00</td>
             <td><a href="#sprint-review">Sprint Review</a></td>
             <td><a href="#sprint-15">Sprint 15: Don't Repeat Yourself</a></td>
             <td>Op locatie bij de opdrachtgever</td>
@@ -143,6 +159,7 @@
 
           <tr>
             <td>Donderdag 26 November</td>
+            <td>14.00 - 15.00</td>
             <td><a href="#sprint-review">Sprint Review</a></td>
             <td><a href="#sprint-16">Sprint 16: Choices, Choices</a></td>
             <td>Op locatie bij de opdrachtgever</td>
@@ -150,6 +167,7 @@
 
           <tr>
             <td>Donderdag 17 December</td>
+            <td>14.00 - 15.00</td>
             <td><a href="#sprint-review">Sprint Review</a></td>
             <td><a href="#sprint-17">Sprint 17: User Needs</a></td>
             <td>Op locatie bij de opdrachtgever</td>
@@ -157,6 +175,7 @@
 
           <tr>
             <td>Donderdag 21 Januari</td>
+            <td>14.00 - 15.00</td>
             <td><a href="#sprint-review">Sprint Review</a></td>
             <td><a href="#sprint-18">Sprint 18: Release Candidate</a></td>
             <td>Op locatie bij de opdrachtgever</td>
@@ -172,6 +191,7 @@
         <thead>
           <tr>
             <th>Datum</th>
+            <th>Tijd</th>
             <th>Activiteit</th>
             <th>Semester 4</th>
             <th>Locatie</th>
@@ -180,14 +200,16 @@
 
         <tbody>
           <tr>
-            <td>Maandag 1 Maart</td>
+            <td>Dinsdag 2 Maart</td>
+            <td>10.00 - 11.30</td>
             <td><a href="#sprint-planning">Sprint Planning</a></td>
             <td><a href="#sprint-19">Sprint 19: Free Space</a></td>
-            <td>FDND Studio</td>
+            <td>Op locatie bij de opdrachtgever</td>
           </tr>
 
           <tr>
             <td>Donderdag 11 Maart</td>
+            <td>14.00 - 15.00</td>
             <td><a href="#sprint-review">Sprint Review</a></td>
             <td><a href="#sprint-19">Sprint 19: Free Space</a></td>
             <td>Op locatie bij de opdrachtgever</td>
@@ -195,6 +217,7 @@
 
           <tr>
             <td>Donderdag 1 April</td>
+            <td>14.00 - 15.00</td>
             <td><a href="#sprint-review">Sprint Review</a></td>
             <td><a href="#sprint-19">Sprint 19: Free Space</a></td>
             <td>Op locatie bij de opdrachtgever</td>
@@ -202,6 +225,7 @@
 
           <tr>
             <td>Donderdag 22 April</td>
+            <td>14.00 - 15.00</td>
             <td><a href="#sprint-review">Sprint Review</a></td>
             <td><a href="#sprint-20">Sprint 20: Final Sprint</a></td>
             <td>Op locatie bij de opdrachtgever</td>
@@ -209,6 +233,7 @@
 
           <tr>
             <td>Donderdag 17 December</td>
+            <td>14.00 - 15.00</td>
             <td><a href="#sprint-review">Sprint Review</a></td>
             <td><a href="#sprint-20">Sprint 20: Final Sprint</a></td>
             <td>Op locatie bij de opdrachtgever</td>
@@ -216,6 +241,7 @@
 
           <tr>
             <td>Donderdag 21 Januari</td>
+            <td>14.00 - 15.00</td>
             <td><a href="#sprint-review">Sprint Review</a></td>
             <td><a href="#sprint-20">Sprint 20: Final Sprint</a></td>
             <td>Op locatie bij de opdrachtgever</td>
@@ -405,11 +431,11 @@
     width:16em
   }
 
-  td:nth-child(2) {
+  td:nth-child(3) {
     width:9.5em
   }
 
-  td:nth-child(3) {
+  td:nth-child(4) {
     width:18em
   }
 
