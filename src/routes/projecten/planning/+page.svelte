@@ -13,7 +13,7 @@
           <tr>
             <th>Datum</th>
             <th>Activiteit</th>
-            <th><a href="#semester-1">Semester 1</a></th>
+            <th>Semester 1</th>
             <th>Locatie</th>
           </tr>
         </thead>
@@ -64,7 +64,7 @@
           <tr>
             <th>Datum</th>
             <th>Activiteit</th>
-            <th><a href="#semester-2">Semester 2</a></th>
+            <th>Semester 2</th>
             <th>Locatie</th>
           </tr>
         </thead>
@@ -114,7 +114,7 @@
           <tr>
             <th>Datum</th>
             <th>Activiteit</th>
-            <th><a href="#semester-3">Semester 3</a></th>
+            <th>Semester 3</th>
             <th>Locatie</th>
           </tr>
         </thead>
@@ -173,7 +173,7 @@
           <tr>
             <th>Datum</th>
             <th>Activiteit</th>
-            <th><a href="#semester-4">Semester 4</a></th>
+            <th>Semester 4</th>
             <th>Locatie</th>
           </tr>
         </thead>
