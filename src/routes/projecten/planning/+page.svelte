@@ -6,7 +6,7 @@
   <div class="simple-text">
       <h2 class="medium-heading">FDND projectplanning <small>2026 / 2027</small></h2>
       
-      <h3>Semester 1: Static Web <small> Jaar 1</small></h3>
+      <h3 id="planning-semester-1">Semester 1: Static Web <small> Jaar 1</small></h3>
 
       <table>
         <thead>
@@ -63,7 +63,7 @@
         
       </table>
       
-      <h3>Semester 2: Data-Driven Web <small> Jaar 1</small></h3>
+      <h3 id="planning-semester-2">Semester 2: Data-Driven Web <small> Jaar 1</small></h3>
 
       <table>
         <thead>
@@ -119,7 +119,7 @@
         </tbody>
       </table>
 
-      <h3>Semester 3: Workflow, Tooling & Frameworks <small> Jaar 2</small></h3>
+      <h3 id="planning-semester-3">Semester 3: Workflow, Tooling & Frameworks <small> Jaar 2</small></h3>
 
       <table>
         <thead>
@@ -185,7 +185,7 @@
         
       </table>
 
-      <h3>Semester 4: Meesterproef <small> Jaar 2</small></h3>
+      <h3  id="planning-semester-4">Semester 4: Meesterproef <small> Jaar 2</small></h3>
 
       <table>
         <thead>
