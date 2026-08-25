@@ -14,7 +14,7 @@
             <th>Datum</th>
             <th>Tijd</th>
             <th>Activiteit</th>
-            <th>Semester 1</th>
+            <th>Sprint</th>
             <th>Locatie</th>
           </tr>
         </thead>
@@ -71,7 +71,7 @@
             <th>Datum</th>
             <td>Tijd</td>
             <th>Activiteit</th>
-            <th>Semester 2</th>
+            <th>Sprint</th>
             <th>Locatie</th>
           </tr>
         </thead>
@@ -127,7 +127,7 @@
             <th>Datum</th>
             <td>Tijd</td>
             <th>Activiteit</th>
-            <th>Semester 3</th>
+            <th>Sprint</th>
             <th>Locatie</th>
           </tr>
         </thead>
@@ -193,7 +193,7 @@
             <th>Datum</th>
             <th>Tijd</th>
             <th>Activiteit</th>
-            <th>Semester 4</th>
+            <th>Sprint</th>
             <th>Locatie</th>
           </tr>
         </thead>
