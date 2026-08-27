@@ -69,7 +69,7 @@
         <thead>
           <tr>
             <th>Datum</th>
-            <td>Tijd</td>
+            <th>Tijd</th>
             <th>Activiteit</th>
             <th>Sprint</th>
             <th>Locatie</th>
@@ -125,7 +125,7 @@
         <thead>
           <tr>
             <th>Datum</th>
-            <td>Tijd</td>
+            <th>Tijd</th>
             <th>Activiteit</th>
             <th>Sprint</th>
             <th>Locatie</th>
