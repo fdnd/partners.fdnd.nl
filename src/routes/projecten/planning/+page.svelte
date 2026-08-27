@@ -22,7 +22,7 @@
         <tbody>
           <tr>
             <td>Maandag 21 September</td>
-            <td>10.30 - 12.30</td>
+            <td>11.00 - 12.30</td>
             <td><a href="#sprint-planning">Sprint Planning</a></td>
             <td><a href="#sprint-2">Sprint 2: The Client</a></td>
             <td>FDND Studio</td>
@@ -251,7 +251,7 @@
   <div class="simple-text">
     <h2>
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-info-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M12 9h.01" /><path d="M11 12h1v4h1" /></svg>
-      Scrum onderdelen
+      Scrum onderdelen (wordt nog aan gewerkt)
     </h2>
 
     <h3 id="sprint-planning">Sprint planning</h3>
@@ -266,7 +266,7 @@
   <div class="simple-text">
     <h2>
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-info-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M12 9h.01" /><path d="M11 12h1v4h1" /></svg>
-      Inhoud van de sprints
+      Inhoud van de sprints (wordt nog aan gewerkt)
     </h2>
 
     <section id="semester-1">
