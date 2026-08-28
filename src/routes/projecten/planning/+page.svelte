@@ -261,42 +261,20 @@
       <details id="sprint-2" open>
         <summary>Sprint 2: The Client <time datetime="">21/09</time></summary>
         
-        <h4>Kennismaken en opdrachtverkenning</h4>
-        <p class="body-text">In deze sprint maken de eerstejaarsstudenten kennis met de opdrachtgever en de projectopdracht. In een groep van ongeveer 8 tot 10 studenten verkennen zij de vraag, de doelgroep, de beschikbare content en de wensen van de opdrachtgever. Iedere student werkt vervolgens vanuit een eigen geforkte GitHub-repository aan een zelfstandige uitwerking van de opdracht.</p>
+        <h4>Focus van de sprint</h4>
+        <p class="body-text">Studenten maken kennis met de opdrachtgever en verkennen gezamenlijk de projectvraag, doelgroep, content en verwachtingen. Iedere student werkt vanuit een eigen geforkte GitHub-repository aan een zelfstandige, responsive uitwerking. Zij maken schetsen en een prototype, vertalen de content naar semantische HTML en werken dit met CSS uit. Feedback en keuzes worden gedurende de sprint vastgelegd en verwerkt.</p>
 
-        <h4>Van content naar statische website met HTML & CSS</h4>
-        <p class="body-text">De studenten vertalen de aangeleverde content naar semantische HTML en ontwerpen en bouwen een eerste responsive versie van de relevante pagina of websiteonderdelen. Zij werken iteratief: ze maken schetsen en een prototype, verwerken dit in code en vragen tussentijds feedback aan medestudenten, docenten en de opdrachtgever. Afspraken, keuzes en feedback worden vastgelegd in GitHub.</p>
-
-        <h4>Sprint Review presentaties</h4>
-        <p class="body-text">Tijdens de <a href="#sprint-review">Sprint Review</a> presenteren de studenten hun verschillende statische website prototypes aan de opdrachtgever. De opdrachtgever krijgt zo meerdere perspectieven en mogelijke oplossingsrichtingen voor dezelfde vraag. De opgehaalde feedback wordt gebruikt om de <a href="#backlog">backlog</a> en de prioriteiten voor de volgende sprint aan te scherpen.</p>
-
-        <h4>Resultaat</h4>
-        <ul>
-          <li>Een gedeeld en concreter beeld van de opdracht, wensen en prioriteiten.</li>
-          <li>Meerdere individuele, responsive statische prototypes in HTML en CSS, passend bij de beschikbare content en huisstijl.</li>
-          <li>Eerste ontwerp- en technische richtingen waaruit de opdrachtgever kan kiezen of die in volgende sprints verder kunnen worden onderzocht.</li>
-          <li>Een bijgewerkte backlog met feedback en vervolgvragen.</li>
-        </ul>
+        <h4>Resultaten</h4>
+        <p class="body-text">De opdrachtgever ontvangt meerdere individuele, statische prototypes die verschillende ontwerp- en technische richtingen laten zien. De studenten presenteren deze tijdens de Sprint Review en verzamelen feedback. Dit leidt tot een concreter gedeeld beeld van de opdracht en een aangescherpte backlog voor de volgende sprint.</p>
       </details>
 
       <details id="sprint-3" open>
         <summary>Sprint 3: All Human</summary>
-        <h4>Volgende iteratie</h4>
-        <p class="body-text">In deze sprint bouwen de eerstejaarsstudenten voort op hun eigen statische prototype uit Sprint 2. Zij verwerken de feedback van de opdrachtgever uit de sprint review en onderzoeken hoe hun website bruikbaar kan zijn voor zo veel mogelijk mensen, in verschillende situaties en op verschillende apparaten.</p>
+        <h4>Focus van de sprint</h4>
+        <p class="body-text">Studenten verbeteren hun eigen uitwerking uit Sprint 2 met aandacht voor toegankelijkheid en gebruiksgemak. Zij onderzoeken hoe de website werkt voor verschillende mensen, apparaten en omstandigheden, onder andere door een WCAG-audit, tests op kleurcontrast en bediening met het toetsenbord. De bevindingen en verbeteringen worden gedocumenteerd in GitHub.</p>
 
-        <h4>Toegankelijkheidsaudit</h4>
-        <p class="body-text">Iedere student voert een toegankelijkheidsaudit uit op hun eigen statische prototype. Daarbij onderzoeken zij onder meer de HTML-structuur, bediening met het toetsenbord, kleurcontrast en de werking op verschillende schermgroottes. De bevindingen, testresultaten en verbeteringen leggen zij vast in GitHub Issues. Vervolgens passen zij hun ontwerp en code aan volgens de geldende toegankelijkheidsrichtlijnen voor het web, de WCAG.</p>
-
-        <h4>Sprint Review presentaties</h4>
-        <p class="body-text">Tijdens de Sprint Review laten de studenten zien welke toegankelijkheidsproblemen zij hebben gevonden, welke keuzes zij hebben gemaakt en hoe deze verbeteringen bijdragen aan de ervaring van eindgebruikers. De opdrachtgever ziet opnieuw meerdere zelfstandige uitwerkingen en kan feedback geven op zowel de inhoudelijke richting als de gebruikservaring.</p>
-
-        <h4>Resultaat</h4>
-        <ul>
-          <li>Meerdere verbeterde, responsive statische prototypes die voortbouwen op de oplossingen uit Sprint 2.</li>
-          <li>Per student een uitgevoerde toegankelijkheidsaudit met gedocumenteerde bevindingen en verbeteringen.</li>
-          <li>Toegankelijkere HTML, bediening met toetsenbord en kleurgebruik met voldoende contrast.</li>
-          <li>Vastgelegde feedback van de opdrachtgever en nieuwe of aangescherpte backlog-items voor de volgende sprint.</li>
-        </ul>
+        <h4>Resultaten</h4>
+        <p class="body-text">De opdrachtgever ontvangt meerdere verbeterde, responsive statische prototypes met toegankelijkere HTML, voldoende kleurcontrast en betere bediening zonder muis. Tijdens de Sprint Review presenteren studenten hun testresultaten, verbeteringen en vervolgpunten. De feedback van de opdrachtgever wordt vastgelegd als input voor de volgende sprint.</p>
       </details>
 
       <details id="sprint-4">
