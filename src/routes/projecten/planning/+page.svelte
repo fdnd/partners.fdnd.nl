@@ -251,21 +251,6 @@
   <div class="simple-text">
     <h2>
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-info-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M12 9h.01" /><path d="M11 12h1v4h1" /></svg>
-      Scrum onderdelen (wordt nog aan gewerkt)
-    </h2>
-
-    <h3 id="sprint-planning">Sprint planning</h3>
-    <p class="body-text">Aan het begin de eerste sprint van een semester houden de studenten een sprint planning mét de opdrachtgever in de FDND Studio. Op basis van de geactualiseerde backlog bepalen zij, in afstemming met de opdrachtgever, welke werkzaamheden in de komende sprint prioriteit hebben. De studenten vertalen deze werkzaamheden naar concrete en haalbare sprintdoelen, verdelen taken binnen het team en maken afspraken over de aanpak, planning en verwachte resultaten.</p>
-
-    <h3 id="sprint-review">Sprint Review</h3>
-    <p class="body-text">Elke sprint presenteren de studenten hun werk in een sprint review op locatie bij de opdrachtgever. Tijdens de review wordt de backlog bekeken en waar nodig aangepast, zodat het duidelijk is waar de volgende sprint aan gewerkt kan worden.</p>
-  </div>
-</section>
-
-<section>
-  <div class="simple-text">
-    <h2>
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-info-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M12 9h.01" /><path d="M11 12h1v4h1" /></svg>
       Inhoud van de sprints (wordt nog aan gewerkt)
     </h2>
 
@@ -276,9 +261,21 @@
       <details id="sprint-2" open>
         <summary>Sprint 2: The Client <time datetime="">21/09</time></summary>
         
-        <p class="body-text">In deze sprint leren de studenten hoe zij een opdracht voor een echte opdrachtgever aanpakken. Samen met de opdrachtgever verkennen zij de opdracht, brengen zij wensen en verwachtingen in kaart en vertalen zij deze naar concrete taken.</p>
+        <h4>Kennismaken en opdrachtverkenning</h4>
+        <p class="body-text">In deze sprint maken de eerstejaarsstudenten kennis met de opdrachtgever en de projectopdracht. In een groep van ongeveer 8 tot 10 studenten verkennen zij de vraag, de doelgroep, de beschikbare content en de wensen van de opdrachtgever. Iedere student werkt vervolgens vanuit een eigen geforkte GitHub-repository aan een zelfstandige uitwerking van de opdracht.</p>
 
-        <p class="body-text">De focus ligt op het omzetten van de, door de opdrachtgever aangeleverde, content naar HTML en dit stijlen in de huisstijl.</p>
+        <h4>Van content naar statische website met HTML & CSS</h4>
+        <p class="body-text">De studenten vertalen de aangeleverde content naar semantische HTML en ontwerpen en bouwen een eerste responsive versie van de relevante pagina of websiteonderdelen. Zij werken iteratief: ze maken schetsen en een prototype, verwerken dit in code en vragen tussentijds feedback aan medestudenten, docenten en de opdrachtgever. Afspraken, keuzes en feedback worden vastgelegd in GitHub.</p>
+
+        <h4>Resultaat van Sprint 2: The Client</h4>
+        <p class="body-text">Tijdens de <a href="#sprint-review">Sprint Review</a> presenteren de studenten hun verschillende statische website prototypes aan de opdrachtgever. De opdrachtgever krijgt zo meerdere perspectieven en mogelijke oplossingsrichtingen voor dezelfde vraag. De opgehaalde feedback wordt gebruikt om de <a href="#backlog">backlog</a> en de prioriteiten voor de volgende sprint aan te scherpen.</p>
+
+        <ul>
+          <li>Een gedeeld en concreter beeld van de opdracht, wensen en prioriteiten.</li>
+          <li>Meerdere individuele, responsive statische prototypes in HTML en CSS, passend bij de beschikbare content en huisstijl.</li>
+          <li>Eerste ontwerp- en technische richtingen waaruit de opdrachtgever kan kiezen of die in volgende sprints verder kunnen worden onderzocht.</li>
+          <li>Een bijgewerkte backlog met feedback en vervolgvragen.</li>
+        </ul>
       </details>
 
       <details id="sprint-3">
@@ -373,6 +370,23 @@
   </div>
 </section>
 
+<section>
+  <div class="simple-text">
+    <h2>
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-info-circle"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M12 9h.01" /><path d="M11 12h1v4h1" /></svg>
+      Uitleg vaktermen (wordt nog aan gewerkt)
+    </h2>
+
+    <h3 id="sprint-planning">Sprint planning</h3>
+    <p class="body-text">Aan het begin de eerste sprint van een semester houden de studenten een sprint planning mét de opdrachtgever in de FDND Studio. Op basis van de geactualiseerde backlog bepalen zij, in afstemming met de opdrachtgever, welke werkzaamheden in de komende sprint prioriteit hebben. De studenten vertalen deze werkzaamheden naar concrete en haalbare sprintdoelen, verdelen taken binnen het team en maken afspraken over de aanpak, planning en verwachte resultaten.</p>
+
+    <h3 id="sprint-review">Sprint Review</h3>
+    <p class="body-text">Elke sprint presenteren de studenten hun werk in een sprint review op locatie bij de opdrachtgever. Tijdens de review wordt de backlog bekeken en waar nodig aangepast, zodat het duidelijk is waar de volgende sprint aan gewerkt kan worden.</p>
+    <h3 id="backlog">Backlog</h3>
+    <p class="body-text">...</p>
+  </div>
+</section>
+
 <style>
   div.simple-text {
     display:flex;
@@ -460,5 +474,20 @@
 
   p.body-text {
     font-size: 1rem;
+  }
+
+  details p {
+    padding-left: 1rem !important;
+  }
+  h4, ul, li {
+    margin: 0 1rem;
+  }
+
+  h4 {
+    margin-top: 1rem;
+  }
+
+  ul {
+    margin: 1rem;
   }
 </style>
