@@ -266,6 +266,8 @@
 
         <h4>Resultaten</h4>
         <p class="body-text">De opdrachtgever ontvangt meerdere individuele, statische prototypes die verschillende ontwerp- en technische richtingen laten zien. De studenten presenteren deze tijdens de Sprint Review en verzamelen feedback. Dit leidt tot een concreter gedeeld beeld van de opdracht en een aangescherpte backlog voor de volgende sprint.</p>
+
+        <a href="https://programma.fdnd.nl/static-web/the-client">Meer informatie over Sprint 2: The Client</a>
       </details>
 
       <details id="sprint-3" open>
@@ -275,6 +277,8 @@
 
         <h4>Resultaten</h4>
         <p class="body-text">De opdrachtgever ontvangt meerdere verbeterde, responsive statische prototypes met toegankelijkere HTML, voldoende kleurcontrast en betere bediening zonder muis. Tijdens de Sprint Review presenteren studenten hun testresultaten, verbeteringen en vervolgpunten. De feedback van de opdrachtgever wordt vastgelegd als input voor de volgende sprint.</p>
+
+        <a href="https://programma.fdnd.nl/static-web/all-human">Meer informatie over Sprint 3: All Human</a>
       </details>
 
       <details id="sprint-4">
@@ -481,7 +485,8 @@
     margin-top: 1rem;
   }
 
-  ul {
-    margin: 1rem;
+  a {
+    display:block;
+    margin: 0 1rem 1rem;
   }
 </style>
