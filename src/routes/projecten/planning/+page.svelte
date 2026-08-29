@@ -281,14 +281,28 @@
         <a href="https://programma.fdnd.nl/static-web/all-human">Meer informatie over Sprint 3: All Human</a>
       </details>
 
-      <details id="sprint-4">
+      <details id="sprint-4" open>
         <summary>Sprint 4: Look and Feel</summary>
-        <p class="body-text">...</p>
+
+        <h4>Focus van de sprint</h4>
+        <p class="body-text">Studenten werken gezamenlijk aan een styleguide en gedeelde stylesheet voor de huisstijl van de opdrachtgever. Vervolgens passen zij deze basis ieder toe in hun eigen uitwerking. De aandacht ligt op consistente vormgeving, typografie en leesbaarheid, layout en compositie, en het ontwerpen en bouwen van toegankelijke formulieren. Feedback van opdrachtgever en eindgebruikers wordt iteratief verwerkt en vastgelegd in GitHub.</p>
+
+        <h4>Resultaten</h4>
+        <p class="body-text">De opdrachtgever ontvangt een gezamenlijke styleguide en stylesheet als gedeelde basis voor de verschillende uitwerkingen. Daarnaast zijn er meerdere individuele, responsive prototypes die de huisstijl consequent toepassen, inclusief uitgewerkte formulieren. Tijdens de Sprint Review presenteren studenten hun oplossingen, de gezamenlijke ontwerpafspraken en de verwerkte feedback als input voor de volgende sprint.</p>
+
+        <a href="https://programma.fdnd.nl/static-web/look-and-feel">Meer informatie over Sprint 4: Look and Feel</a>
       </details>
 
-      <details id="sprint-5">
+      <details id="sprint-5" open>
         <summary>Sprint 5: Fix the Flow</summary>
-        <p class="body-text">...</p>
+
+        <h4>Focus van de sprint</h4>
+        <p class="body-text">Studenten werken hun eigen prototype uit tot een interactieve website. Zij ontwerpen een gebruikersflow aan de hand van een user story en wireflow, met aandacht voor navigatie, heldere informatie, feedback en states in de interface. De interactie wordt gebouwd met HTML, CSS en JavaScript, getest met eindgebruikers en op basis van de testresultaten verbeterd. Ook verwerken studenten de feedback van de opdrachtgever.</p>
+
+        <h4>Resultaten</h4>
+        <p class="body-text">De opdrachtgever ontvangt meerdere individuele, interactieve prototypes waarin een relevante gebruikersflow is uitgewerkt en getest. De oplossingen bevatten onderbouwde ontwerpkeuzes, werkende interacties en verbeteringen op basis van gebruikerstests en opdrachtgeverfeedback. Tijdens de laatste Sprint Review van semester 1 presenteren studenten hun resultaten en wordt vastgelegd welke inzichten en prioriteiten in semester 2 kunnen worden opgepakt.</p>
+
+        <a href="https://programma.fdnd.nl/static-web/look-and-feel">Meer informatie over Sprint 5: Fix the Flow</a>
       </details>
       
     </section>
@@ -485,8 +499,9 @@
     margin-top: 1rem;
   }
 
-  a {
+  details a {
     display:block;
     margin: 0 1rem 1rem;
+    font-size: .9rem;
   }
 </style>
