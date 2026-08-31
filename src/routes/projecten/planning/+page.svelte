@@ -310,14 +310,14 @@
     
     <section id="semester-2">
       <h3 id="semester-2">Semester 2</h3>
-      <p class="body-text">In semester 2 werken de eerstejaarsstudenten ieder aan een eigen oplossing voor de vraag van de opdrachtgever. Het resultaat is een <a href="dynamische-prototype">dynamisch prototype</a>.</p>
+      <p class="body-text">In semester 2 werken de eerstejaarsstudenten ieder aan een eigen oplossing voor de vraag van de opdrachtgever. Het resultaat is een <a href="#dynamisch-prototype">dynamisch prototype</a>.</p>
 
       <details id="sprint-8" open>
         <summary>Sprint 8: Server-Side Rendering</summary>
        
         <h4>Focus van de sprint</h4>
         <p class="body-text">
-          De eerstejaarsstudenten starten opnieuw met de opdracht van de opdrachtgever en werken ieder aan een eigen, dynamische uitwerking. Zij onderzoeken de beschikbare content en laden deze via een <a href="rest-api">REST API</a> in hun website. Met <a href="#nodejs">Node.js</a>, <a href="#express">Express</a> en <a href="#liquid">Liquid</a> zetten zij de data op de server om naar HTML. Daarbij werken zij volgens een <a href="#content-first">content-first</a>-aanpak, met aandacht voor routing, datafilters, responsive ontwerp en de <a href="#huisstijl">huisstijl</a> van de opdrachtgever.
+          De eerstejaarsstudenten starten opnieuw met de opdracht van de opdrachtgever en werken ieder aan een eigen, dynamische uitwerking. Zij onderzoeken de beschikbare content en laden deze via een <a href="#rest-api">REST API</a> in hun website. Met <a href="#nodejs">Node.js</a>, <a href="#express">Express</a> en <a href="#liquid">Liquid</a> zetten zij de data op de server om naar HTML. Daarbij werken zij volgens een <a href="#content-first">content-first</a>-aanpak, met aandacht voor routing, datafilters, responsive ontwerp en de <a href="#huisstijl">huisstijl</a> van de opdrachtgever.
         </p>
 
         <h4>Resultaten</h4>
@@ -349,7 +349,7 @@
         <summary>Sprint 10: User Experience</summary>
         <h4>Focus van de sprint</h4>
         <p class="body-text">
-          Studenten verbeteren de gebruikservaring van hun <a href="#data-driven">data-driven</a> website met aandacht voor <a href="#performance">performance</a> en <a href="client-side-scripting">client-side scripting</a>. Zij onderzoeken met een performance-audit welke onderdelen sneller of prettiger kunnen werken en passen verbeteringen toe, zoals responsive afbeeldingen, lazy loading en duidelijke loading states. Daarnaast verkennen zij hoe data zonder volledige paginaverversing kan worden geladen of gefilterd, volgens het principe van <a href="#progressive-enhancement">Progressive Enhancement</a>.
+          Studenten verbeteren de gebruikservaring van hun <a href="#data-driven">data-driven</a> website met aandacht voor <a href="#performance">performance</a> en <a href="#client-side-scripting">client-side scripting</a>. Zij onderzoeken met een performance-audit welke onderdelen sneller of prettiger kunnen werken en passen verbeteringen toe, zoals responsive afbeeldingen, lazy loading en duidelijke loading states. Daarnaast verkennen zij hoe data zonder volledige paginaverversing kan worden geladen of gefilterd, volgens het principe van <a href="#progressive-enhancement">Progressive Enhancement</a>.
         </p>
 
         <h4>Resultaten</h4>
@@ -365,7 +365,7 @@
 
         <h4>Focus van de sprint</h4>
         <p class="body-text">
-          In deze sprint werken de eerstejaarsstudenten samen in een team aan één gezamenlijke, interactieve uitwerking voor de opdrachtgever. Zij verdelen en prioriteren het werk, ontwikkelen verschillende variaties met <a href="#feature-branch">feature branches</a> en geven elkaar feedback via pull requests. De focus ligt op het toevoegen van een <em>pleasurable</em> laag aan de interface: doordachte details en interacties die de gebruikservaring verrijken, gebouwd met <a href="client-side-scripting">client-side scripting</a> volgens het principe van <a href="#progressive-enhancement">Progressive Enhancement</a>.
+          In deze sprint werken de eerstejaarsstudenten samen in een team aan één gezamenlijke, interactieve uitwerking voor de opdrachtgever. Zij verdelen en prioriteren het werk, ontwikkelen verschillende variaties met <a href="#feature-branch">feature branches</a> en geven elkaar feedback via pull requests. De focus ligt op het toevoegen van een <em>pleasurable</em> laag aan de interface: doordachte details en interacties die de gebruikservaring verrijken, gebouwd met <a href="#client-side-scripting">client-side scripting</a> volgens het principe van <a href="#progressive-enhancement">Progressive Enhancement</a>.
         </p>
 
         <h4>Resultaten</h4>
@@ -385,10 +385,10 @@
         <summary>Sprint 14: Lose Your Head</summary>
 
         <h4>Focus van de sprint</h4>
-        <p class="body-text">Tweedejaarsstudenten starten in teams van drie aan een project voor een opdrachtgever dat zij gedurende vijf sprints verder ontwikkelen. Zij brengen de <a href="#informatiearchitectuur">informatiearchitectuur</a> in kaart volgens een <a href="#content-first">content-first</a> aanpak: eerst structureren zij content en gebruikersbehoeften, daarna maken of analyseren zij een datamodel in een <a href="#headless-cms">headless CMS</a>. Het team richt het project en de samenwerking in, werkt met een gezamenlijke <a href="#backlog">backlog</a> en projectboard, en ontwikkelt een eerste interface in <a href="sveltekit">SvelteKit</a> die content via een <a href="#api">API</a> ontsluit.</p>
+        <p class="body-text">Tweedejaarsstudenten starten in teams van drie aan een project voor een opdrachtgever dat zij gedurende vijf sprints verder ontwikkelen. Zij brengen de <a href="#informatiearchitectuur">informatiearchitectuur</a> in kaart volgens een <a href="#content-first">content-first</a> aanpak: eerst structureren zij content en gebruikersbehoeften, daarna maken of analyseren zij een datamodel in een <a href="#headless-cms">headless CMS</a>. Het team richt het project en de samenwerking in, werkt met een gezamenlijke <a href="#backlog">backlog</a> en projectboard, en ontwikkelt een eerste interface in <a href="#sveltekit">SvelteKit</a> die content via een <a href="#api">API</a> ontsluit.</p>
 
         <h4>Resultaten</h4>
-        <p class="body-text">De opdrachtgever ontvangt een eerste werkende versie van de website met een onderbouwde informatiearchitectuur, datamodel en gekoppeld headless CMS. Het team levert een online, <a href="deployment">gedeployd</a> project op met eerste schermen en componenten, vastgelegde ontwerp- en samenwerkingsafspraken, en gedocumenteerde testresultaten en vervolgacties. Tijdens de Sprint Review bespreekt het team de voortgang en worden prioriteiten voor de volgende sprint bepaald.</p>
+        <p class="body-text">De opdrachtgever ontvangt een eerste werkende versie van de website met een onderbouwde informatiearchitectuur, datamodel en gekoppeld headless CMS. Het team levert een online, <a href="#deployment">gedeployd</a> project op met eerste schermen en componenten, vastgelegde ontwerp- en samenwerkingsafspraken, en gedocumenteerde testresultaten en vervolgacties. Tijdens de Sprint Review bespreekt het team de voortgang en worden prioriteiten voor de volgende sprint bepaald.</p>
 
         <a href="https://programma.fdnd.nl/workflow-tooling-frameworks/lose-your-head">Meer informatie over Sprint 14: Lose Your Head</a>
       </details>
@@ -459,7 +459,7 @@
         
         <h4>Focus van de sprint</h4>
         <p class="body-text">
-          In deze sprint werken studenten binnen FDND Agency in multidisciplinaire teams aan doorlopende projecten voor echte opdrachtgevers. Zij bouwen voort op bestaand werk, analyseren de huidige stand van het project en bepalen gezamenlijk de prioriteiten. Het team werkt in sprints met een <a href="#backlog">backlog</a>, stand-ups, reviews en retrospectives, en doorloopt steeds de fasen analyseren, ontwerpen, bouwen, integreren en testen. Daarbij passen zij de <a href="#rappe-principes">RAPPE-principes</a> toe: <a href="#responsive">responsive</a>, <a href="#accessibility">accessible</a>, <a href="#performance">performant</a> en gebaseerd op <a href="progressive-enhancement">Progressive Enhancement</a>.
+          In deze sprint werken studenten binnen FDND Agency in multidisciplinaire teams aan doorlopende projecten voor echte opdrachtgevers. Zij bouwen voort op bestaand werk, analyseren de huidige stand van het project en bepalen gezamenlijk de prioriteiten. Het team werkt in sprints met een <a href="#backlog">backlog</a>, stand-ups, reviews en retrospectives, en doorloopt steeds de fasen analyseren, ontwerpen, bouwen, integreren en testen. Daarbij passen zij de <a href="#rappe-principes">RAPPE-principes</a> toe: <a href="#responsive">responsive</a>, <a href="#accessibility">accessible</a>, <a href="#performance">performant</a> en gebaseerd op <a href="#progressive-enhancement">Progressive Enhancement</a>.
         </p>
 
         <h4>Resultaten</h4>
@@ -475,7 +475,7 @@
         
         <h4>Focus van de sprint</h4>
         <p class="body-text">
-          In deze sprint werken studenten binnen FDND Agency in multidisciplinaire teams aan doorlopende projecten voor echte opdrachtgevers. Zij bouwen voort op bestaand werk, analyseren de huidige stand van het project en bepalen gezamenlijk de prioriteiten. Het team werkt in sprints met een <a href="#backlog">backlog</a>, stand-ups, reviews en retrospectives, en doorloopt steeds de fasen analyseren, ontwerpen, bouwen, integreren en testen. Daarbij passen zij de <a href="#rappe-principes">RAPPE-principes</a> toe: <a href="#responsive">responsive</a>, <a href="#accessibility">accessible</a>, <a href="#performance">performant</a> en gebaseerd op <a href="progressive-enhancement">Progressive Enhancement</a>
+          In deze sprint werken studenten binnen FDND Agency in multidisciplinaire teams aan doorlopende projecten voor echte opdrachtgevers. Zij bouwen voort op bestaand werk, analyseren de huidige stand van het project en bepalen gezamenlijk de prioriteiten. Het team werkt in sprints met een <a href="#backlog">backlog</a>, stand-ups, reviews en retrospectives, en doorloopt steeds de fasen analyseren, ontwerpen, bouwen, integreren en testen. Daarbij passen zij de <a href="#rappe-principes">RAPPE-principes</a> toe: <a href="#responsive">responsive</a>, <a href="#accessibility">accessible</a>, <a href="#performance">performant</a> en gebaseerd op <a href="#progressive-enhancement">Progressive Enhancement</a>
         </p>
 
         <h4>Resultaten</h4>
@@ -543,7 +543,7 @@
       <dt id="deployment">Deployment</dt>
       <dd>Het publiceren van een website of toepassing zodat deze online beschikbaar is.</dd>
 
-      <dt id="deployment">Dynamisch prototype</dt>
+      <dt id="dynamisch-prototype">Dynamisch prototype</dt>
       <dd>Een prototype met gegenereerde HTML, CSS en client-side JavaScript, waarbij de content wordt opgehaald uit een database of API.</dd>
 
       <dt id="feature-branch">Feature branch</dt>
