@@ -591,6 +591,9 @@
       <dt id="rappe-principes">RAPPE-principes</dt>
       <dd>Uitgangspunten voor goede webinterfaces: Responsive, Accessibility, Performance en Progressive Enhancement.</dd>
 
+      <dt id="repository">Repository</dt>
+      <dd>Een digitale opslagplaats waar gegevens, broncode, bestanden en de bijbehorende geschiedenis worden bewaard.</dd>
+
       <dt id="release-candidate">Release candidate</dt>
       <dd>Een bijna definitieve versie van een product die uitgebreid wordt getest voordat deze wordt opgeleverd of gepubliceerd.</dd>
 
