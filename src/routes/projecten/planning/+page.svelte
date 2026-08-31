@@ -546,6 +546,9 @@
       <dt id="dynamisch-prototype">Dynamisch prototype</dt>
       <dd>Een prototype met gegenereerde HTML, CSS en client-side JavaScript, waarbij de content wordt opgehaald uit een database of API.</dd>
 
+      <dt id="express">Express</dt>
+      <dd>Nen minimalistisch en flexibel framework voor Node.js waarmee je snel en eenvoudig webapplicaties en API's kunt bouwen.</dd>
+
       <dt id="feature-branch">Feature branch</dt>
       <dd>Een branch die is bedoeld voor het ontwikkelen van één specifieke functionaliteit of verbetering.</dd>
 
