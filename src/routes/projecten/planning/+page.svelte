@@ -256,16 +256,16 @@
 
     <section id="semester-1">
       <h3>Semester 1: Static Web</h3>
-      <p class="body-text">In semester 1 werken de eerstejaarsstudenten ieder aan een eigen oplossing voor de vraag van de opdrachtgever. Het resultaat is een statisch prototype.</p>
+      <p class="body-text">In semester 1 werken de eerstejaarsstudenten ieder aan een eigen oplossing voor de vraag van de opdrachtgever. Het resultaat is een <a href="#statisch-prototype">statisch prototype</a>.</p>
     
       <details id="sprint-2" open>
         <summary>Sprint 2: The Client <time datetime="">21/09</time></summary>
         
         <h4>Focus van de sprint</h4>
-        <p class="body-text">Studenten maken kennis met de opdrachtgever en verkennen gezamenlijk de projectvraag, doelgroep, content en verwachtingen. Iedere student werkt vanuit een eigen geforkte <a href="#repository">repository</a> aan een zelfstandige, responsive uitwerking. Zij maken schetsen en een prototype, vertalen de content naar semantische <a href="#html">HTML</a> en werken dit met <a href="#css">CSS</a> uit. Feedback en keuzes worden gedurende de sprint vastgelegd en verwerkt.</p>
+        <p class="body-text">Studenten maken kennis met de opdrachtgever en verkennen gezamenlijk de projectvraag, doelgroep, content en verwachtingen. Iedere student werkt vanuit een eigen geforkte <a href="#repository">repository</a> aan een zelfstandige, <a href="#responsive">responsive</a> uitwerking. Zij maken schetsen en een prototype, vertalen de content naar betekenisvolle <a href="#html">HTML</a> en werken dit met <a href="#css">CSS</a> uit. Feedback en keuzes worden gedurende de sprint vastgelegd en verwerkt.</p>
 
         <h4>Resultaten</h4>
-        <p class="body-text">De opdrachtgever ontvangt meerdere individuele, statische prototypes die verschillende ontwerp- en technische richtingen laten zien. De studenten presenteren deze tijdens de Sprint Review en verzamelen feedback. Dit leidt tot een concreter gedeeld beeld van de opdracht en een aangescherpte <a href="#backlog">backlog</a> voor de volgende sprint.</p>
+        <p class="body-text">De opdrachtgever ontvangt meerdere individuele, <a href="#statisch-prototype">statische prototypes</a> die verschillende ontwerp- en technische richtingen laten zien. De studenten presenteren deze tijdens de Sprint Review en verzamelen feedback. Dit leidt tot een concreter gedeeld beeld van de opdracht en een aangescherpte <a href="#backlog">backlog</a> voor de volgende sprint.</p>
 
         <a href="https://programma.fdnd.nl/static-web/the-client">Meer informatie over Sprint 2: The Client</a>
       </details>
@@ -273,10 +273,10 @@
       <details id="sprint-3" open>
         <summary>Sprint 3: All Human</summary>
         <h4>Focus van de sprint</h4>
-        <p class="body-text">Studenten verbeteren hun eigen uitwerking uit Sprint 2 met aandacht voor <a href="#accessibility">accessibility</a> en gebruiksgemak. Zij onderzoeken hoe de website werkt voor verschillende mensen, apparaten en omstandigheden, onder andere door een WCAG-audit, tests op kleurcontrast en bediening met het toetsenbord. De bevindingen en verbeteringen worden gedocumenteerd in GitHub.</p>
+        <p class="body-text">Studenten verbeteren hun eigen uitwerking uit Sprint 2 met aandacht voor <a href="#accessibility">accessibility</a> en gebruiksgemak. Zij onderzoeken hoe de website werkt voor verschillende mensen, apparaten en omstandigheden, onder andere door een <a href="#wcag">WCAG-audit</a>, tests op kleurcontrast en bediening met het toetsenbord. De bevindingen en verbeteringen worden gedocumenteerd in GitHub.</p>
 
         <h4>Resultaten</h4>
-        <p class="body-text">De opdrachtgever ontvangt meerdere verbeterde, responsive statische prototypes met toegankelijkere HTML, voldoende kleurcontrast en betere bediening zonder muis. Tijdens de Sprint Review presenteren studenten hun testresultaten, verbeteringen en vervolgpunten. De feedback van de opdrachtgever wordt vastgelegd als input voor de volgende sprint.</p>
+        <p class="body-text">De opdrachtgever ontvangt meerdere verbeterde, <a href="#responsive">responsive</a> <a href="#statisch-prototype">statische prototypes</a> met toegankelijkere HTML, voldoende kleurcontrast en betere bediening zonder muis. Tijdens de Sprint Review presenteren studenten hun testresultaten, verbeteringen en vervolgpunten. De feedback van de opdrachtgever wordt vastgelegd als input voor de volgende sprint.</p>
 
         <a href="https://programma.fdnd.nl/static-web/all-human">Meer informatie over Sprint 3: All Human</a>
       </details>
@@ -285,7 +285,7 @@
         <summary>Sprint 4: Look and Feel</summary>
 
         <h4>Focus van de sprint</h4>
-        <p class="body-text">Studenten werken gezamenlijk aan een styleguide en gedeelde stylesheet voor de huisstijl van de opdrachtgever. Vervolgens passen zij deze basis ieder toe in hun eigen uitwerking. De aandacht ligt op consistente vormgeving, typografie en leesbaarheid, layout en compositie, en het ontwerpen en bouwen van toegankelijke formulieren. Feedback van opdrachtgever en eindgebruikers wordt iteratief verwerkt en vastgelegd in GitHub.</p>
+        <p class="body-text">Studenten werken gezamenlijk aan een <a href="#styleguide">styleguide</a> en gedeelde stylesheet voor de <a href="#huisstijl">huisstijl</a> van de opdrachtgever. Vervolgens passen zij deze basis ieder toe in hun eigen uitwerking. De aandacht ligt op consistente vormgeving, typografie en leesbaarheid, layout en compositie, en het ontwerpen en bouwen van toegankelijke formulieren. Feedback van opdrachtgever en eindgebruikers wordt iteratief verwerkt en vastgelegd in GitHub.</p>
 
         <h4>Resultaten</h4>
         <p class="body-text">De opdrachtgever ontvangt een gezamenlijke styleguide en stylesheet als gedeelde basis voor de verschillende uitwerkingen. Daarnaast zijn er meerdere individuele, responsive prototypes die de huisstijl consequent toepassen, inclusief uitgewerkte formulieren. Tijdens de Sprint Review presenteren studenten hun oplossingen, de gezamenlijke ontwerpafspraken en de verwerkte feedback als input voor de volgende sprint.</p>
@@ -297,7 +297,7 @@
         <summary>Sprint 5: Fix the Flow</summary>
 
         <h4>Focus van de sprint</h4>
-        <p class="body-text">Studenten werken hun eigen prototype uit tot een interactieve website. Zij ontwerpen een gebruikersflow aan de hand van een user story en wireflow, met aandacht voor navigatie, heldere informatie, feedback en states in de interface. De interactie wordt gebouwd met <a href="#html">HTML</a>, <a href="#css">CSS</a> en <a href="#javascript">JavaScript</a>, getest met eindgebruikers en op basis van de testresultaten verbeterd. Ook verwerken studenten de feedback van de opdrachtgever.</p>
+        <p class="body-text">Studenten werken hun eigen prototype uit tot een interactieve website. Zij ontwerpen een gebruikersflow aan de hand van een <a href="#user-story">user story</a> en <a href="#wireflow">wireflow</a>, met aandacht voor navigatie, heldere informatie, feedback en states in de interface. De interactie wordt gebouwd met <a href="#html">HTML</a>, <a href="#css">CSS</a> en <a href="#javascript">JavaScript</a>, getest met eindgebruikers en op basis van de testresultaten verbeterd. Ook verwerken studenten de feedback van de opdrachtgever.</p>
 
         <h4>Resultaten</h4>
         <p class="body-text">De opdrachtgever ontvangt meerdere individuele, interactieve prototypes waarin een relevante gebruikersflow is uitgewerkt en getest. De oplossingen bevatten onderbouwde ontwerpkeuzes, werkende interacties en verbeteringen op basis van gebruikerstests en opdrachtgeverfeedback. Tijdens de laatste Sprint Review van semester 1 presenteren studenten hun resultaten en wordt vastgelegd welke inzichten en prioriteiten in semester 2 kunnen worden opgepakt.</p>
@@ -310,19 +310,19 @@
     
     <section id="semester-2">
       <h3 id="semester-2">Semester 2</h3>
-      <p class="body-text">In semester 2 werken de eerstejaarsstudenten ieder aan een eigen oplossing voor de vraag van de opdrachtgever. Het resultaat is een dynamisch prototype.</p>
+      <p class="body-text">In semester 2 werken de eerstejaarsstudenten ieder aan een eigen oplossing voor de vraag van de opdrachtgever. Het resultaat is een <a href="dynamische-prototype">dynamisch prototype</a>.</p>
 
       <details id="sprint-8" open>
         <summary>Sprint 8: Server-Side Rendering</summary>
        
         <h4>Focus van de sprint</h4>
         <p class="body-text">
-          De eerstejaarsstudenten starten opnieuw met de opdracht van de opdrachtgever en werken ieder aan een eigen, dynamische uitwerking. Zij onderzoeken de beschikbare content en laden deze via een <a href="rest-api">REST API</a> in hun website. Met Node.js, Express en Liquid zetten zij de data op de server om naar HTML. Daarbij werken zij volgens een <a href="#content-first">content-first</a>-aanpak, met aandacht voor routing, datafilters, responsive ontwerp en de huisstijl van de opdrachtgever.
+          De eerstejaarsstudenten starten opnieuw met de opdracht van de opdrachtgever en werken ieder aan een eigen, dynamische uitwerking. Zij onderzoeken de beschikbare content en laden deze via een <a href="rest-api">REST API</a> in hun website. Met <a href="#nodejs">Node.js</a>, <a href="#express">Express</a> en <a href="#liquid">Liquid</a> zetten zij de data op de server om naar HTML. Daarbij werken zij volgens een <a href="#content-first">content-first</a>-aanpak, met aandacht voor routing, datafilters, responsive ontwerp en de <a href="#huisstijl">huisstijl</a> van de opdrachtgever.
         </p>
 
         <h4>Resultaten</h4>
         <p class="body-text">
-          De opdrachtgever ontvangt meerdere individuele, server-side gerenderde websites waarin content uit de <a href="#database">database</a> dynamisch wordt weergegeven. De uitwerkingen zijn responsive, sluiten aan bij de huisstijl en maken zichtbaar hoe de beschikbare content op verschillende manieren kan worden gestructureerd en gepresenteerd. Tijdens de Sprint Review verzamelen de studenten feedback, die zij documenteren als input voor de volgende sprint.
+          De opdrachtgever ontvangt meerdere individuele, server-side gerenderde websites waarin content uit de <a href="#database">database</a> dynamisch wordt weergegeven. De uitwerkingen zijn responsive, sluiten aan bij de <a href="#huisstijl">huisstijl</a> en maken zichtbaar hoe de beschikbare content op verschillende manieren kan worden gestructureerd en gepresenteerd. Tijdens de Sprint Review verzamelen de studenten feedback, die zij documenteren als input voor de volgende sprint.
         </p>
 
         <a href="https://programma.fdnd.nl/data-driven-web/server-side-rendering">Meer informatie over Sprint 8: Server-Side Rendering</a>
@@ -334,7 +334,7 @@
         
         <h4>Focus van de sprint</h4>
         <p class="body-text">
-          Studenten werken hun server-side website uit met interactieve functionaliteit voor door gebruikers aangeleverde content. Zij ontwerpen en bouwen bijvoorbeeld formulieren waarmee gegevens naar de database worden verstuurd en daarna op de website worden getoond. Daarbij passen zij <em>Progressive Enhancement</em> toe: de basisfunctionaliteit werkt voor iedereen, terwijl moderne browsers aanvullende mogelijkheden bieden. De aandacht ligt op toegankelijke formulieren, duidelijke interface-states, gebruikersvoorkeuren en het testen op verschillende browsers en apparaten.
+          Studenten werken hun server-side website uit met interactieve functionaliteit voor door gebruikers aangeleverde content. Zij ontwerpen en bouwen bijvoorbeeld formulieren waarmee gegevens naar de database worden verstuurd en daarna op de website worden getoond. Daarbij passen zij <a href="#progressive-enhancement">Progressive Enhancement</a> toe: de basisfunctionaliteit werkt voor iedereen, terwijl moderne browsers aanvullende mogelijkheden bieden. De aandacht ligt op toegankelijke formulieren, duidelijke interface-states, gebruikersvoorkeuren en het testen op verschillende browsers en apparaten.
         </p>
 
         <h4>Resultaten</h4>
@@ -349,7 +349,7 @@
         <summary>Sprint 10: User Experience</summary>
         <h4>Focus van de sprint</h4>
         <p class="body-text">
-          Studenten verbeteren de gebruikservaring van hun <a href="#data-driven">data-driven</a> website met aandacht voor performance en <a href="client-side-scripting">client-side scripting</a>. Zij onderzoeken met een performance-audit welke onderdelen sneller of prettiger kunnen werken en passen verbeteringen toe, zoals responsive afbeeldingen, lazy loading en duidelijke loading states. Daarnaast verkennen zij hoe data zonder volledige paginaverversing kan worden geladen of gefilterd, volgens het principe van <em>Progressive Enhancement</em>.
+          Studenten verbeteren de gebruikservaring van hun <a href="#data-driven">data-driven</a> website met aandacht voor <a href="#performance">performance</a> en <a href="client-side-scripting">client-side scripting</a>. Zij onderzoeken met een performance-audit welke onderdelen sneller of prettiger kunnen werken en passen verbeteringen toe, zoals responsive afbeeldingen, lazy loading en duidelijke loading states. Daarnaast verkennen zij hoe data zonder volledige paginaverversing kan worden geladen of gefilterd, volgens het principe van <a href="#progressive-enhancement">Progressive Enhancement</a>.
         </p>
 
         <h4>Resultaten</h4>
@@ -365,12 +365,12 @@
 
         <h4>Focus van de sprint</h4>
         <p class="body-text">
-          In deze sprint werken de eerstejaarsstudenten samen in een team aan één gezamenlijke, interactieve uitwerking voor de opdrachtgever. Zij verdelen en prioriteren het werk, ontwikkelen verschillende variaties met <a href="#feature-branch">feature branches</a> en geven elkaar feedback via pull requests. De focus ligt op het toevoegen van een <em>pleasurable</em> laag aan de interface: doordachte details en interacties die de gebruikservaring verrijken, gebouwd met <a href="client-side-scripting">client-side scripting</a> volgens het principe van Progressive Enhancement.
+          In deze sprint werken de eerstejaarsstudenten samen in een team aan één gezamenlijke, interactieve uitwerking voor de opdrachtgever. Zij verdelen en prioriteren het werk, ontwikkelen verschillende variaties met <a href="#feature-branch">feature branches</a> en geven elkaar feedback via pull requests. De focus ligt op het toevoegen van een <em>pleasurable</em> laag aan de interface: doordachte details en interacties die de gebruikservaring verrijken, gebouwd met <a href="client-side-scripting">client-side scripting</a> volgens het principe van <a href="#progressive-enhancement">Progressive Enhancement</a>.
         </p>
 
         <h4>Resultaten</h4>
         <p class="body-text">
-          De opdrachtgever ontvangt een gezamenlijk ontwikkeld, dynamisch prototype waarin de feedback en taken uit eerdere sprints zijn verwerkt. Het team presenteert een consistente en prettig te gebruiken interface, met onderbouwde interactieve verbeteringen. De werkwijze, ontwerpkeuzes en samenwerking zijn vastgelegd, zodat duidelijk is hoe het resultaat tot stand is gekomen en waarop in een volgende fase kan worden voortgebouwd.
+          De opdrachtgever ontvangt een gezamenlijk ontwikkeld, <a href="#dynamisch-prototype">dynamisch prototype</a> waarin de feedback en taken uit eerdere sprints zijn verwerkt. Het team presenteert een consistente en prettig te gebruiken interface, met onderbouwde interactieve verbeteringen. De werkwijze, ontwerpkeuzes en samenwerking zijn vastgelegd, zodat duidelijk is hoe het resultaat tot stand is gekomen en waarop in een volgende fase kan worden voortgebouwd.
         </p>
 
         <a href="https://programma.fdnd.nl/data-driven-web/pleasurable-ui">Meer informatie over Sprint 11: Pleasurable UI</a>
@@ -379,13 +379,13 @@
 
     <section id="semester-3">
       <h3 id="semester0-3">Semester 3</h3>
-      <p class="body-text">In semester 3 werken de tweedejaarsstudenten, in een klein team frontenders, samen aan een oplossing voor de vraag van de opdrachtgever. Het resultaat is een eerste release candidate.</p>
+      <p class="body-text">In semester 3 werken de tweedejaarsstudenten, in een klein team frontenders, samen aan een oplossing voor de vraag van de opdrachtgever. Het resultaat is een eerste <a href="#release-candidate">release candidate.</a></p>
 
       <details id="sprint-14" open>
         <summary>Sprint 14: Lose Your Head</summary>
 
         <h4>Focus van de sprint</h4>
-        <p class="body-text">Tweedejaarsstudenten starten in teams van drie aan een project voor een opdrachtgever dat zij gedurende vijf sprints verder ontwikkelen. Zij brengen de informatiearchitectuur in kaart volgens een <a href="#content-first">content-first</a> aanpak: eerst structureren zij content en gebruikersbehoeften, daarna maken of analyseren zij een datamodel in een <a href="#headless-cms">headless CMS</a>. Het team richt het project en de samenwerking in, werkt met een gezamenlijke <a href="#backlog">backlog</a> en projectboard, en ontwikkelt een eerste interface in SvelteKit die content via een <a href="#api">API</a> ontsluit.</p>
+        <p class="body-text">Tweedejaarsstudenten starten in teams van drie aan een project voor een opdrachtgever dat zij gedurende vijf sprints verder ontwikkelen. Zij brengen de <a href="#informatiearchitectuur">informatiearchitectuur</a> in kaart volgens een <a href="#content-first">content-first</a> aanpak: eerst structureren zij content en gebruikersbehoeften, daarna maken of analyseren zij een datamodel in een <a href="#headless-cms">headless CMS</a>. Het team richt het project en de samenwerking in, werkt met een gezamenlijke <a href="#backlog">backlog</a> en projectboard, en ontwikkelt een eerste interface in <a href="sveltekit">SvelteKit</a> die content via een <a href="#api">API</a> ontsluit.</p>
 
         <h4>Resultaten</h4>
         <p class="body-text">De opdrachtgever ontvangt een eerste werkende versie van de website met een onderbouwde informatiearchitectuur, datamodel en gekoppeld headless CMS. Het team levert een online, <a href="deployment">gedeployd</a> project op met eerste schermen en componenten, vastgelegde ontwerp- en samenwerkingsafspraken, en gedocumenteerde testresultaten en vervolgacties. Tijdens de Sprint Review bespreekt het team de voortgang en worden prioriteiten voor de volgende sprint bepaald.</p>
@@ -397,7 +397,7 @@
         <summary>Sprint 15: Don't Repeat Yourself</summary>
 
         <h4>Focus van de sprint</h4>
-        <p class="body-text">De teams werken verder aan hun project door terugkerende ontwerp- en codepatronen te herkennen en om te zetten naar herbruikbare <a href="#component">componenten</a>. Samen bouwen zij een <a href="#component-library">component library</a> als basis voor de website; iedere student ontwerpt en ontwikkelt daarnaast minimaal één complex component. De componenten worden responsive en toegankelijk gemaakt, onder meer met <a href="#container-query">container queries</a>, en getest met eindgebruikers. Ontwerpkeuzes, testen en technische uitwerking worden vastgelegd in issues, commits en pull requests.</p>
+        <p class="body-text">De teams werken verder aan hun project door terugkerende ontwerp- en codepatronen te herkennen en om te zetten naar herbruikbare <a href="#component">componenten</a>. Samen bouwen zij een <a href="#component-library">component library</a> als basis voor de website; iedere student ontwerpt en ontwikkelt daarnaast minimaal één complex component. De componenten worden responsive en toegankelijk gemaakt, onder meer met <a href="#container-query">container queries</a>, en getest met eindgebruikers. Ontwerpkeuzes, testen en technische uitwerking worden vastgelegd in <a href="#issue">issues</a>, <a href="#commit">commits</a> en <a href="#pull-request">pull requests</a>.</p>
 
         <h4>Resultaten</h4>
         <p class="body-text">De opdrachtgever ontvangt een verder ontwikkelde, online te bekijken versie van de website die is opgebouwd uit een gezamenlijke component library. Hierdoor ontstaat een consistentere interface die eenvoudiger is uit te breiden en te onderhouden. Tijdens de Sprint Review laat het team zien welke componenten zijn ontwikkeld, hoe deze in de website worden toegepast en welke vervolgprioriteiten uit de feedback naar voren komen.</p>
@@ -409,10 +409,10 @@
         <summary>Sprint 16: Choices, Choices</summary>
         
         <h4>Focus van de sprint</h4>
-        <p class="body-text">De teams onderzoeken welke <a href="#framework">frameworks</a>, tools en workflow het beste passen bij hun project en onderbouwen deze technische keuzes. Iedere student verkent en test ten minste drie alternatieve frameworks of tools, documenteert de bevindingen en deelt deze met de squad. Tegelijkertijd werkt het team verder aan de website in SvelteKit, met aandacht voor <a href="#code-review">code reviews</a>, testing, <a href="#accessibility">accessibility</a>, responsive ontwerp en de inrichting van de ontwikkelworkflow.</p>
+        <p class="body-text">De teams onderzoeken welke <a href="#framework">frameworks</a>, tools en workflow het beste passen bij hun project en onderbouwen deze technische keuzes. Iedere student verkent en test ten minste drie alternatieve frameworks of tools, documenteert de bevindingen en deelt deze met de squad. Tegelijkertijd werkt het team verder aan de website in <a href="#sveltekit">SvelteKit</a>, met aandacht voor <a href="#code-review">code reviews</a>, testing, <a href="#accessibility">accessibility</a>, responsive ontwerp en de inrichting van de ontwikkelworkflow.</p>
 
         <h4>Resultaten</h4>
-        <p class="body-text">De opdrachtgever ontvangt een verder uitgewerkte, online beschikbare versie van de website waarin alle beoogde pagina’s bereikbaar zijn en testresultaten zijn verwerkt. Daarnaast heeft het team inzicht in de afwegingen achter de gekozen technische aanpak en kunnen studenten hun onderzoek en aanbevelingen voor mogelijke alternatieven toelichten. Deze inzichten helpen het team om onderbouwde keuzes te maken voor de verdere ontwikkeling richting de release candidate.</p>
+        <p class="body-text">De opdrachtgever ontvangt een verder uitgewerkte, online beschikbare versie van de website waarin alle beoogde pagina’s bereikbaar zijn en testresultaten zijn verwerkt. Daarnaast heeft het team inzicht in de afwegingen achter de gekozen technische aanpak en kunnen studenten hun onderzoek en aanbevelingen voor mogelijke alternatieven toelichten. Deze inzichten helpen het team om onderbouwde keuzes te maken voor de verdere ontwikkeling richting de <a href="#release-candidate">release candidate</a>.</p>
 
         <a href="https://programma.fdnd.nl/workflow-tooling-frameworks/choices-choices">Meer informatie over Sprint 16: Choices, Choices</a>
       </details>
@@ -422,12 +422,12 @@
         
         <h4>Focus van de sprint</h4>
         <p class="body-text">
-          De teams verkennen nieuwe interactiemogelijkheden die aantoonbaar bijdragen aan de gebruikservaring van de website. Ieder teamlid ontwikkelt drie individuele <em>creative coding spikes</em>: kleinschalige prototypes waarin ideeën voor bijvoorbeeld animatie, 3D of nieuwe CSS- en JavaScriptmogelijkheden worden onderzocht. De studenten analyseren, ontwerpen, bouwen, integreren en testen deze interacties en beoordelen ze op gebruikswaarde, <a href=#accessibility>accessibility</a>, performance en de RAP/PE-principes.
+          De teams verkennen nieuwe interactiemogelijkheden die aantoonbaar bijdragen aan de gebruikservaring van de website. Ieder teamlid ontwikkelt drie individuele <em>creative coding spikes</em>: kleinschalige prototypes waarin ideeën voor bijvoorbeeld animatie, 3D of nieuwe CSS- en JavaScriptmogelijkheden worden onderzocht. De studenten analyseren, ontwerpen, bouwen, integreren en testen deze interacties en beoordelen ze op gebruikswaarde, <a href=#accessibility>accessibility</a>, <a href="#performance">performance</a> en de <a href="#rappe-principes">RAP/PE-principes</a>.
         </p>
 
         <h4>Resultaten</h4>
         <p class="body-text">
-          De opdrachtgever ontvangt een reeks geteste en online te bekijken prototypes van mogelijke interacties voor het project. Het team kiest op basis van de tests welke interacties daadwerkelijk waarde toevoegen aan de gebruikservaring en kansrijk zijn om in de website te verwerken. De bevindingen, performanceverschillen en gemaakte keuzes worden vastgelegd, zodat het team gericht kan toewerken naar de release candidate.
+          De opdrachtgever ontvangt een reeks geteste en online te bekijken prototypes van mogelijke interacties voor het project. Het team kiest op basis van de tests welke interacties daadwerkelijk waarde toevoegen aan de gebruikservaring en kansrijk zijn om in de website te verwerken. De bevindingen, performanceverschillen en gemaakte keuzes worden vastgelegd, zodat het team gericht kan toewerken naar de <a href="#release-candidate">release candidate</a>.
         </p>
 
         <a href="https://programma.fdnd.nl/workflow-tooling-frameworks/user-needs">Meer informatie over Sprint 17: User Needs</a>
@@ -438,7 +438,7 @@
         
         <h4>Focus van de sprint</h4>
         <p class="body-text">
-          In deze sprint werkt het team toe naar een <em>release candidate</em>: een zo volledig mogelijke, live versie van de webapplicatie voor de opdrachtgever. De studenten brengen de kernfunctionaliteiten, interacties en koppeling met de <a href="#api">API</a> of het <a href="#headless-cms">headless CMS</a> op orde. Zij werken volgens gezamenlijke codeafspraken, <a href="#branch">branches</a> en pull requests, en testen alle onderdelen uitvoerig op gebruiksvriendelijkheid, <a href="#accessibility">accessibility</a>, performance en responsiveness. Ook zorgen zij dat code, werkwijze en gemaakte keuzes goed gedocumenteerd en overdraagbaar zijn.
+          In deze sprint werkt het team toe naar een <a href="#release-candidate">release candidate</a>: een zo volledig mogelijke, live versie van de webapplicatie voor de opdrachtgever. De studenten brengen de kernfunctionaliteiten, interacties en koppeling met de <a href="#api">API</a> of het <a href="#headless-cms">headless CMS</a> op orde. Zij werken volgens gezamenlijke codeafspraken, <a href="#branch">branches</a> en <a href="#pull-request">pull requests</a>, en testen alle onderdelen uitvoerig op gebruiksvriendelijkheid, <a href="#accessibility">accessibility</a>, <a href="#performance">performance</a> en <a href="#responsive">responsiveness</a>. Ook zorgen zij dat code, werkwijze en gemaakte keuzes goed gedocumenteerd en overdraagbaar zijn.
         </p>
 
         <h4>Resultaten</h4>
@@ -452,14 +452,14 @@
 
     <section id="semester-4">
       <h3 id="semester-4">Semester 4</h3>
-      <p class="body-text">In semester 4 werken de tweedejaarsstudenten, bij FDND Agency, in een multidisciplinair team samen aan een oplossing voor de vraag van de opdrachtgever. Het resultaat is een verbeterde release candidate / productiesite.</p>
+      <p class="body-text">In semester 4 werken de tweedejaarsstudenten, bij FDND Agency, in een multidisciplinair team samen aan een oplossing voor de vraag van de opdrachtgever. Het resultaat is een verbeterde <a href="#release-candidate">release candidate</a>.</p>
 
       <details id="sprint-19" open>
         <summary>Sprint 19: Free Space</summary>
         
         <h4>Focus van de sprint</h4>
         <p class="body-text">
-          In deze sprint werken studenten binnen FDND Agency in multidisciplinaire teams aan doorlopende projecten voor echte opdrachtgevers. Zij bouwen voort op bestaand werk, analyseren de huidige stand van het project en bepalen gezamenlijk de prioriteiten. Het team werkt in sprints met een <a href="#backlog">backlog</a>, stand-ups, reviews en retrospectives, en doorloopt steeds de fasen analyseren, ontwerpen, bouwen, integreren en testen. Daarbij passen zij de RAPPE-principes toe: responsive, toegankelijk, performant en gebaseerd op Progressive Enhancement.
+          In deze sprint werken studenten binnen FDND Agency in multidisciplinaire teams aan doorlopende projecten voor echte opdrachtgevers. Zij bouwen voort op bestaand werk, analyseren de huidige stand van het project en bepalen gezamenlijk de prioriteiten. Het team werkt in sprints met een <a href="#backlog">backlog</a>, stand-ups, reviews en retrospectives, en doorloopt steeds de fasen analyseren, ontwerpen, bouwen, integreren en testen. Daarbij passen zij de <a href="#rappe-principes">RAPPE-principes</a> toe: <a href="#responsive">responsive</a>, <a href="#accessibility">accessible</a>, <a href="#performance">performant</a> en gebaseerd op <a href="progressive-enhancement">Progressive Enhancement</a>.
         </p>
 
         <h4>Resultaten</h4>
@@ -475,7 +475,7 @@
         
         <h4>Focus van de sprint</h4>
         <p class="body-text">
-          In deze sprint werken studenten binnen FDND Agency in multidisciplinaire teams aan doorlopende projecten voor echte opdrachtgevers. Zij bouwen voort op bestaand werk, analyseren de huidige stand van het project en bepalen gezamenlijk de prioriteiten. Het team werkt in sprints met een <a href="#backlog">backlog</a>, stand-ups, reviews en retrospectives, en doorloopt steeds de fasen analyseren, ontwerpen, bouwen, integreren en testen. Daarbij passen zij de RAPPE-principes toe: responsive, toegankelijk, performant en gebaseerd op Progressive Enhancement.
+          In deze sprint werken studenten binnen FDND Agency in multidisciplinaire teams aan doorlopende projecten voor echte opdrachtgevers. Zij bouwen voort op bestaand werk, analyseren de huidige stand van het project en bepalen gezamenlijk de prioriteiten. Het team werkt in sprints met een <a href="#backlog">backlog</a>, stand-ups, reviews en retrospectives, en doorloopt steeds de fasen analyseren, ontwerpen, bouwen, integreren en testen. Daarbij passen zij de <a href="#rappe-principes">RAPPE-principes</a> toe: <a href="#responsive">responsive</a>, <a href="#accessibility">accessible</a>, <a href="#performance">performant</a> en gebaseerd op <a href="progressive-enhancement">Progressive Enhancement</a>
         </p>
 
         <h4>Resultaten</h4>
@@ -516,6 +516,9 @@
       <dt id="code-review">Code review</dt>
       <dd>Het beoordelen van code door een ander teamlid om fouten te vinden, kwaliteit te verbeteren en kennis te delen.</dd>
 
+      <dt id="commit">Commit</dt>
+      <dd>Een vastgelegd opslagpunt (een 'save point') dat een momentopname van je bestanden en wijzigingen op een specifiek tijdstip bewaart.</dd>
+
       <dt id="component">Component</dt>
       <dd>Een herbruikbaar onderdeel van een interface, zoals een knop, kaart, formulier of navigatie.</dd>
 
@@ -539,6 +542,9 @@
 
       <dt id="deployment">Deployment</dt>
       <dd>Het publiceren van een website of toepassing zodat deze online beschikbaar is.</dd>
+
+      <dt id="deployment">Dynamisch prototype</dt>
+      <dd>Een prototype met gegenereerde HTML, CSS en client-side JavaScript, waarbij de content wordt opgehaald uit een database of API.</dd>
 
       <dt id="feature-branch">Feature branch</dt>
       <dd>Een branch die is bedoeld voor het ontwikkelen van één specifieke functionaliteit of verbetering.</dd>
@@ -582,7 +588,7 @@
       <dt id="pull-request">Pull request</dt>
       <dd>Een voorstel om wijzigingen uit een branch te beoordelen en samen te voegen met een andere branch.</dd>
 
-      <dt id="rappe">RAPPE-principes</dt>
+      <dt id="rappe-principes">RAPPE-principes</dt>
       <dd>Uitgangspunten voor goede webinterfaces: Responsive, Accessibility, Performance en Progressive Enhancement.</dd>
 
       <dt id="release-candidate">Release candidate</dt>
@@ -606,14 +612,14 @@
       <dt id="sprint-review">Sprint review</dt>
       <dd>Een moment waarop het team het gemaakte werk demonstreert aan de opdrachtgever en feedback verzamelt.</dd>
 
-      <dt id="styleguide">Styleguide</dt>
+      <dt id="statisch-prototype">Statisch protoype</dt>
+      <dd>Een prototype in HTML, CSS en client-side JavaScript, waarbij de content direct in de code staat, en dus niet dynamisch uit een database of API wordt opgehaald.</dd>
+      
+        <dt id="styleguide">Styleguide</dt>
       <dd>Een document of pagina met afspraken over de visuele vormgeving en het gebruik van interface-elementen.</dd>
 
       <dt id="sveltekit">SvelteKit</dt>
       <dd>Een framework voor het ontwikkelen van webapplicaties met Svelte, inclusief routing, serverfunctionaliteit en rendering.</dd>
-
-      <dt id="ui-state">UI-state</dt>
-      <dd>De zichtbare toestand van een interfaceonderdeel, zoals laden, succes, fout, leeg of uitgeschakeld.</dd>
 
       <dt id="user-story">User story</dt>
       <dd>Een korte beschrijving van een gebruikersbehoefte, meestal vanuit het perspectief van de gebruiker.</dd>
@@ -727,6 +733,15 @@
     display:block;
     margin: 0 1rem 1rem;
     font-size: .9rem;
+  }
+
+  p a {
+    border-bottom:1px dashed currentColor;
+    text-decoration: none;
+
+    &:hover {
+      border-bottom:none;
+    }
   }
 
   dl {
